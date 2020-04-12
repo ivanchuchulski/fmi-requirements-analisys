@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7352</SavedWith>
+    <CreatedWith>14.0.7352</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-8fbff3c7-7501-405b-9913-bd0844c62284</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-8fbff3c7-7501-405b-9913-bd0844c62284</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>Dictionary</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UserID>
+    <DefaultPrefix>UC-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-2-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <DictionaryEntry>
+    <UniqueID>D2-792bc1f1-db1f-47cc-ae05-992e3d2b738e</UniqueID>
+    <Name>Favorites</Name>
+    <Description>A list of favorite restaurants for a specific user.</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 A list of favorite restaurants for a specific user.\par
+}
+</RichDescription>
+    <ParentID>P-8fbff3c7-7501-405b-9913-bd0844c62284</ParentID>
+    <UserID>DEF-1</UserID>
+    <Sequence>0</Sequence>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <UniqueID>D2-5d8ae8fa-8cd5-4c17-a69c-64eb6230c327</UniqueID>
+    <Name>Rezervito</Name>
+    <Description>A Restaurant booking system. TODO list</Description>
+    <Aliases />
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Restaurant booking system. TODO list\cf0\par
+}
+</RichDescription>
+    <ParentID>P-8fbff3c7-7501-405b-9913-bd0844c62284</ParentID>
+    <UserID>DEF-2</UserID>
+    <Sequence>1</Sequence>
+  </DictionaryEntry>
+</UCTDataSet>
