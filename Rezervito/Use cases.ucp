@@ -326,10 +326,12 @@ finalization of the booking process : phone number and email.</Description>
     <UserID>REQ-5-10</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Give feedback</Name>
-    <Description>Registered users should be able to write a review for a particular restaurant.</Description>
+    <Description>Registered users should be able to write a review for a particular restaurant.
+The user must give a rating and text comment.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to write a review for a particular restaurant.\par
+The user must give a rating and text comment.\par
 }
 </RichDescription>
     <Sequence>9</Sequence>
@@ -340,7 +342,7 @@ finalization of the booking process : phone number and email.</Description>
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:39:50.3761323+03:00</DateAdded>
-    <DateModified>2020-04-12T12:41:48.1938913+03:00</DateModified>
+    <DateModified>2020-04-12T18:04:32.4036608+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
