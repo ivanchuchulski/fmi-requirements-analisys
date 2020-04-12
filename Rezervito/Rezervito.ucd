@@ -35,6 +35,12 @@
     <ElementID>P-8fbff3c7-7501-405b-9913-bd0844c62284</ElementID>
     <Sequence>1</Sequence>
   </ElementStub>
+  <ElementStub>
+    <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
+    <Path>Use cases.ucp</Path>
+    <ElementID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ElementID>
+    <Sequence>2</Sequence>
+  </ElementStub>
   <ExternalDoc>
     <UniqueID>EX-9a416160-c777-4974-a3e9-114569e821d6</UniqueID>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>

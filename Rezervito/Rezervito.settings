@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
   <Version>2</Version>
-  <PackageId>P-2efaaf89-0084-48ea-81db-bbe2de02050f</PackageId>
+  <PackageId>P-3189a066-7abf-4482-b629-9f73fa72ad2e</PackageId>
   <ShowDescendants>true</ShowDescendants>
-  <ProjectOpenedTabName>pgProcess</ProjectOpenedTabName>
+  <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
   <Sorting>
     <UseCaseViewSortColumns>
       <string>Name</string>
@@ -36,7 +36,7 @@
       <boolean>false</boolean>
     </StoryViewSortOrder>
     <RequirementViewSortColumns>
-      <string>Name</string>
+      <string>UserID</string>
       <string />
       <string />
     </RequirementViewSortColumns>
@@ -80,7 +80,7 @@
   </StoryList>
   <RequirementList>
     <Columns>Name,UserID,ReqType,Priority,Package,_flag</Columns>
-    <ColumnWidths>350,65,91,63,89,45</ColumnWidths>
+    <ColumnWidths>350,65,136,63,89,45</ColumnWidths>
   </RequirementList>
   <IssueList>
     <Columns>Description,Status,AppliesTo,AssignedTo,Priority,ResolveBy,_flag</Columns>
@@ -94,9 +94,10 @@
   <OpenFilters />
   <ExpandedNodes>
     <string>Rezervito</string>
-    <string>Rezervito\Actors</string>
+    <string>Rezervito\Actors\Clients</string>
     <string>Rezervito\Actors\Externals</string>
+    <string>Rezervito\Client requirements\Filter restaurant</string>
   </ExpandedNodes>
-  <SelectedNode>Rezervito\Actors\Externals\Bank service</SelectedNode>
+  <SelectedNode>Rezervito\Client requirements</SelectedNode>
   <Flags />
 </ModelSettings>

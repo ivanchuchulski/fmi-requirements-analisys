@@ -739,7 +739,7 @@
                         </Offset>
                       </TextStyle>
                     </Style>
-                    <Transform M11="1" M12="0" M21="0" M22="1" DX="557.619" DY="280" />
+                    <Transform M11="1" M12="0" M21="0" M22="1" DX="524.285645" DY="271.666656" />
                     <PinAlignment PercentX="69.99999" PercentY="-7.14285" />
                     <ModelBounds X="11.4285631" Y="19.9999962" Width="47.6190376" Height="83.33333" />
                     <Nodes>
@@ -1170,13 +1170,13 @@
                   <NDiagramElement xsi:type="NLineShape" Name="Association" UniqueId="00000000-0000-0000-0000-000000000000" Id="120" StyleSheetName="Connectors" Collapsed="false">
                     <Style />
                     <Transform M11="1" M12="0" M21="0" M22="1" DX="0" DY="0" />
-                    <ModelBounds X="533.3333" Y="224" Width="59.5238037" Height="76" />
+                    <ModelBounds X="533.3333" Y="224" Width="26.19043" Height="67.66666" />
                     <Nodes>
                       <NDiagramElement xsi:type="NLinePath" Name="LinePath" UniqueId="00000000-0000-0000-0000-000000000000" Id="121">
                         <Transform M11="1" M12="0" M21="0" M22="1" DX="0" DY="0" />
-                        <ModelBounds X="533.3333" Y="224" Width="59.5238037" Height="76" />
+                        <ModelBounds X="533.3333" Y="224" Width="26.19043" Height="67.66666" />
                         <ModelPoints>
-                          <NPointF X="592.8571" Y="300" />
+                          <NPointF X="559.523743" Y="291.666656" />
                           <NPointF X="533.3333" Y="224" />
                         </ModelPoints>
                       </NDiagramElement>
@@ -1193,7 +1193,7 @@
                       </NDiagramElement>
                     </Nodes>
                     <CollapsedSize Width="100" Height="20" />
-                    <ExpandedSize Width="59.5238037" Height="76" />
+                    <ExpandedSize Width="26.19043" Height="67.66666" />
                     <ExpandCollapsePinAlignment PercentX="-50" PercentY="-50" />
                     <LayoutData />
                   </NDiagramElement>
@@ -1678,10 +1678,6 @@
             <NConnection>
               <UniqueId1>f7719345-29d8-4436-bcfc-a04a9609c66b</UniqueId1>
               <UniqueId2>6a46d40d-abb8-43c8-877a-df94c4eb2439</UniqueId2>
-            </NConnection>
-            <NConnection>
-              <UniqueId1>f02a5f50-38f5-4620-8f66-6ae10a80ba3d</UniqueId1>
-              <UniqueId2>a08a0c59-644e-464b-a5b5-e2a2bdf549c4</UniqueId2>
             </NConnection>
           </Connections>
         </ConnectionContainer>
