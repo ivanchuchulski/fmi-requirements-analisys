@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7352</SavedWith>
+    <CreatedWith>14.0.7352</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-41764189-9332-40c5-a7c5-272c5506b754</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-41764189-9332-40c5-a7c5-272c5506b754</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>Managers requirements</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Requirement>
+    <UniqueID>REQ-edad2a63-1272-451e-b22f-d5b8f5681d55</UniqueID>
+    <UserID>REQ-6-1</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>Login</Name>
+    <Description>The Restaurant manager must be able to login in Rezervito.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  must be able to login in \cf3 Rezervito\cf1 .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T17:37:34.6330097+03:00</DateAdded>
+    <DateModified>2020-04-12T17:38:29.6311034+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-8e424b6f-54f6-466e-b2a8-2599650bf1a6</UniqueID>
+    <UserID>REQ-6-2</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>Reservations overview</Name>
+    <Description>The Restaurant manager must be able to see brief information about all reservations. Also he can check specific reservation details. Reservation sender info include: (REQ-6-2.1), reservation information include: (REQ-6-2.2), preorder details include: (REQ-6-2.3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  must be able to see brief information about all reservations. Also he can check specific reservation details. Reservation sender info include: (\cf2\ul REQ-6-2.1\cf1\ulnone ), reservation information include: (\cf2\ul REQ-6-2.2\cf1\ulnone ), preorder details include: (\cf2\ul REQ-6-2.3\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T17:38:33.1350048+03:00</DateAdded>
+    <DateModified>2020-04-12T17:56:24.4595684+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-c2e40aba-83c2-4cf4-bb16-69440fce7fa7</UniqueID>
+    <UserID>REQ-6-2.1</UserID>
+    <ParentID>REQ-8e424b6f-54f6-466e-b2a8-2599650bf1a6</ParentID>
+    <Name>Check client details</Name>
+    <Description>The Restaurant manager should be able to see client name, client phone, client email for the specified reservation.
+
+
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to see client name, client phone, client email for the specified reservation.\par
+\par
+\par
+\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T17:51:13.060495+03:00</DateAdded>
+    <DateModified>2020-04-12T17:55:12.6147644+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-49a4be69-8b76-4e6d-8bc4-c78d2fa56159</UniqueID>
+    <UserID>REQ-6-2.2</UserID>
+    <ParentID>REQ-8e424b6f-54f6-466e-b2a8-2599650bf1a6</ParentID>
+    <Name>Check reservation details</Name>
+    <Description>The Restaurant manager must be able to see date and time of reservation submission, reserved table code, size of attendance party for the specified reservation.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  must be able to see date and time of reservation submission, reserved table code, size of attendance party for the specified reservation.\par
+\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T17:53:33.2360312+03:00</DateAdded>
+    <DateModified>2020-04-12T17:56:18.1822609+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-792808d6-d8f5-4006-bcce-e530df8d2b49</UniqueID>
+    <UserID>REQ-6-2.3</UserID>
+    <ParentID>REQ-8e424b6f-54f6-466e-b2a8-2599650bf1a6</ParentID>
+    <Name>Check preorder details</Name>
+    <Description>The Restaurant manager should be able to see details regarding preorder of appetizers and drinks for a specific reservation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to see details regarding preorder of appetizers and drinks for a specific reservation.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T17:54:24.5161142+03:00</DateAdded>
+    <DateModified>2020-04-12T17:57:42.7663737+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-dce11aeb-56ec-4c6e-8d0c-d1ce763d7e1a</UniqueID>
+    <UserID>REQ-6-3</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>View feedback</Name>
+    <Description>The Restaurant manager must be able to see reviews by Registered users regarding his restaurant. Review details include : (REQ-6-3.1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  must be able to see reviews by \cf2\ul Registered\cf1\ulnone  users regarding his restaurant. Review details include : (\cf2\ul REQ-6-3.1\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T17:57:59.3678337+03:00</DateAdded>
+    <DateModified>2020-04-12T18:01:26.6522417+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-1b55d5c8-fe27-4e5a-b719-e2cee63514c0</UniqueID>
+    <UserID>REQ-6-3.1</UserID>
+    <ParentID>REQ-dce11aeb-56ec-4c6e-8d0c-d1ce763d7e1a</ParentID>
+    <Name>Feedback information</Name>
+    <Description>Feedback information must include author of review, date and time of review, rating and text comment.</Description>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2020-04-12T18:01:15.3204308+03:00</DateAdded>
+    <DateModified>2020-04-12T18:01:15.3214274+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-6-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-6-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-6-</DefaultPrefix>
+    <NextValue>4</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-6-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-6-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

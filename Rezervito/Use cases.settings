@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
   <Version>2</Version>
-  <PackageId>P-41764189-9332-40c5-a7c5-272c5506b754</PackageId>
-  <ShowDescendants>true</ShowDescendants>
+  <PackageId />
+  <ShowDescendants>false</ShowDescendants>
   <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
   <Sorting>
     <UseCaseViewSortColumns>
@@ -36,7 +36,7 @@
       <boolean>false</boolean>
     </StoryViewSortOrder>
     <RequirementViewSortColumns>
-      <string>UserID</string>
+      <string>Name</string>
       <string />
       <string />
     </RequirementViewSortColumns>
@@ -94,7 +94,8 @@
   <OpenFilters />
   <ExpandedNodes>
     <string>Rezervito</string>
+    <string>Rezervito\Client requirements</string>
   </ExpandedNodes>
-  <SelectedNode>Rezervito\Managers requirements</SelectedNode>
+  <SelectedNode>Rezervito\Client requirements\Browse Restaurant's catalog</SelectedNode>
   <Flags />
 </ModelSettings>

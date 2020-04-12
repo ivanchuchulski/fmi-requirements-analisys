@@ -63,10 +63,10 @@
     <UserID>REQ-5-3</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Browse Restaurant's catalog</Name>
-    <Description>Registered and Unregistered users should be able to browse in restaurants catalog.</Description>
+    <Description>Registered and Unregistered users should be able to browse in restaurants catalog. The user than can see details about a specified restaurant (REQ-5-3.1).</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to browse in restaurants catalog.\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to browse in restaurants catalog. The user than can see details about a specified restaurant (\cf1\ul REQ-5-3.1\cf2\ulnone ).\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -77,7 +77,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:57:55.0844291+03:00</DateAdded>
-    <DateModified>2020-04-12T12:18:09.798994+03:00</DateModified>
+    <DateModified>2020-04-12T17:33:04.2510594+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -248,12 +248,24 @@ In the finalization of the booking process the \cf1\ul Unregistered\cf2\ulnone  
     <UniqueID>REQ-7bcbbeb6-76e3-44ef-8ff8-a3ed6a23be8a</UniqueID>
     <UserID>REQ-5-9</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>New Requirement</Name>
+    <Name>Client preorder</Name>
+    <Description>The Registered user should be able to preorder appetizers and drinks.
+Therefore he must pay (REQ-5-9.1) .</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Registered\cf1\ulnone  user should be able to preorder appetizers and drinks.\par
+Therefore he must pay (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
+}
+</RichDescription>
     <Sequence>8</Sequence>
-    <Type>Non-functional</Type>
+    <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:28:57.244748+03:00</DateAdded>
-    <DateModified>2020-04-12T12:28:57.245748+03:00</DateModified>
+    <DateModified>2020-04-12T17:26:25.438003+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -351,6 +363,38 @@ finalization of the booking process : phone number and email.</Description>
     <Release />
     <DateAdded>2020-04-12T12:41:51.0843003+03:00</DateAdded>
     <DateModified>2020-04-12T12:42:57.3263258+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-2e87ab03-12b3-4c55-a40c-e83d97f29d3f</UniqueID>
+    <UserID>REQ-5-9.1</UserID>
+    <ParentID>REQ-7bcbbeb6-76e3-44ef-8ff8-a3ed6a23be8a</ParentID>
+    <Name>Pay preorder</Name>
+    <Description>The Registered user must be able to pay for the preorder via Bank service.</Description>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2020-04-12T17:24:55.1369079+03:00</DateAdded>
+    <DateModified>2020-04-12T17:24:55.1428885+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-794f9ac6-7727-4d93-9e8f-b6381b769e40</UniqueID>
+    <UserID>REQ-5-3.1</UserID>
+    <ParentID>REQ-56db57cf-411e-4c3c-bbfa-41365027051a</ParentID>
+    <Name>View restaurant information</Name>
+    <Description>The user should be able to see various restaurant details : 
+brief description 
+menu
+photos gallery
+location
+work time
+</Description>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2020-04-12T17:31:38.1998171+03:00</DateAdded>
+    <DateModified>2020-04-12T17:31:38.2005482+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>
