@@ -107,7 +107,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:53:33.2360312+03:00</DateAdded>
-    <DateModified>2020-04-12T17:56:18.1822609+03:00</DateModified>
+    <DateModified>2020-04-12T18:15:51.7474523+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -167,6 +167,140 @@
     <DateModified>2020-04-12T18:01:15.3214274+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
+  <Requirement>
+    <UniqueID>REQ-b7f4f095-2fe0-4522-8dc6-0bd6575d72ae</UniqueID>
+    <UserID>REQ-6-4</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>Change restaurant information</Name>
+    <Description>The Restaurant manager must be able to change information about the restaurant. Restaurant information includes: (REQ-6-4.1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  must be able to change information about the restaurant. Restaurant information includes: (\cf2\ul REQ-6-4.1\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T18:07:33.3047801+03:00</DateAdded>
+    <DateModified>2020-04-12T18:10:05.4490608+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f90e4435-3137-4276-a5bb-331e0570db42</UniqueID>
+    <UserID>REQ-6-4.1</UserID>
+    <ParentID>REQ-b7f4f095-2fe0-4522-8dc6-0bd6575d72ae</ParentID>
+    <Name>Restaurant Information</Name>
+    <Description>Restaurant information must include address, phone, work time, description and photo gallery.
+ </Description>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2020-04-12T18:09:57.7923334+03:00</DateAdded>
+    <DateModified>2020-04-12T18:09:57.7932809+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7407f67a-d733-4c73-a995-1623c46caeb1</UniqueID>
+    <UserID>REQ-6-5</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>See workload</Name>
+    <Description>The Restaurant manager should be able to monitor the occupied and free tables. For a reserved table the manager should be able to: 
+Check client details (REQ-6-2.1),
+Check reservation details (REQ-6-2.2),
+Check preorder details (REQ-6-2.3) .</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to monitor the occupied and free tables. For a reserved table the manager should be able to: \par
+Check client details (\cf2\ul REQ-6-2.1\cf1\ulnone ),\par
+Check reservation details (\cf2\ul REQ-6-2.2\cf1\ulnone ),\par
+Check preorder details (\cf2\ul REQ-6-2.3\cf1\ulnone ) .\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T18:10:14.6241021+03:00</DateAdded>
+    <DateModified>2020-04-12T18:19:39.6126094+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-84ccd63c-70cf-4c94-9a51-87b138b2c1b4</UniqueID>
+    <UserID>REQ-6-6</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>Report bugs</Name>
+    <Description>The Restaurant manager should be able to report bugs.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to report bugs.\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T18:20:07.7253591+03:00</DateAdded>
+    <DateModified>2020-04-12T18:20:40.0024813+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-fbc6f8a1-016c-4c13-80e5-0e0cdb257488</UniqueID>
+    <UserID>REQ-6-7</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>Add newsletters</Name>
+    <Description>The Restaurant manager should be able to create (REQ-6-7.1) or upload (REQ-6-7.2) a newsletter. Afterwards Rezervito forwards the newsletter to the subscribers.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to create (\cf2\ul REQ-6-7.1\cf1\ulnone ) or upload (\cf2\ul REQ-6-7.2\cf1\ulnone ) a newsletter. Afterwards \cf3 Rezervito\cf1  forwards the newsletter to the subscribers.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-12T18:20:42.2847092+03:00</DateAdded>
+    <DateModified>2020-04-12T18:36:05.2214547+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-4872b060-9a36-427c-a4d5-17639a219209</UniqueID>
+    <UserID>REQ-6-7.1</UserID>
+    <ParentID>REQ-fbc6f8a1-016c-4c13-80e5-0e0cdb257488</ParentID>
+    <Name>Create newsletter</Name>
+    <Description>The Restaurant manager should be able to add text content and upload images to the newsletter.</Description>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2020-04-12T18:31:22.9243777+03:00</DateAdded>
+    <DateModified>2020-04-12T18:31:22.9253811+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a4df6d6f-7e30-4956-b7a5-3ff271887dd4</UniqueID>
+    <UserID>REQ-6-7.2</UserID>
+    <ParentID>REQ-fbc6f8a1-016c-4c13-80e5-0e0cdb257488</ParentID>
+    <Name>Upload newsletter</Name>
+    <Description>The Restaurant manager should be able to upload a finished newsletter.</Description>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <DateAdded>2020-04-12T18:33:00.7846392+03:00</DateAdded>
+    <DateModified>2020-04-12T18:33:00.785644+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
   <UserID>
     <DefaultPrefix>UC-6-</DefaultPrefix>
     <NextValue>1</NextValue>
@@ -177,7 +311,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-6-</DefaultPrefix>
-    <NextValue>4</NextValue>
+    <NextValue>8</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-6-</DefaultPrefix>
