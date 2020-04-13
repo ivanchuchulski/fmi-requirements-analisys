@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7352</SavedWith>
+    <CreatedWith>14.0.7352</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</UniqueID>
+    <ExternalParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ExternalParentID>
+    <Name>Externals</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Actor>
+    <UniqueID>A-7cf0a115-cc6a-4f59-8b83-cd78ec9a0505</UniqueID>
+    <UserID>A-6</UserID>
+    <ParentID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</ParentID>
+    <Name>Bank service</Name>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2020-04-12T11:09:05.3502329+03:00</DateAdded>
+    <DateModified>2020-04-12T11:37:09.2349162+03:00</DateModified>
+  </Actor>
+  <Goal>
+    <UniqueID>G-29507658-166d-4af9-bdba-5a5cbc13d103</UniqueID>
+    <ParentID>A-7cf0a115-cc6a-4f59-8b83-cd78ec9a0505</ParentID>
+    <Description>Operate transactions</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Operate transactions\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <UserID>
+    <DefaultPrefix>UC-4-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-4-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-4-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-4-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-4-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

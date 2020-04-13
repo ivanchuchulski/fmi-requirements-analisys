@@ -1,0 +1,208 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7352</SavedWith>
+    <CreatedWith>14.0.7352</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>Actors</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Actor>
+    <UniqueID>A-14063d45-7851-48b4-971a-236c6357271d</UniqueID>
+    <UserID>A-5</UserID>
+    <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
+    <Name>System administrator</Name>
+    <Sequence>0</Sequence>
+    <Complexity />
+    <DateAdded>2020-04-12T11:05:26.9019856+03:00</DateAdded>
+    <DateModified>2020-04-12T11:31:02.3506522+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-2532379a-dce5-4f78-a8ac-632483f9917c</UniqueID>
+    <UserID>A-4</UserID>
+    <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
+    <Name>Development Team</Name>
+    <Sequence>1</Sequence>
+    <Complexity>High</Complexity>
+    <DateAdded>2020-04-12T11:05:25.1223623+03:00</DateAdded>
+    <DateModified>2020-04-12T11:31:03.8043004+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</UniqueID>
+    <UserID>A-3</UserID>
+    <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
+    <Name>Restaurant manager</Name>
+    <Sequence>2</Sequence>
+    <Complexity>Medium</Complexity>
+    <DateAdded>2020-04-12T11:05:23.2498822+03:00</DateAdded>
+    <DateModified>2020-04-12T11:31:05.3295722+03:00</DateModified>
+  </Actor>
+  <ElementStub>
+    <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
+    <Path>Clients.ucp</Path>
+    <ElementID>P-1a3509ec-016f-4431-888e-9427dff95091</ElementID>
+    <Sequence>0</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
+    <Path>Externals.ucp</Path>
+    <ElementID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</ElementID>
+    <Sequence>1</Sequence>
+  </ElementStub>
+  <Goal>
+    <UniqueID>G-cc3b258b-eb4a-4fd4-8c77-13d6f8ca61c2</UniqueID>
+    <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
+    <Description>Manage user accounts</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Manage user accounts\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-0df465ad-a6e9-47c7-8223-c97446a83545</UniqueID>
+    <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
+    <Description>Apply updates</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Apply updates\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-1fb869ba-4d70-4f87-8e5a-25937684c6bf</UniqueID>
+    <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
+    <Description>Report bugs to Development Team</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Report bugs to \cf1\ul Development Team\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-7676d97f-fc11-4828-899b-3d55a1ac8d05</UniqueID>
+    <ParentID>A-2532379a-dce5-4f78-a8ac-632483f9917c</ParentID>
+    <Description>Develop Rezervito</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Develop \cf1 Rezervito\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-75a4446e-af18-4017-88c9-3dcc75c74948</UniqueID>
+    <ParentID>A-2532379a-dce5-4f78-a8ac-632483f9917c</ParentID>
+    <Description>Maintain Rezervito</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Maintain \cf1 Rezervito\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-dd9546e1-ac50-4c36-b405-8a35fb75fb0e</UniqueID>
+    <ParentID>A-2532379a-dce5-4f78-a8ac-632483f9917c</ParentID>
+    <Description>Add features </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Add features \cf1\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-92db53cb-298d-4a93-8816-f60c49a520f1</UniqueID>
+    <ParentID>A-2532379a-dce5-4f78-a8ac-632483f9917c</ParentID>
+    <Description>Fix bugs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Fix bugs\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-f6e4b093-52cf-4269-9cbe-a54a8b80798e</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Login in Rezervito</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 Login in \cf1 Rezervito\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-db56ea15-d132-4824-aac7-b4658f3b8080</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>View reservations info</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 View reservations info\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-bed08680-2a43-4513-99e8-75cf2d687ea2</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Update newsletters</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Update newsletters\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-7c16fcdb-6492-43ee-81ee-a1bd8c92747c</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Check feedback</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Check feedback\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-3664377a-ec5d-4efc-b1df-4977e44303df</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Edit restaurant info</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Edit restaurant info\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+  </Goal>
+  <UserID>
+    <DefaultPrefix>UC-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-1-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
+  <Version>2</Version>
+  <PackageId />
+  <ShowDescendants>false</ShowDescendants>
+  <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
+  <Sorting>
+    <UseCaseViewSortColumns>
+      <string>Name</string>
+      <string />
+      <string />
+    </UseCaseViewSortColumns>
+    <UseCaseViewSortOrder>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </UseCaseViewSortOrder>
+    <ActorViewSortColumns>
+      <string>Name</string>
+      <string />
+      <string />
+    </ActorViewSortColumns>
+    <ActorViewSortOrder>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </ActorViewSortOrder>
+    <StoryViewSortColumns>
+      <string>Name</string>
+      <string />
+      <string />
+    </StoryViewSortColumns>
+    <StoryViewSortOrder>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </StoryViewSortOrder>
+    <RequirementViewSortColumns>
+      <string>Name</string>
+      <string />
+      <string />
+    </RequirementViewSortColumns>
+    <RequirementViewSortOrder>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </RequirementViewSortOrder>
+    <IssueViewSortColumns>
+      <string>Description</string>
+      <string />
+      <string />
+    </IssueViewSortColumns>
+    <IssueViewSortOrder>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </IssueViewSortOrder>
+    <DictionaryViewSortColumns>
+      <string>Name</string>
+      <string />
+      <string />
+    </DictionaryViewSortColumns>
+    <DictionaryViewSortOrder>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>false</boolean>
+    </DictionaryViewSortOrder>
+  </Sorting>
+  <UCList>
+    <Columns>Name,UserID,PrimaryActor,Priority,Package,_flag</Columns>
+    <ColumnWidths>302,57,100,80,125,45</ColumnWidths>
+  </UCList>
+  <ActorList>
+    <Columns>Name,UserID,Package,_flag</Columns>
+    <ColumnWidths>408,60,125,45</ColumnWidths>
+  </ActorList>
+  <StoryList>
+    <Columns>Name,UserID,Status,Priority,Package,_flag</Columns>
+    <ColumnWidths>314,57,80,80,125,45</ColumnWidths>
+  </StoryList>
+  <RequirementList>
+    <Columns>Name,UserID,ReqType,Priority,Package,_flag</Columns>
+    <ColumnWidths>350,65,136,63,89,45</ColumnWidths>
+  </RequirementList>
+  <IssueList>
+    <Columns>Description,Status,AppliesTo,AssignedTo,Priority,ResolveBy,_flag</Columns>
+    <ColumnWidths>280,72,76,90,60,80,45</ColumnWidths>
+  </IssueList>
+  <DictionaryList>
+    <Columns>Name,UserID,Description,Parent,_flag</Columns>
+    <ColumnWidths>130,60,320,125,45</ColumnWidths>
+  </DictionaryList>
+  <FilteredLists />
+  <OpenFilters />
+  <ExpandedNodes>
+    <string>Rezervito</string>
+    <string>Rezervito\Client requirements</string>
+  </ExpandedNodes>
+  <SelectedNode>Rezervito\Client requirements\Browse Restaurant's catalog</SelectedNode>
+  <Flags />
+</ModelSettings>
