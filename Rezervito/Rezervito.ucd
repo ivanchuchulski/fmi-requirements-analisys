@@ -47,6 +47,12 @@
     <ElementID>P-41764189-9332-40c5-a7c5-272c5506b754</ElementID>
     <Sequence>3</Sequence>
   </ElementStub>
+  <ElementStub>
+    <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
+    <Path>System administrators requirements.ucp</Path>
+    <ElementID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ElementID>
+    <Sequence>4</Sequence>
+  </ElementStub>
   <ExternalDoc>
     <UniqueID>EX-9a416160-c777-4974-a3e9-114569e821d6</UniqueID>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>

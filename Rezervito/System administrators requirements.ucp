@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7352</SavedWith>
+    <CreatedWith>14.0.7352</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>System administrators requirements</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Requirement>
+    <UniqueID>REQ-46fe5d46-dfa8-4b77-bd5e-f22a4046adbb</UniqueID>
+    <UserID>REQ-7-1</UserID>
+    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
+    <Name>Login </Name>
+    <Description>The System administrator must be able to login in Rezervito.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to login in \cf3 Rezervito\cf1 .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-16T11:59:19.2958266+03:00</DateAdded>
+    <DateModified>2020-04-16T12:00:15.5518921+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-f1959c5c-cd6c-4032-b8d6-ccfffad3c769</UniqueID>
+    <UserID>REQ-7-2</UserID>
+    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
+    <Name>Manage client accounts</Name>
+    <Description>The System administrator must be able to edit and delete Registered client accounts.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to edit and delete \cf2\ul Registered\cf1\ulnone  client accounts.\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-16T12:00:18.4117365+03:00</DateAdded>
+    <DateModified>2020-04-16T12:03:44.0039489+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</UniqueID>
+    <UserID>REQ-7-3</UserID>
+    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
+    <Name>Manage restaurant managers accounts</Name>
+    <Description>The System administrator must be able to create (REQ-7-3.1), edit and delete Restaurant manager accounts.
+</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to create (\cf2\ul REQ-7-3.1\cf1\ulnone ), edit and delete \cf2\ul Restaurant manager\cf1\ulnone  accounts.\par
+\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-16T12:03:46.2196222+03:00</DateAdded>
+    <DateModified>2020-04-16T12:09:53.1931141+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-7e9e7165-5747-4934-9c1c-73c91bea8569</UniqueID>
+    <UserID>REQ-7-3.1</UserID>
+    <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
+    <Name>Restaurant manager account creation</Name>
+    <Description>The System administrator must be able to create an account for the Restaurant manager after the latter had supplied him with the necessary information about the account creation process.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to create an account for the \cf2\ul Restaurant manager\cf1\ulnone  after the latter had supplied him with the necessary information about the account creation process.\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-16T12:09:50.2328932+03:00</DateAdded>
+    <DateModified>2020-04-16T12:12:42.7967527+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a55f3280-db1c-42eb-8391-e56641ae0d38</UniqueID>
+    <UserID>REQ-7-4</UserID>
+    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
+    <Name>Apply updates</Name>
+    <Description>The System administrator must be able to apply updates to Rezervito after the Development Team adds features.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to apply updates to \cf3 Rezervito\cf1  after the \cf2\ul Development Team\cf1\ulnone  adds features.\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-16T12:12:25.3977653+03:00</DateAdded>
+    <DateModified>2020-04-16T12:14:36.6222778+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-893e1ed3-b377-4883-98f0-044ccf5efa9f</UniqueID>
+    <UserID>REQ-7-5</UserID>
+    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
+    <Name>Report bugs</Name>
+    <Description>The System administrator must be able to forward the bugs received from The Registered client and Restaurant manager clients to the Development Team.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to forward the bugs received from The \cf2\ul Registered\cf1\ulnone  client and \cf2\ul Restaurant manager\cf1\ulnone  clients to the \cf2\ul Development Team\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <Type>Functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-04-16T12:14:47.694119+03:00</DateAdded>
+    <DateModified>2020-04-16T12:16:34.5414212+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-7-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-7-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-7-</DefaultPrefix>
+    <NextValue>6</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-7-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-7-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>
