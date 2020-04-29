@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
   <Version>2</Version>
-  <PackageId>P-41764189-9332-40c5-a7c5-272c5506b754</PackageId>
+  <PackageId>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</PackageId>
   <ShowDescendants>true</ShowDescendants>
   <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
   <Sorting>
@@ -94,8 +94,8 @@
   <OpenFilters />
   <ExpandedNodes>
     <string>Rezervito</string>
-    <string>Rezervito\Managers requirements</string>
+    <string>Rezervito\Client requirements</string>
   </ExpandedNodes>
-  <SelectedNode>Rezervito\Managers requirements</SelectedNode>
+  <SelectedNode>Rezervito\Client requirements\Client preorder</SelectedNode>
   <Flags />
 </ModelSettings>

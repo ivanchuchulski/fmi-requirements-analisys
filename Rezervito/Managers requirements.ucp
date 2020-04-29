@@ -11,7 +11,7 @@
   <Package>
     <UniqueID>P-41764189-9332-40c5-a7c5-272c5506b754</UniqueID>
     <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
-    <Name>Managers requirements</Name>
+    <Name>Restaurant managers requirements</Name>
     <Sequence>-1</Sequence>
   </Package>
   <Requirement>
