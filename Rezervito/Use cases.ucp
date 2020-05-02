@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -311,14 +311,14 @@ Therefore he must pay (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
     <UniqueID>REQ-4b5c3daa-44f5-4b12-8625-689fa0478cf5</UniqueID>
     <UserID>REQ-5-8.4</UserID>
     <ParentID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</ParentID>
-    <Name>Unregistered User Contact Data</Name>
+    <Name>Reservation Contact information</Name>
     <Description>The Unregistered user must provide the following information in the 
 finalization of the booking process : phone number and email.</Description>
     <Sequence>3</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
     <DateAdded>2020-04-12T12:38:49.092307+03:00</DateAdded>
-    <DateModified>2020-04-12T12:38:49.0933568+03:00</DateModified>
+    <DateModified>2020-05-02T16:11:42.1241136+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>

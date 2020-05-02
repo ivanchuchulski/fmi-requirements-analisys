@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -14,6 +14,16 @@
     <Name>Nonfunctional requirements</Name>
     <Sequence>-1</Sequence>
   </Package>
+  <UseCase>
+    <UniqueID>UC-7ca8bc52-6e2a-41c5-b8ab-5ceee78511c9</UniqueID>
+    <UserID>UC-8-1</UserID>
+    <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
+    <Name>Registered user use cases</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2020-05-02T14:36:41.4946301+03:00</DateAdded>
+    <DateModified>2020-05-02T14:36:49.8486602+03:00</DateModified>
+  </UseCase>
   <Requirement>
     <UniqueID>REQ-1640fa65-9d0f-464a-aaad-af0942f52e48</UniqueID>
     <UserID>REQ-8-1</UserID>
@@ -174,7 +184,7 @@
   </Requirement>
   <UserID>
     <DefaultPrefix>UC-8-</DefaultPrefix>
-    <NextValue>1</NextValue>
+    <NextValue>2</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-8-</DefaultPrefix>
