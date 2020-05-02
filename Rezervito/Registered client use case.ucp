@@ -1,0 +1,487 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7411</SavedWith>
+    <CreatedWith>14.0.7411</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-dd429602-b974-4c93-89f0-ca62872452eb</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-dd429602-b974-4c93-89f0-ca62872452eb</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>Registered client use case</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-1df0b065-a821-4c26-ac46-fc4466b8decf</UniqueID>
+    <UserID>UC-10-1</UserID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Add restaurant to Favorites</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2020-05-02T16:52:46.4388798+03:00</DateAdded>
+    <DateModified>2020-05-02T17:52:36.5723066+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-335bfb6e-e42c-4be4-8156-ce88536dc52e</UniqueID>
+    <UserID>UC-10-2</UserID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Give feedback</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <DateAdded>2020-05-02T16:52:46.486468+03:00</DateAdded>
+    <DateModified>2020-05-02T17:53:57.1493199+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-26ed1bee-6e7b-4699-a54c-4802e86655c7</UniqueID>
+    <UserID>UC-10-3</UserID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Login in Rezervito system  </Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-02T16:52:46.4934452+03:00</DateAdded>
+    <DateModified>2020-05-02T17:15:00.4509803+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</UniqueID>
+    <UserID>UC-10-4</UserID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Report bugs </Name>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-02T16:52:46.499114+03:00</DateAdded>
+    <DateModified>2020-05-02T17:25:16.142635+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-5d985917-63ac-465d-a616-3ca7477e9406</UniqueID>
+    <UserID>UC-10-5</UserID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Login through external site</Name>
+    <Description>Steps taken from "Login in Rezervito system  " (UC-10-3)</Description>
+    <Sequence>4</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-02T17:04:31.9253468+03:00</DateAdded>
+    <DateModified>2020-05-02T17:27:51.4536351+03:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-fd965a40-555d-433a-8b97-a39f6b01cf45</UniqueID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Registered Client Use Case</Name>
+    <Sequence>0</Sequence>
+    <FileName>Registered Client Use Case.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-1df0b065-a821-4c26-ac46-fc4466b8decf</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-335bfb6e-e42c-4be4-8156-ce88536dc52e</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-26ed1bee-6e7b-4699-a54c-4802e86655c7</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d985917-63ac-465d-a616-3ca7477e9406</ParentID>
+    <ActorID>A-79092e66-d5d7-4cbf-821c-4e86f87e62b5</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d985917-63ac-465d-a616-3ca7477e9406</ParentID>
+    <ActorID>A-f663f520-4727-4fa2-adca-5d139ae73a53</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5d985917-63ac-465d-a616-3ca7477e9406</ParentID>
+    <ActorID>A-107eaf2b-2c91-4f03-9028-f697ad7ac1f8</ActorID>
+    <Kind>1</Kind>
+  </UCActor>
+  <Scenario>
+    <UniqueID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</UniqueID>
+    <ParentID>UC-26ed1bee-6e7b-4699-a54c-4802e86655c7</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-fc5ce6f4-89fe-4fa9-869c-1c0f3458b3a3</UniqueID>
+    <ParentID>UC-5d985917-63ac-465d-a616-3ca7477e9406</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</UniqueID>
+    <ParentID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-a25e2087-b525-41ef-bc49-05b0263e41fd</UniqueID>
+    <ParentID>UC-1df0b065-a821-4c26-ac46-fc4466b8decf</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</UniqueID>
+    <ParentID>UC-335bfb6e-e42c-4be4-8156-ce88536dc52e</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-91a8eea6-5917-48af-919c-dfea4452a63c</UniqueID>
+    <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
+    <Description>Registered user enters Rezervito</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user enters \cf3 Rezervito\cf2\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-376a7401-5cd6-4ece-89ab-f1004a8b05e5</UniqueID>
+    <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
+    <Description>Registered user chooses the login button</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses the login button\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-dd88971f-69ae-43e9-bfef-69f8059db7ae</UniqueID>
+    <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
+    <Description>Registered user chooses how to login</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses how to login\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7d625d55-94d5-49bf-910f-ae0bd2dde513</UniqueID>
+    <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
+    <Description>Rezervito validates login info</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  validates login info\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</UniqueID>
+    <ParentID>MSS-fc5ce6f4-89fe-4fa9-869c-1c0f3458b3a3</ParentID>
+    <Description>Registered user chooses external site to sign in from</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses external site to sign in from\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ced5b57e-2771-4424-91ff-b7f3b6c59b94</UniqueID>
+    <ParentID>X-951ce1b5-42fa-496b-bc2b-f5e93647163b</ParentID>
+    <Description>Login through external site (UC-10-5)</Description>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e06c6ac-18b0-4696-8550-277a9a6d2b8c</UniqueID>
+    <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
+    <Description>Registered user fill the login form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user fill the login form\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6751f5c1-026a-46de-93fa-6aeec1bac1c1</UniqueID>
+    <ParentID>X-06827a79-cb87-4dfc-99f6-03e6c8cb7185</ParentID>
+    <Description>Move to 4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Move to 4\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f1a80fb3-eee0-4a2d-92af-6fbe4a8bf465</UniqueID>
+    <ParentID>X-951ce1b5-42fa-496b-bc2b-f5e93647163b</ParentID>
+    <Description>Move to 4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Move to 4\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-14d860d9-9c01-4d39-9b4f-f6ab2d9d3f18</UniqueID>
+    <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
+    <Description>Registered user enters Rezervito</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user enters \cf3 Rezervito\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-521ea830-7fe8-45f8-92ec-7a2564d3b716</UniqueID>
+    <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
+    <Description>Registered user selects the report bug button</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the report bug button\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d0d25356-0c28-462a-966c-d1a4d9188821</UniqueID>
+    <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
+    <Description>Registered user fills the report form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user fills the report form\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d1950b57-121d-4db0-9c7f-d37aac58c9a9</UniqueID>
+    <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
+    <Description>Registered user submits the report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user submits the report\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-686f5189-2227-4b78-ab2f-ca2ff13119da</UniqueID>
+    <ParentID>MSS-a25e2087-b525-41ef-bc49-05b0263e41fd</ParentID>
+    <Description>Registered user selects the Add to favourite option on the restaurant pages</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the Add to favourite option on the restaurant pages\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ab4b2ea0-cedf-45e2-96ee-be9c60f25b25</UniqueID>
+    <ParentID>MSS-a25e2087-b525-41ef-bc49-05b0263e41fd</ParentID>
+    <Description>The restaurant is added to his list of favourites</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The restaurant is added to his list of favourites\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d301cf88-cf79-4a74-aa09-98726a47db4d</UniqueID>
+    <ParentID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</ParentID>
+    <Description>Registered user selects the option to write a review</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the option to write a review\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8288f392-2625-4e5c-aac1-8cdcbcc7a4af</UniqueID>
+    <ParentID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</ParentID>
+    <Description>Registered user selects a rating</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects a rating\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b06e1347-8fb2-4428-9045-9752a059b33f</UniqueID>
+    <ParentID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</ParentID>
+    <Description>Registered user writes in the text area</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user writes in the text area\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-00115a79-c43a-447d-b439-e719cf45df6d</UniqueID>
+    <ParentID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</ParentID>
+    <Description>Registered user submits the review</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user submits the review\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-05a7832f-620b-4e2f-afbc-a130e03672cf</UniqueID>
+    <ParentID>ST-7d625d55-94d5-49bf-910f-ae0bd2dde513</ParentID>
+    <Description>Registered user is sign in if login credentials are valid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user is sign in if login credentials are valid\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-4223eeb5-e7e4-48d8-8770-e099b092ca60</UniqueID>
+    <ParentID>ST-7d625d55-94d5-49bf-910f-ae0bd2dde513</ParentID>
+    <Description>Registered user receives error message if login credentials are invalid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user receives error message if login credentials are invalid\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-06827a79-cb87-4dfc-99f6-03e6c8cb7185</UniqueID>
+    <ParentID>ST-dd88971f-69ae-43e9-bfef-69f8059db7ae</ParentID>
+    <Description>Registered user chooses to sign in with a Rezervito account</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in with a \cf3 Rezervito\cf2  account\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-951ce1b5-42fa-496b-bc2b-f5e93647163b</UniqueID>
+    <ParentID>ST-dd88971f-69ae-43e9-bfef-69f8059db7ae</ParentID>
+    <Description>Registered user chooses to sign in with external account</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in with external account\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-10818d64-1d87-460a-9c3f-aa5d4c148ce8</UniqueID>
+    <ParentID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</ParentID>
+    <Description>Registered user chooses to sign in through Facebook</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in through \cf1\ul Facebook\cf2\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-923d5605-be03-44ac-a925-59a1c00418fa</UniqueID>
+    <ParentID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</ParentID>
+    <Description>Registered user chooses to sign in through Google</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in through \cf1\ul Google\cf2\ulnone\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-69c4e5a4-e4c9-4561-a5d9-b987cb153933</UniqueID>
+    <ParentID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</ParentID>
+    <Description>Registered user chooses to sign in through Twitter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in through \cf1\ul Twitter\cf2\ulnone\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-10-</DefaultPrefix>
+    <NextValue>6</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-10-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-10-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-10-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-10-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

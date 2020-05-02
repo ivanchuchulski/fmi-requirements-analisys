@@ -22,7 +22,7 @@
     <Sequence>0</Sequence>
     <Complexity>Medium</Complexity>
     <DateAdded>2020-04-12T11:05:21.7306826+03:00</DateAdded>
-    <DateModified>2020-05-02T15:40:59.4171597+03:00</DateModified>
+    <DateModified>2020-05-02T16:52:46.5320261+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</UniqueID>
@@ -42,10 +42,10 @@
   <Goal>
     <UniqueID>G-7183010d-204d-4e52-9b5e-371d20472fc4</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Login in Rezervito system  </Description>
+    <Description>Login in Rezervito system   (UC-10-3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Login in Rezervito system  \cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Login in Rezervito system   (\cf2\ul UC-10-3\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -53,9 +53,10 @@
   <Goal>
     <UniqueID>G-ba4eccd3-d777-41c5-8789-ff09c07d1fa3</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Browse In restaurants catalog</Description>
+    <Description>Browse In restaurants catalog (UC-9-2)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Browse In restaurants catalog\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Browse In restaurants catalog (\cf1\ul UC-9-2\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -63,9 +64,10 @@
   <Goal>
     <UniqueID>G-cc23f7ab-d421-4943-9268-e2aca67a15ad</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Filter restaurants by categories</Description>
+    <Description>Filter restaurants by categories (UC-9-3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Filter restaurants by categories\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Filter restaurants by categories (\cf1\ul UC-9-3\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -73,9 +75,10 @@
   <Goal>
     <UniqueID>G-e0d75a07-d252-45ae-8f7c-c1ae5e3858a3</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>See restaurants details</Description>
+    <Description>See restaurants details (UC-9-5)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 See restaurants details\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 See restaurants details (\cf1\ul UC-9-5\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>4</Sequence>
@@ -83,9 +86,10 @@
   <Goal>
     <UniqueID>G-f48732ff-179a-4801-991f-6754089e3210</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Book table</Description>
+    <Description>Book table (UC-9-1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Book table\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Book table (\cf1\ul UC-9-1\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>5</Sequence>
@@ -93,9 +97,10 @@
   <Goal>
     <UniqueID>G-9b4658e9-a9bf-4813-a74d-5d3ce1a52459</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Subscribe to newsletters</Description>
+    <Description>Subscribe to newsletters (UC-9-6)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Subscribe to newsletters\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Subscribe to newsletters (\cf1\ul UC-9-6\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>6</Sequence>
@@ -103,10 +108,10 @@
   <Goal>
     <UniqueID>G-6a64a209-d21a-4d90-8c72-db43f4386571</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Add restaurant to Favorites</Description>
+    <Description>Add restaurant to Favorites (UC-10-1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red128\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 Add restaurant to \cf1 Favorites\cf0\par
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Add restaurant to \cf1 Favorites (\cf2\ul UC-10-1\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>7</Sequence>
@@ -114,9 +119,10 @@
   <Goal>
     <UniqueID>G-d7b12c08-2f29-459a-a4ac-41d57cc3d4c6</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Give feedback</Description>
+    <Description>Give feedback (UC-10-2)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Give feedback\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Give feedback (\cf1\ul UC-10-2\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>8</Sequence>
@@ -124,10 +130,10 @@
   <Goal>
     <UniqueID>G-fad9ac8d-13d6-4932-87a3-35dce29d0e41</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Report bugs </Description>
+    <Description>Report bugs  (UC-10-4)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Report bugs \cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Report bugs  (\cf2\ul UC-10-4\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>9</Sequence>
@@ -212,9 +218,10 @@
   <Goal>
     <UniqueID>G-64e52b0c-47ae-4d55-98d8-e55dd3b9f37e</UniqueID>
     <ParentID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ParentID>
-    <Description>Search restaurants by name</Description>
+    <Description>Search restaurants by name (UC-9-8)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Search restaurants by name\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Search restaurants by name (\cf1\ul UC-9-8\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>3</Sequence>

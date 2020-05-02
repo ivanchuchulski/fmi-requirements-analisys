@@ -65,6 +65,12 @@
     <ElementID>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</ElementID>
     <Sequence>6</Sequence>
   </ElementStub>
+  <ElementStub>
+    <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
+    <Path>Registered client use case.ucp</Path>
+    <ElementID>P-dd429602-b974-4c93-89f0-ca62872452eb</ElementID>
+    <Sequence>7</Sequence>
+  </ElementStub>
   <ExternalDoc>
     <UniqueID>EX-9a416160-c777-4974-a3e9-114569e821d6</UniqueID>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>

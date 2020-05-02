@@ -248,7 +248,7 @@ In the finalization of the booking process the \cf1\ul Unregistered\cf2\ulnone  
     <UniqueID>REQ-7bcbbeb6-76e3-44ef-8ff8-a3ed6a23be8a</UniqueID>
     <UserID>REQ-5-9</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Client preorder</Name>
+    <Name>Preorder food and drinks</Name>
     <Description>The Registered user should be able to preorder appetizers and drinks.
 Therefore he must pay (REQ-5-9.1) .</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
@@ -265,7 +265,7 @@ Therefore he must pay (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:28:57.244748+03:00</DateAdded>
-    <DateModified>2020-04-12T17:26:25.438003+03:00</DateModified>
+    <DateModified>2020-05-02T17:39:26.2819745+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -371,13 +371,13 @@ The user must give a rating and text comment.\par
     <UniqueID>REQ-2e87ab03-12b3-4c55-a40c-e83d97f29d3f</UniqueID>
     <UserID>REQ-5-9.1</UserID>
     <ParentID>REQ-7bcbbeb6-76e3-44ef-8ff8-a3ed6a23be8a</ParentID>
-    <Name>Pay preorder</Name>
+    <Name>Pay for preorder</Name>
     <Description>The Registered user must be able to pay for the preorder via Bank service.</Description>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
     <DateAdded>2020-04-12T17:24:55.1369079+03:00</DateAdded>
-    <DateModified>2020-04-12T17:24:55.1428885+03:00</DateModified>
+    <DateModified>2020-05-02T17:39:33.0653543+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
