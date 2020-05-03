@@ -11,7 +11,7 @@
   <Package>
     <UniqueID>P-dd429602-b974-4c93-89f0-ca62872452eb</UniqueID>
     <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
-    <Name>Registered client use case</Name>
+    <Name>Registered Client Use Case</Name>
     <Sequence>-1</Sequence>
   </Package>
   <UseCase>
@@ -22,7 +22,7 @@
     <Sequence>0</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-02T16:52:46.4388798+03:00</DateAdded>
-    <DateModified>2020-05-02T17:52:36.5723066+03:00</DateModified>
+    <DateModified>2020-05-03T15:17:56.9437452+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-335bfb6e-e42c-4be4-8156-ce88536dc52e</UniqueID>
@@ -32,7 +32,7 @@
     <Sequence>1</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-02T16:52:46.486468+03:00</DateAdded>
-    <DateModified>2020-05-02T17:53:57.1493199+03:00</DateModified>
+    <DateModified>2020-05-03T15:17:46.5513324+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-26ed1bee-6e7b-4699-a54c-4802e86655c7</UniqueID>
@@ -52,7 +52,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T16:52:46.4934452+03:00</DateAdded>
-    <DateModified>2020-05-02T17:15:00.4509803+03:00</DateModified>
+    <DateModified>2020-05-03T14:53:31.3202575+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</UniqueID>
@@ -72,7 +72,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T16:52:46.499114+03:00</DateAdded>
-    <DateModified>2020-05-02T17:25:16.142635+03:00</DateModified>
+    <DateModified>2020-05-03T14:43:11.0163341+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5d985917-63ac-465d-a616-3ca7477e9406</UniqueID>
@@ -93,7 +93,27 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T17:04:31.9253468+03:00</DateAdded>
-    <DateModified>2020-05-02T17:27:51.4536351+03:00</DateModified>
+    <DateModified>2020-05-03T15:17:22.7116225+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</UniqueID>
+    <UserID>UC-9-8</UserID>
+    <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
+    <Name>Search restaurants by name</Name>
+    <Sequence>5</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-02T15:41:29.9599205+03:00</DateAdded>
+    <DateModified>2020-05-03T15:14:41.3361849+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-fd965a40-555d-433a-8b97-a39f6b01cf45</UniqueID>
@@ -119,11 +139,6 @@
     <Kind>0</Kind>
   </UCActor>
   <UCActor>
-    <ParentID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
     <ParentID>UC-5d985917-63ac-465d-a616-3ca7477e9406</ParentID>
     <ActorID>A-79092e66-d5d7-4cbf-821c-4e86f87e62b5</ActorID>
     <Kind>1</Kind>
@@ -137,6 +152,26 @@
     <ParentID>UC-5d985917-63ac-465d-a616-3ca7477e9406</ParentID>
     <ActorID>A-107eaf2b-2c91-4f03-9028-f697ad7ac1f8</ActorID>
     <Kind>1</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</ParentID>
+    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</ParentID>
+    <ActorID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ActorID>
+    <Kind>0</Kind>
   </UCActor>
   <Scenario>
     <UniqueID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</UniqueID>
@@ -157,6 +192,10 @@
   <Scenario>
     <UniqueID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</UniqueID>
     <ParentID>UC-335bfb6e-e42c-4be4-8156-ce88536dc52e</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</UniqueID>
+    <ParentID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</ParentID>
   </Scenario>
   <Step>
     <UniqueID>ST-91a8eea6-5917-48af-919c-dfea4452a63c</UniqueID>
@@ -215,7 +254,7 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses external site to sign in from\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -264,10 +303,10 @@
   <Step>
     <UniqueID>ST-14d860d9-9c01-4d39-9b4f-f6ab2d9d3f18</UniqueID>
     <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
-    <Description>Registered user enters Rezervito</Description>
+    <Description>Registered user or Restaurant manager enters Rezervito</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user enters \cf3 Rezervito\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user or \cf1\ul Restaurant manager\cf2\ulnone  enters \cf3 Rezervito\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -276,10 +315,10 @@
   <Step>
     <UniqueID>ST-521ea830-7fe8-45f8-92ec-7a2564d3b716</UniqueID>
     <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
-    <Description>Registered user selects the report bug button</Description>
+    <Description>Registered user or Restaurant manager selects the report bug button</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the report bug button\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user or \cf1\ul Restaurant manager\cf2\ulnone  selects the report bug button\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -288,10 +327,10 @@
   <Step>
     <UniqueID>ST-d0d25356-0c28-462a-966c-d1a4d9188821</UniqueID>
     <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
-    <Description>Registered user fills the report form</Description>
+    <Description>Registered user or Restaurant manager fills the report form</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user fills the report form\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user or \cf1\ul Restaurant manager\cf2\ulnone  fills the report form\cf0\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -300,10 +339,10 @@
   <Step>
     <UniqueID>ST-d1950b57-121d-4db0-9c7f-d37aac58c9a9</UniqueID>
     <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
-    <Description>Registered user submits the report</Description>
+    <Description>Registered user or Restaurant manager submits the report</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user submits the report\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user or \cf1\ul Restaurant manager\cf2\ulnone  submits the report\cf0\par
 }
 </RichDescription>
     <Sequence>3</Sequence>
@@ -318,7 +357,7 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the Add to favourite option on the restaurant pages\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -329,7 +368,7 @@
 \viewkind4\uc1\pard\f0\fs20 The restaurant is added to his list of favourites\par
 }
 </RichDescription>
-    <Sequence>1</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -341,7 +380,7 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the option to write a review\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -353,7 +392,7 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects a rating\cf0\par
 }
 </RichDescription>
-    <Sequence>1</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -365,7 +404,7 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user writes in the text area\cf0\par
 }
 </RichDescription>
-    <Sequence>2</Sequence>
+    <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -377,16 +416,158 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user submits the review\cf0\par
 }
 </RichDescription>
-    <Sequence>3</Sequence>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8b08be8d-797a-445f-b6b8-fc0ee8640e57</UniqueID>
+    <ParentID>X-05a7832f-620b-4e2f-afbc-a130e03672cf</ParentID>
+    <Description>Registered user is signed in</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user is signed in\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-49f57271-18b0-4e05-8acd-9c5f93d2a20a</UniqueID>
+    <ParentID>X-4223eeb5-e7e4-48d8-8770-e099b092ca60</ParentID>
+    <Description>Registered user receives error notification</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user receives error notification\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-395ee982-e105-45d0-9af8-16525abbd655</UniqueID>
+    <ParentID>X-10818d64-1d87-460a-9c3f-aa5d4c148ce8</ParentID>
+    <Description>Registered user signs in through Facebook</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user signs in through \cf1\ul Facebook\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-50972576-f89e-417d-83fb-b547d6722dda</UniqueID>
+    <ParentID>X-923d5605-be03-44ac-a925-59a1c00418fa</ParentID>
+    <Description>Registered user signs in through Google</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user signs in through \cf1\ul Google\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-909c8273-1709-420e-961f-2f76fdd21b13</UniqueID>
+    <ParentID>X-69c4e5a4-e4c9-4561-a5d9-b987cb153933</ParentID>
+    <Description>Registered user signs in through Twitter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user signs in through \cf1\ul Twitter\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-13f3010c-77de-4b13-abf8-6bc772371677</UniqueID>
+    <ParentID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</ParentID>
+    <Description>User fills the search bar to search for restaurants in the catalog</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User fills the search bar to search for restaurants in the catalog\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-544625f0-5fd3-416c-8579-d7e374076d2d</UniqueID>
+    <ParentID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</ParentID>
+    <Description>The catalog is updated to display restaurants matching the search bar</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 The catalog is updated to display restaurants matching the search bar\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-03112c94-17d8-42f5-ab6d-3b8bddd2f2c7</UniqueID>
+    <ParentID>X-4223eeb5-e7e4-48d8-8770-e099b092ca60</ParentID>
+    <Description>Move to 4</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Move to 4\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8fc4fe82-b700-46b7-b086-f3a3cea8e4d3</UniqueID>
+    <ParentID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</ParentID>
+    <Description>Browse In restaurants catalog (UC-9-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Browse In restaurants catalog (\cf2\ul UC-9-2\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d1fd57b6-eaf1-4099-b1dd-3cc0bf2dfba4</UniqueID>
+    <ParentID>MSS-fc5ce6f4-89fe-4fa9-869c-1c0f3458b3a3</ParentID>
+    <Description>Login in Rezervito system   (UC-10-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Login in \cf2 Rezervito\cf1  system   (\cf3\ul UC-10-3\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e6a791a0-3906-4a0d-a8cf-6e667684744d</UniqueID>
+    <ParentID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</ParentID>
+    <Description>See restaurants details (UC-9-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 See restaurants details (\cf2\ul UC-9-5\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-733d4b87-4955-40ff-8788-fd9ce2152581</UniqueID>
+    <ParentID>MSS-a25e2087-b525-41ef-bc49-05b0263e41fd</ParentID>
+    <Description>See restaurants details (UC-9-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 See restaurants details (\cf2\ul UC-9-5\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Extension>
     <UniqueID>X-05a7832f-620b-4e2f-afbc-a130e03672cf</UniqueID>
     <ParentID>ST-7d625d55-94d5-49bf-910f-ae0bd2dde513</ParentID>
-    <Description>Registered user is sign in if login credentials are valid</Description>
+    <Description>Login credentials are valid</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user is sign in if login credentials are valid\cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Login credentials are valid\cf2\ul\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -395,10 +576,10 @@
   <Extension>
     <UniqueID>X-4223eeb5-e7e4-48d8-8770-e099b092ca60</UniqueID>
     <ParentID>ST-7d625d55-94d5-49bf-910f-ae0bd2dde513</ParentID>
-    <Description>Registered user receives error message if login credentials are invalid</Description>
+    <Description>Login credentials are invalid</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user receives error message if login credentials are invalid\cf0\par
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Login credentials are invalid\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -431,10 +612,10 @@
   <Extension>
     <UniqueID>X-10818d64-1d87-460a-9c3f-aa5d4c148ce8</UniqueID>
     <ParentID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</ParentID>
-    <Description>Registered user chooses to sign in through Facebook</Description>
+    <Description>Select Facebook</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in through \cf1\ul Facebook\cf2\ulnone\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select \cf2\ul Facebook\cf1\ulnone\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -443,10 +624,10 @@
   <Extension>
     <UniqueID>X-923d5605-be03-44ac-a925-59a1c00418fa</UniqueID>
     <ParentID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</ParentID>
-    <Description>Registered user chooses to sign in through Google</Description>
+    <Description>Select Google</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in through \cf1\ul Google\cf2\ulnone\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select \cf2\ul Google\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -455,10 +636,10 @@
   <Extension>
     <UniqueID>X-69c4e5a4-e4c9-4561-a5d9-b987cb153933</UniqueID>
     <ParentID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</ParentID>
-    <Description>Registered user chooses to sign in through Twitter</Description>
+    <Description>Select Twitter</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to sign in through \cf1\ul Twitter\cf2\ulnone\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select \cf2\ul Twitter\par
 }
 </RichDescription>
     <Sequence>2</Sequence>

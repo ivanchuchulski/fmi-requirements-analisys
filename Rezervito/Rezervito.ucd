@@ -71,6 +71,18 @@
     <ElementID>P-dd429602-b974-4c93-89f0-ca62872452eb</ElementID>
     <Sequence>7</Sequence>
   </ElementStub>
+  <ElementStub>
+    <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
+    <Path>Restaurant Manager Use Cases.ucp</Path>
+    <ElementID>P-c2c17939-3aa2-4714-b530-a2f88c00df5b</ElementID>
+    <Sequence>8</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
+    <Path>System Administrator Use Cases.ucp</Path>
+    <ElementID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ElementID>
+    <Sequence>9</Sequence>
+  </ElementStub>
   <ExternalDoc>
     <UniqueID>EX-9a416160-c777-4974-a3e9-114569e821d6</UniqueID>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
@@ -78,7 +90,7 @@
   </ExternalDoc>
   <UserID>
     <DefaultPrefix>UC-</DefaultPrefix>
-    <NextValue>1</NextValue>
+    <NextValue>6</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-</DefaultPrefix>

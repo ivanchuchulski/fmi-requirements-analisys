@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -194,13 +194,23 @@
     <UserID>REQ-6-4.1</UserID>
     <ParentID>REQ-b7f4f095-2fe0-4522-8dc6-0bd6575d72ae</ParentID>
     <Name>Restaurant Information</Name>
-    <Description>Restaurant information must include address, phone, work time, description and photo gallery.
+    <Description>Restaurant information must include address, phone, work time, description, menu and photo gallery.
  </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Restaurant information must include address, phone, work time, description, menu and photo gallery.\par
+ \par
+}
+</RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T18:09:57.7923334+03:00</DateAdded>
-    <DateModified>2020-04-12T18:09:57.7932809+03:00</DateModified>
+    <DateModified>2020-05-03T14:32:36.6276996+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>

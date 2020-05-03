@@ -11,7 +11,7 @@
   <Package>
     <UniqueID>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</UniqueID>
     <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
-    <Name>Unregistered client use case</Name>
+    <Name>Unregistered Client Use Case</Name>
     <Sequence>-1</Sequence>
   </Package>
   <UseCase>
@@ -32,7 +32,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2266404+03:00</DateAdded>
-    <DateModified>2020-05-02T17:43:41.2863564+03:00</DateModified>
+    <DateModified>2020-05-03T15:15:56.0319151+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5b9bb853-91c7-4e78-96ed-d5ab78e0e4c8</UniqueID>
@@ -72,7 +72,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2398524+03:00</DateAdded>
-    <DateModified>2020-05-02T17:21:59.5345487+03:00</DateModified>
+    <DateModified>2020-05-03T15:14:48.1287436+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-668fe569-1bdd-4df4-a3cd-a421322e639c</UniqueID>
@@ -112,7 +112,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2508236+03:00</DateAdded>
-    <DateModified>2020-05-02T17:30:08.1808989+03:00</DateModified>
+    <DateModified>2020-05-03T15:15:08.9197661+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</UniqueID>
@@ -132,7 +132,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2598004+03:00</DateAdded>
-    <DateModified>2020-05-02T17:22:31.0856479+03:00</DateModified>
+    <DateModified>2020-05-03T15:15:42.5280834+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-0b265a1d-8cce-41b5-b5cb-b161395e03ee</UniqueID>
@@ -143,27 +143,7 @@
     <Sequence>6</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-02T15:29:51.7528285+03:00</DateAdded>
-    <DateModified>2020-05-02T15:41:39.1826808+03:00</DateModified>
-  </UseCase>
-  <UseCase>
-    <UniqueID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</UniqueID>
-    <UserID>UC-9-8</UserID>
-    <ParentID>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</ParentID>
-    <Name>Search restaurants by name</Name>
-    <Sequence>7</Sequence>
-    <Priority>1</Priority>
-    <PreConditions />
-    <PostConditions />
-    <Level />
-    <Complexity />
-    <UCStatus />
-    <ImplStatus />
-    <AssignedTo />
-    <Release />
-    <TestingSetup />
-    <TestingConfigurations />
-    <DateAdded>2020-05-02T15:41:29.9599205+03:00</DateAdded>
-    <DateModified>2020-05-02T17:22:56.6376571+03:00</DateModified>
+    <DateModified>2020-05-03T15:16:17.1120676+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-b2f6852b-9a07-4863-bc2a-2b0768589a8f</UniqueID>
@@ -224,16 +204,6 @@
     <Kind>0</Kind>
   </UCActor>
   <UCActor>
-    <ParentID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</ParentID>
-    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
     <ParentID>UC-a8f08d91-4c02-47f5-8337-25d2f42eef52</ParentID>
     <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
     <Kind>0</Kind>
@@ -280,10 +250,6 @@
   <Scenario>
     <UniqueID>MSS-bcd4f954-2f6b-4177-8a00-b34bdd533d10</UniqueID>
     <ParentID>UC-6dcc511d-a51b-43b6-9e2d-91df30bf0b12</ParentID>
-  </Scenario>
-  <Scenario>
-    <UniqueID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</UniqueID>
-    <ParentID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</ParentID>
   </Scenario>
   <Step>
     <UniqueID>ST-f44ab445-3348-4a4f-bdc7-d1174740f99d</UniqueID>
@@ -462,7 +428,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User chooses how to filter restaurants\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -498,7 +464,7 @@
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through external account\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -522,7 +488,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User sees the restaurant's page\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -534,7 +500,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User enters email\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -570,7 +536,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User selects date and time (\cf2\ul REQ-5-8.1\cf1\ulnone )\cf0\par
 }
 </RichDescription>
-    <Sequence>0</Sequence>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -582,7 +548,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User chooses number of attendees (\cf2\ul REQ-5-8.2\cf1\ulnone )\cf0\par
 }
 </RichDescription>
-    <Sequence>1</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -594,7 +560,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User selects which table they want (\cf2\ul REQ-5-8.3\cf1\ulnone )\cf0\par
 }
 </RichDescription>
-    <Sequence>2</Sequence>
+    <Sequence>3</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -606,30 +572,7 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 User receives notification\cf0\par
 }
 </RichDescription>
-    <Sequence>1</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-13f3010c-77de-4b13-abf8-6bc772371677</UniqueID>
-    <ParentID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</ParentID>
-    <Description>User fills the search bar to search for restaurants in the catalog</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 User fills the search bar to search for restaurants in the catalog\cf0\par
-}
-</RichDescription>
-    <Sequence>0</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Step>
-  <Step>
-    <UniqueID>ST-544625f0-5fd3-416c-8579-d7e374076d2d</UniqueID>
-    <ParentID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</ParentID>
-    <Description>The catalog is updated to display restaurants matching the search bar</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 The catalog is updated to display restaurants matching the search bar\par
-}
-</RichDescription>
-    <Sequence>1</Sequence>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -664,7 +607,7 @@
 \viewkind4\uc1\pard\f0\fs20 User submits reservation\par
 }
 </RichDescription>
-    <Sequence>4</Sequence>
+    <Sequence>5</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -675,7 +618,7 @@
 \viewkind4\uc1\pard\f0\fs20 User receives notification\par
 }
 </RichDescription>
-    <Sequence>5</Sequence>
+    <Sequence>6</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -686,7 +629,7 @@
 \viewkind4\uc1\pard\f0\fs20 Check user type\par
 }
 </RichDescription>
-    <Sequence>3</Sequence>
+    <Sequence>4</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
@@ -716,10 +659,142 @@
   <Step>
     <UniqueID>ST-834ab60b-3a3d-4ea5-bdbf-a82e200ff148</UniqueID>
     <ParentID>X-66eec318-51a7-4ef0-a3c3-e2063de86710</ParentID>
-    <Description>Move to 5</Description>
+    <Description>Move to 6</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Move to 5\par
+\viewkind4\uc1\pard\cf1\f0\fs20 Move to 6\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-50288107-4504-4f22-82ad-54bb3c5d3700</UniqueID>
+    <ParentID>X-e2ea6334-1b32-49c4-aed1-f668c113deae</ParentID>
+    <Description>Filter By Food Type (REQ-5-4.1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Food Type (\cf2\ul REQ-5-4.1\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6783f8f1-4061-4afd-a8c2-3ee207245164</UniqueID>
+    <ParentID>X-f9dd7a2d-ee7f-4c20-b42d-d137436a8598</ParentID>
+    <Description>Filter by Nearest Restaurants (REQ-5-4.2) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter by Nearest Restaurants (\cf2\ul REQ-5-4.2\cf1\ulnone ) \par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-6d3f9329-f70c-404f-85cb-427687b9deb2</UniqueID>
+    <ParentID>X-52ae1731-a473-45d9-9a5b-c71b434a2eac</ParentID>
+    <Description>Filter by Price (REQ-5-4.3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter by Price (\cf2\ul REQ-5-4.3\cf1\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-620c643f-22a5-40e0-a504-4dd2276c7768</UniqueID>
+    <ParentID>X-bae47167-a301-4f79-b692-7ec4c4ecbd46</ParentID>
+    <Description>Unregistered user registers through Facebook </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user registers through \cf1\ul Facebook\cf2  \cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d0754496-0018-4eba-9347-632982aa8cf0</UniqueID>
+    <ParentID>X-ab2f9032-fb80-4e92-9d4e-a501b73f08ce</ParentID>
+    <Description>Unregistered user registers through Google</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user registers through \cf1\ul Google\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-befe6935-a744-44b5-b93e-077561dd4414</UniqueID>
+    <ParentID>X-afc96238-d726-4ece-a3eb-fa8473d33646</ParentID>
+    <Description>Unregistered user registers through Twitter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user registers through \cf1\ul Twitter\cf0\ulnone\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-e3d9b787-bdb6-4670-bd41-5145bbcac6a3</UniqueID>
+    <ParentID>MSS-86d6c6c0-82e3-4436-938d-96c710ae5ab7</ParentID>
+    <Description>Browse In restaurants catalog (UC-9-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Browse In restaurants catalog (\cf2\ul UC-9-2\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-8fee1a6d-7b96-45e0-bfe8-51e3ee0a0c7f</UniqueID>
+    <ParentID>MSS-015667a2-59d0-48b6-bde5-aff6e31668c5</ParentID>
+    <Description>Browse In restaurants catalog (UC-9-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Browse In restaurants catalog (\cf2\ul UC-9-2\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f1b6bf0a-6815-4a8f-abce-c3912574ca92</UniqueID>
+    <ParentID>MSS-fcc48deb-5638-4124-bdf0-1656328dfd78</ParentID>
+    <Description>See restaurants details (UC-9-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 See restaurants details (\cf2\ul UC-9-5\cf1\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a07d4441-c4d0-4779-817d-127088def88e</UniqueID>
+    <ParentID>MSS-bcd4f954-2f6b-4177-8a00-b34bdd533d10</ParentID>
+    <Description>See restaurants details (UC-9-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 See restaurants details (\cf2\ul UC-9-5\cf1\ulnone )\cf0\fs20\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5081db39-18ee-4614-b8a2-7ea192b2c0a8</UniqueID>
+    <ParentID>MSS-baaebb13-0fb3-42c5-9e5f-6ab4fb438829</ParentID>
+    <Description>Register in Rezervito system   (UC-9-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Register in \cf2 Rezervito\cf1  system   (\cf3\ul UC-9-4\cf1\ulnone )\cf0\fs20\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -800,10 +875,10 @@
   <Extension>
     <UniqueID>X-e2ea6334-1b32-49c4-aed1-f668c113deae</UniqueID>
     <ParentID>ST-711a9276-95fe-4a24-acdc-afe4c74a0d23</ParentID>
-    <Description>Filter By Food Type (REQ-5-4.1)</Description>
+    <Description>Filter By Food Type</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Food Type (\cf2\ul REQ-5-4.1\cf1\ulnone )\cf0\par
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Food Type\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -812,10 +887,10 @@
   <Extension>
     <UniqueID>X-f9dd7a2d-ee7f-4c20-b42d-d137436a8598</UniqueID>
     <ParentID>ST-711a9276-95fe-4a24-acdc-afe4c74a0d23</ParentID>
-    <Description>Filter by Nearest Restaurants (REQ-5-4.2) </Description>
+    <Description>Filter by Nearest Restaurants  </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Filter by Nearest Restaurants (\cf2\ul REQ-5-4.2\cf1\ulnone ) \par
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter by Nearest Restaurants  \par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -824,46 +899,34 @@
   <Extension>
     <UniqueID>X-bae47167-a301-4f79-b692-7ec4c4ecbd46</UniqueID>
     <ParentID>ST-af3990e2-7f13-4d9f-83a0-a18beac7f5dc</ParentID>
-    <Description>Unregistered user chooses to register through Facebook</Description>
+    <Description>Select Facebook</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through \cf1\ul Facebook\cf2\ulnone\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select \cf2\ul Facebook\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Extension>
   <Extension>
-    <UniqueID>X-f2670ef6-a91e-4b77-93d1-ea96287919fa</UniqueID>
+    <UniqueID>X-ab2f9032-fb80-4e92-9d4e-a501b73f08ce</UniqueID>
     <ParentID>ST-af3990e2-7f13-4d9f-83a0-a18beac7f5dc</ParentID>
-    <Description>Unregistered user chooses to register through Google</Description>
+    <Description>Select Google</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through \cf1\ul Google\cf2\ulnone\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Select \cf2\ul Google\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Extension>
   <Extension>
-    <UniqueID>X-ab2f9032-fb80-4e92-9d4e-a501b73f08ce</UniqueID>
-    <ParentID>ST-af3990e2-7f13-4d9f-83a0-a18beac7f5dc</ParentID>
-    <Description>Unregistered user chooses to register through Twitter</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through \cf1\ul Twitter\cf0\ulnone\fs20\par
-}
-</RichDescription>
-    <Sequence>2</Sequence>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Extension>
-  <Extension>
     <UniqueID>X-52ae1731-a473-45d9-9a5b-c71b434a2eac</UniqueID>
     <ParentID>ST-711a9276-95fe-4a24-acdc-afe4c74a0d23</ParentID>
-    <Description>Filter by Price (REQ-5-4.3)</Description>
+    <Description>Filter by Price</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Filter by Price (\cf2\ul REQ-5-4.3\cf1\ulnone )\par
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter by Price\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -960,6 +1023,18 @@
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user doesn't preorder food and drinks \par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-afc96238-d726-4ece-a3eb-fa8473d33646</UniqueID>
+    <ParentID>ST-af3990e2-7f13-4d9f-83a0-a18beac7f5dc</ParentID>
+    <Description>Select Twitter</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Select \cf1\ul Twitter\cf0\ulnone\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
