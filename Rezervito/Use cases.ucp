@@ -179,10 +179,10 @@ name.\par
     <UserID>REQ-5-6</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Add to Favorites</Name>
-    <Description>Registered users could add restaurants to Favorites list.</Description>
+    <Description>Registered users should be able to add restaurants to the list of Favorites.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users could add restaurants to \cf3 Favorites\cf2  list.\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to add restaurants to the list of \cf3 Favorites\cf2 .\par
 }
 </RichDescription>
     <Sequence>5</Sequence>
@@ -193,7 +193,7 @@ name.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:23:14.3519863+03:00</DateAdded>
-    <DateModified>2020-04-12T12:24:15.5818375+03:00</DateModified>
+    <DateModified>2020-05-04T15:27:19.8762122+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -250,11 +250,11 @@ In the finalization of the booking process the \cf1\ul Unregistered\cf2\ulnone  
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Preorder food and drinks</Name>
     <Description>The Registered user should be able to preorder appetizers and drinks.
-Therefore he must pay (REQ-5-9.1) .</Description>
+After that he must pay for the order when during the reservation finalisation (REQ-5-9.1) .</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
 \viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Registered\cf1\ulnone  user should be able to preorder appetizers and drinks.\par
-Therefore he must pay (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
+After that he must pay for the order when during the reservation finalisation (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
 }
 </RichDescription>
     <Sequence>8</Sequence>
@@ -265,7 +265,7 @@ Therefore he must pay (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:28:57.244748+03:00</DateAdded>
-    <DateModified>2020-05-02T17:39:26.2819745+03:00</DateModified>
+    <DateModified>2020-05-04T14:54:08.3896659+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>

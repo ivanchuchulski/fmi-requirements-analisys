@@ -52,7 +52,7 @@
     <Sequence>2</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-03T14:06:10.0390105+03:00</DateAdded>
-    <DateModified>2020-05-03T14:52:50.0895522+03:00</DateModified>
+    <DateModified>2020-05-04T15:36:50.6748141+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-6ecab095-e031-4e56-b799-5534bec8a9fa</UniqueID>
@@ -625,6 +625,17 @@
     <Description>Move to 3</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20 Move to 3\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ca09ce23-67e1-4357-a726-b854bffba932</UniqueID>
+    <ParentID>X-a0a8169a-bcaa-49fa-9573-c754f9f1b28a</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
 }
 </RichDescription>
     <Sequence>1</Sequence>

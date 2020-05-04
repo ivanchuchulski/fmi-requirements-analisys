@@ -22,7 +22,7 @@
     <Sequence>0</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-03T14:47:52.1238197+03:00</DateAdded>
-    <DateModified>2020-05-03T14:52:30.8248738+03:00</DateModified>
+    <DateModified>2020-05-04T15:12:00.8195911+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</UniqueID>
@@ -42,7 +42,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-03T14:47:52.1337917+03:00</DateAdded>
-    <DateModified>2020-05-03T15:05:04.9681274+03:00</DateModified>
+    <DateModified>2020-05-04T15:11:40.9955355+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-65045966-35a7-4018-a3fa-5c4b45f72dc5</UniqueID>
@@ -73,7 +73,7 @@
     <Sequence>3</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-03T15:03:50.5848744+03:00</DateAdded>
-    <DateModified>2020-05-03T15:06:51.4034726+03:00</DateModified>
+    <DateModified>2020-05-04T15:37:02.8352061+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-45e2cce2-323b-465e-9cf8-d7c5179ab844</UniqueID>
@@ -415,6 +415,50 @@
     <Description>Move to 2</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 \viewkind4\uc1\pard\f0\fs20 Move to 2\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-994b6a8c-cacd-491d-ae70-f5a9cea2e4d9</UniqueID>
+    <ParentID>X-c04da915-ad37-49c9-9928-75eab432b209</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4896e68f-5706-41e5-8095-aa10af29e4f0</UniqueID>
+    <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-86c079ca-5234-415a-a8e5-f090f4e892c1</UniqueID>
+    <ParentID>X-05b03ab3-466e-41a1-b21b-f5949f8ccc4e</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e0f8f6c-742e-41f1-8adc-bc4a536c8e94</UniqueID>
+    <ParentID>X-0a41d1b8-0431-428c-992c-688daf555cbd</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
 }
 </RichDescription>
     <Sequence>1</Sequence>

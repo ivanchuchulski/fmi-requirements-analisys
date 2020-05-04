@@ -22,7 +22,7 @@
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2020-04-12T11:09:05.3502329+03:00</DateAdded>
-    <DateModified>2020-04-12T11:37:09.2349162+03:00</DateModified>
+    <DateModified>2020-05-04T14:58:47.0741613+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-79092e66-d5d7-4cbf-821c-4e86f87e62b5</UniqueID>
@@ -54,9 +54,10 @@
   <Goal>
     <UniqueID>G-29507658-166d-4af9-bdba-5a5cbc13d103</UniqueID>
     <ParentID>A-7cf0a115-cc6a-4f59-8b83-cd78ec9a0505</ParentID>
-    <Description>Operate transactions</Description>
+    <Description>Operate transactions (UC-6)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Operate transactions\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Operate transactions (\cf1\ul UC-6\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>

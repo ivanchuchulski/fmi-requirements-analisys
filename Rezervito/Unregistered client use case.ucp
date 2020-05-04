@@ -32,7 +32,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2266404+03:00</DateAdded>
-    <DateModified>2020-05-03T15:15:56.0319151+03:00</DateModified>
+    <DateModified>2020-05-04T15:09:53.4316386+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5b9bb853-91c7-4e78-96ed-d5ab78e0e4c8</UniqueID>
@@ -52,7 +52,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2346189+03:00</DateAdded>
-    <DateModified>2020-05-02T17:21:16.0503909+03:00</DateModified>
+    <DateModified>2020-05-04T14:43:34.1077769+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-9727d634-2806-42e6-b5f9-af83639c637b</UniqueID>
@@ -72,7 +72,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2398524+03:00</DateAdded>
-    <DateModified>2020-05-03T15:14:48.1287436+03:00</DateModified>
+    <DateModified>2020-05-04T14:44:18.9524502+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-668fe569-1bdd-4df4-a3cd-a421322e639c</UniqueID>
@@ -112,7 +112,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2508236+03:00</DateAdded>
-    <DateModified>2020-05-03T15:15:08.9197661+03:00</DateModified>
+    <DateModified>2020-05-04T14:45:01.8472386+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</UniqueID>
@@ -143,7 +143,7 @@
     <Sequence>6</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-02T15:29:51.7528285+03:00</DateAdded>
-    <DateModified>2020-05-03T15:16:17.1120676+03:00</DateModified>
+    <DateModified>2020-05-04T15:37:24.7870051+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-b2f6852b-9a07-4863-bc2a-2b0768589a8f</UniqueID>
@@ -159,9 +159,54 @@
     <Kind>0</Kind>
   </UCActor>
   <UCActor>
-    <ParentID>UC-0b265a1d-8cce-41b5-b5cb-b161395e03ee</ParentID>
-    <ActorID>A-79092e66-d5d7-4cbf-821c-4e86f87e62b5</ActorID>
-    <Kind>1</Kind>
+    <ParentID>UC-6dcc511d-a51b-43b6-9e2d-91df30bf0b12</ParentID>
+    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6dcc511d-a51b-43b6-9e2d-91df30bf0b12</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5b9bb853-91c7-4e78-96ed-d5ab78e0e4c8</ParentID>
+    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-5b9bb853-91c7-4e78-96ed-d5ab78e0e4c8</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9727d634-2806-42e6-b5f9-af83639c637b</ParentID>
+    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-9727d634-2806-42e6-b5f9-af83639c637b</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-a8f08d91-4c02-47f5-8337-25d2f42eef52</ParentID>
+    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-a8f08d91-4c02-47f5-8337-25d2f42eef52</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</ParentID>
+    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</ParentID>
+    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
+    <Kind>0</Kind>
   </UCActor>
   <UCActor>
     <ParentID>UC-0b265a1d-8cce-41b5-b5cb-b161395e03ee</ParentID>
@@ -174,54 +219,9 @@
     <Kind>1</Kind>
   </UCActor>
   <UCActor>
-    <ParentID>UC-6dcc511d-a51b-43b6-9e2d-91df30bf0b12</ParentID>
-    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-6dcc511d-a51b-43b6-9e2d-91df30bf0b12</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-5b9bb853-91c7-4e78-96ed-d5ab78e0e4c8</ParentID>
-    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-5b9bb853-91c7-4e78-96ed-d5ab78e0e4c8</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-9727d634-2806-42e6-b5f9-af83639c637b</ParentID>
-    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-9727d634-2806-42e6-b5f9-af83639c637b</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-a8f08d91-4c02-47f5-8337-25d2f42eef52</ParentID>
-    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-a8f08d91-4c02-47f5-8337-25d2f42eef52</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</ParentID>
-    <ActorID>A-f58d7766-ce8f-4acd-be49-2bebffb7b2cf</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
-    <ParentID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</ParentID>
-    <ActorID>A-01c1ea0e-ed41-4db0-82f8-53724196e64f</ActorID>
-    <Kind>0</Kind>
+    <ParentID>UC-0b265a1d-8cce-41b5-b5cb-b161395e03ee</ParentID>
+    <ActorID>A-79092e66-d5d7-4cbf-821c-4e86f87e62b5</ActorID>
+    <Kind>1</Kind>
   </UCActor>
   <Scenario>
     <UniqueID>MSS-377e54ab-a474-43ed-ae54-d2843a25a5a5</UniqueID>
@@ -624,9 +624,10 @@
   <Step>
     <UniqueID>ST-5324dc21-b067-413c-acb2-b3b7ee697099</UniqueID>
     <ParentID>MSS-bcd4f954-2f6b-4177-8a00-b34bdd533d10</ParentID>
-    <Description>Check user type</Description>
+    <Description>Rezervito checks user type</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Check user type\par
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  checks user type\cf0\par
 }
 </RichDescription>
     <Sequence>4</Sequence>
@@ -647,10 +648,10 @@
   <Step>
     <UniqueID>ST-59a27af1-4c41-4eaa-908c-fdb79e1c7fde</UniqueID>
     <ParentID>X-269bf2d3-b6fd-4f7e-8f11-c392192a9eb8</ParentID>
-    <Description> Preorder food and drinks (REQ-5-9)</Description>
+    <Description>Preorder food and drinks  (UC-6)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\f0\fs20  \cf1 Preorder food and drinks (\cf2\ul REQ-5-9\cf1\ulnone )\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20 Preorder food and drinks  (\cf2\ul UC-6\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -798,6 +799,171 @@
 }
 </RichDescription>
     <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-99c986de-14b0-47aa-abfc-4ab3510182c1</UniqueID>
+    <ParentID>X-3f555337-21b3-4dc3-b2fa-1cd0923356d9</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5dbfa48d-9861-47b6-a092-fe4ddee45145</UniqueID>
+    <ParentID>X-49ae336c-0384-46b0-a0bc-4f47fc0289b6</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a5f78c8c-faea-47a8-85d9-e0e4b20b9644</UniqueID>
+    <ParentID>X-8a96ac7a-9b5f-462a-9a81-6bef5e81173f</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2575f53d-b635-4963-9f3b-f95e2aebdac9</UniqueID>
+    <ParentID>X-e2ea6334-1b32-49c4-aed1-f668c113deae</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-97f055ef-fcbd-4a2b-bf08-e4c1a82c5ac5</UniqueID>
+    <ParentID>X-52ae1731-a473-45d9-9a5b-c71b434a2eac</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-835fe232-3788-4d43-9681-f796ec8b78c9</UniqueID>
+    <ParentID>X-f9dd7a2d-ee7f-4c20-b42d-d137436a8598</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-60433f30-1f3d-4f98-b15d-8838cd954d6a</UniqueID>
+    <ParentID>X-67b4132b-a828-4f26-a7a0-a44f0df89c29</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-efccda6f-90b1-420b-a763-44ee702fa5fd</UniqueID>
+    <ParentID>X-a86ef502-b657-4218-b1cd-ed7ccaade8ea</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5eab91cb-be5f-4ef5-abd7-343d58099644</UniqueID>
+    <ParentID>X-708eea8f-1eff-47d7-83ab-9d747f2b4416</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-17eed0cb-b41c-4503-81a4-9084f206989f</UniqueID>
+    <ParentID>X-d96002d6-d3a3-4b2e-918b-21e468a501c4</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f9ba248c-4fd3-4eb8-825e-0f5ba9943c70</UniqueID>
+    <ParentID>X-cf04d72c-123b-44bd-95c6-ea02acbd29de</ParentID>
+    <Description>Move to 6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Move to 6\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bf032ac6-c604-4faf-a85b-e3a9ab434433</UniqueID>
+    <ParentID>X-269bf2d3-b6fd-4f7e-8f11-c392192a9eb8</ParentID>
+    <Description>Move to 6</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Move to 6\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-7b9b120a-3627-4ae3-9e52-d23f72ab053c</UniqueID>
+    <ParentID>X-afc96238-d726-4ece-a3eb-fa8473d33646</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3562c1b4-87b2-47bc-98e6-5fad89b10082</UniqueID>
+    <ParentID>X-ab2f9032-fb80-4e92-9d4e-a501b73f08ce</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0dab708f-5cd5-42c9-9115-d13d4f08bc0a</UniqueID>
+    <ParentID>X-bae47167-a301-4f79-b692-7ec4c4ecbd46</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Extension>
