@@ -52,7 +52,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2346189+03:00</DateAdded>
-    <DateModified>2020-05-04T14:43:34.1077769+03:00</DateModified>
+    <DateModified>2020-05-18T11:32:36.9357339+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-9727d634-2806-42e6-b5f9-af83639c637b</UniqueID>
@@ -72,13 +72,13 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2398524+03:00</DateAdded>
-    <DateModified>2020-05-04T14:44:18.9524502+03:00</DateModified>
+    <DateModified>2020-05-18T11:38:44.8719464+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-668fe569-1bdd-4df4-a3cd-a421322e639c</UniqueID>
     <UserID>UC-9-4</UserID>
     <ParentID>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</ParentID>
-    <Name>Register in Rezervito system  </Name>
+    <Name>User Registration</Name>
     <Sequence>3</Sequence>
     <Priority>1</Priority>
     <PreConditions />
@@ -92,7 +92,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2448392+03:00</DateAdded>
-    <DateModified>2020-05-02T17:00:41.264535+03:00</DateModified>
+    <DateModified>2020-05-18T12:07:54.9452552+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-a8f08d91-4c02-47f5-8337-25d2f42eef52</UniqueID>
@@ -112,7 +112,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2508236+03:00</DateAdded>
-    <DateModified>2020-05-04T14:45:01.8472386+03:00</DateModified>
+    <DateModified>2020-05-18T12:07:34.149919+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-e0a19054-6c10-401d-bcb9-c3caed3fb18b</UniqueID>
@@ -132,18 +132,33 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2598004+03:00</DateAdded>
-    <DateModified>2020-05-03T15:15:42.5280834+03:00</DateModified>
+    <DateModified>2020-05-18T12:06:40.9404966+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-0b265a1d-8cce-41b5-b5cb-b161395e03ee</UniqueID>
     <UserID>UC-9-7</UserID>
     <ParentID>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</ParentID>
     <Name>Register through external site</Name>
-    <Description>Steps taken from "Register in Rezervito system  " (UC-9-4)</Description>
+    <Description>Steps taken from "Register in Rezervito system " (UC-9-4)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\lang1033\f0\fs20 Steps taken from "Register in \cf1 Rezervito\cf0  system " (\cf2\ul UC-9-4\cf3\ulnone )\cf0\par
+}
+</RichDescription>
     <Sequence>6</Sequence>
     <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
     <DateAdded>2020-05-02T15:29:51.7528285+03:00</DateAdded>
-    <DateModified>2020-05-04T15:37:24.7870051+03:00</DateModified>
+    <DateModified>2020-05-18T12:06:18.3681232+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-b2f6852b-9a07-4863-bc2a-2b0768589a8f</UniqueID>
@@ -266,10 +281,10 @@
   <Step>
     <UniqueID>ST-84a0fbb2-c704-441f-98b1-3b6b3a104bda</UniqueID>
     <ParentID>MSS-377e54ab-a474-43ed-ae54-d2843a25a5a5</ParentID>
-    <Description>Unregistered user chooses the registration button</Description>
+    <Description>Unregistered user chooses the registration button (REQ-5-1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses the registration button\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses the registration button (\cf1\ul REQ-5-1\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -290,10 +305,10 @@
   <Step>
     <UniqueID>ST-ac27effb-224b-4309-ae3e-fe613d80a07c</UniqueID>
     <ParentID>MSS-377e54ab-a474-43ed-ae54-d2843a25a5a5</ParentID>
-    <Description>Unregistered user chooses how to register</Description>
+    <Description>Unregistered user chooses how to register </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses how to register\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses how to register \par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -410,10 +425,10 @@
   <Step>
     <UniqueID>ST-64208262-844a-48ba-bb35-5d2004ecc12b</UniqueID>
     <ParentID>MSS-41b68298-4ed1-4036-bd4d-54d3034858a6</ParentID>
-    <Description>User chooses the restaurant catalog</Description>
+    <Description>User chooses the restaurant catalog (REQ-5-3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 User chooses the restaurant catalog\cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User chooses the restaurant catalog (\cf2\ul REQ-5-3\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -422,10 +437,10 @@
   <Step>
     <UniqueID>ST-711a9276-95fe-4a24-acdc-afe4c74a0d23</UniqueID>
     <ParentID>MSS-86d6c6c0-82e3-4436-938d-96c710ae5ab7</ParentID>
-    <Description>User chooses how to filter restaurants</Description>
+    <Description>User chooses how to filter restaurants (REQ-5-4)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 User chooses how to filter restaurants\cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User chooses how to filter restaurants (\cf2\ul REQ-5-4\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -458,10 +473,10 @@
   <Step>
     <UniqueID>ST-af3990e2-7f13-4d9f-83a0-a18beac7f5dc</UniqueID>
     <ParentID>MSS-baaebb13-0fb3-42c5-9e5f-6ab4fb438829</ParentID>
-    <Description>Unregistered user chooses to register through external account</Description>
+    <Description>Unregistered user chooses to register through external account (REQ-5-1.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through external account\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through external account (\cf1\ul REQ-5-1.1\cf2\ulnone )\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -482,10 +497,10 @@
   <Step>
     <UniqueID>ST-1549648d-7902-44dc-93d0-eeaddde11f88</UniqueID>
     <ParentID>MSS-015667a2-59d0-48b6-bde5-aff6e31668c5</ParentID>
-    <Description>User sees the restaurant's page</Description>
+    <Description>User sees the restaurant's page (REQ-5-3.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 User sees the restaurant's page\cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User sees the restaurant's page (\cf2\ul REQ-5-3.1\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -494,10 +509,10 @@
   <Step>
     <UniqueID>ST-9618e248-b2d8-4343-87c3-277f7426e003</UniqueID>
     <ParentID>MSS-fcc48deb-5638-4124-bdf0-1656328dfd78</ParentID>
-    <Description>User enters email</Description>
+    <Description>User enters email (REQ-5-7)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 User enters email\cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User enters email (\cf2\ul REQ-5-7\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -969,10 +984,10 @@
   <Extension>
     <UniqueID>X-591dede7-c08d-439e-89ef-2a76bd927881</UniqueID>
     <ParentID>ST-ac27effb-224b-4309-ae3e-fe613d80a07c</ParentID>
-    <Description>Unregistered user chooses to register through external site</Description>
+    <Description>Unregistered user chooses to register through external site </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through external site\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  user chooses to register through external site \par
 }
 </RichDescription>
     <Sequence>0</Sequence>

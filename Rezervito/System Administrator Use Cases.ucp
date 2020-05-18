@@ -18,11 +18,21 @@
     <UniqueID>UC-0c454960-2ac3-4f18-85f6-e038492193e2</UniqueID>
     <UserID>UC-3</UserID>
     <ParentID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ParentID>
-    <Name>Login</Name>
+    <Name>Admin Login</Name>
     <Sequence>0</Sequence>
     <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
     <DateAdded>2020-05-03T14:47:52.1238197+03:00</DateAdded>
-    <DateModified>2020-05-04T15:12:00.8195911+03:00</DateModified>
+    <DateModified>2020-05-18T11:43:56.6511556+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</UniqueID>
@@ -42,7 +52,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-03T14:47:52.1337917+03:00</DateAdded>
-    <DateModified>2020-05-04T15:11:40.9955355+03:00</DateModified>
+    <DateModified>2020-05-18T12:39:35.8397188+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-65045966-35a7-4018-a3fa-5c4b45f72dc5</UniqueID>
@@ -62,7 +72,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-03T14:47:52.1407751+03:00</DateAdded>
-    <DateModified>2020-05-03T14:58:22.5292444+03:00</DateModified>
+    <DateModified>2020-05-18T12:41:08.3055029+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-f38bcfac-6044-4c49-a99f-e909039fa009</UniqueID>
@@ -72,8 +82,18 @@
     <Description>Steps taken from "Manage user accounts" (UC-4)</Description>
     <Sequence>3</Sequence>
     <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
     <DateAdded>2020-05-03T15:03:50.5848744+03:00</DateAdded>
-    <DateModified>2020-05-04T15:37:02.8352061+03:00</DateModified>
+    <DateModified>2020-05-18T11:49:05.8478316+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-45e2cce2-323b-465e-9cf8-d7c5179ab844</UniqueID>
@@ -129,10 +149,10 @@
   <Step>
     <UniqueID>ST-5786ecf1-c65d-4e9f-9289-87bd6c7adc48</UniqueID>
     <ParentID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</ParentID>
-    <Description>The System administrator chooses to sign in</Description>
+    <Description>The System administrator chooses to sign in (REQ-7-1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to sign in\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to sign in (\cf1\ul REQ-7-1\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -213,10 +233,10 @@
   <Step>
     <UniqueID>ST-3aeeef9f-3c79-4317-89ea-1adad676afe7</UniqueID>
     <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
-    <Description>The System administrator selects the option to view bugs</Description>
+    <Description>The System administrator selects the option to view bugs </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to view bugs\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to view bugs \cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -237,10 +257,10 @@
   <Step>
     <UniqueID>ST-f5e05e5f-bf83-4e8b-b893-2cb83b0de321</UniqueID>
     <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
-    <Description>The System administrator selects the option to report bugs</Description>
+    <Description>The System administrator selects the option to report bugs (REQ-7-5)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to report bugs\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to report bugs (\cf1\ul REQ-7-5\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>3</Sequence>
@@ -273,10 +293,10 @@
   <Step>
     <UniqueID>ST-4ef61cf4-20fd-4258-b990-d11a85958790</UniqueID>
     <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
-    <Description>The System administrator selects the option to view user accounts</Description>
+    <Description>The System administrator selects the option to view user accounts </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to view user accounts\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to view user accounts \cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -297,10 +317,10 @@
   <Step>
     <UniqueID>ST-63231fca-26e6-47c4-aef3-6849353e2300</UniqueID>
     <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
-    <Description>The System administrator can choose to add Restaurant manager or remove user accounts</Description>
+    <Description>The System administrator chooses to add Restaurant manager (REQ-7-3) or remove Registered user accounts (REQ-7-2)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  can choose to add \cf1\ul Restaurant manager\cf2\ulnone  or remove user accounts\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to add \cf1\ul Restaurant manager\cf2\ulnone  (\cf1\ul REQ-7-3\cf2\ulnone ) or remove \cf1\ul Registered\cf2\ulnone  user accounts (\cf1\ul REQ-7-2\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>3</Sequence>
@@ -309,10 +329,10 @@
   <Step>
     <UniqueID>ST-71f7655d-e58b-4d38-912a-f6d2f75486d4</UniqueID>
     <ParentID>MSS-af33e07c-dc13-4f54-b4de-aa865bc250b7</ParentID>
-    <Description>The System administrator receives a Restaurant manager registration form</Description>
+    <Description>The System administrator receives a Restaurant manager registration form (REQ-7-3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  receives a \cf2\ul Restaurant manager\cf1\ulnone  registration form\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  receives a \cf2\ul Restaurant manager\cf1\ulnone  registration form (\cf2\ul REQ-7-3\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -321,10 +341,10 @@
   <Step>
     <UniqueID>ST-1d3b2818-09ce-4646-814b-2cce2c885d87</UniqueID>
     <ParentID>MSS-af33e07c-dc13-4f54-b4de-aa865bc250b7</ParentID>
-    <Description>The System administrator fills the form</Description>
+    <Description>The System administrator fills the form (REQ-7-3.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  fills the form\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  fills the form (\cf2\ul REQ-7-3.1\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -345,17 +365,22 @@
   <Step>
     <UniqueID>ST-d2c1b64c-ba21-49af-b3d6-9aeccbc4bd26</UniqueID>
     <ParentID>X-c04da915-ad37-49c9-9928-75eab432b209</ParentID>
-    <Description>Restaurant Manager Registration (UC-12-1)</Description>
+    <Description>Restaurant Manager Registration (UC-12-1) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Restaurant Manager\cf0\ulnone  Registration (\cf1\ul UC-12-1\cf2\ulnone ) \cf0\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
   <Step>
     <UniqueID>ST-bd33d325-e5ab-43c6-981a-9538c4b2ffd3</UniqueID>
     <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
-    <Description>The System administrator selects the user account</Description>
+    <Description>The System administrator selects the user account </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the user account\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the user account \cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
   <Version>2</Version>
-  <PackageId>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</PackageId>
+  <PackageId>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</PackageId>
   <ShowDescendants>true</ShowDescendants>
   <ProjectOpenedTabName>pgStart</ProjectOpenedTabName>
   <Sorting>
@@ -96,14 +96,12 @@
     <string>Rezervito</string>
     <string>Rezervito\Actors\Clients</string>
     <string>Rezervito\Actors\Externals</string>
-    <string>Rezervito\Client requirements\Book table</string>
-    <string>Rezervito\Client requirements\Preorder food and drinks</string>
-    <string>Rezervito\Restaurant managers requirements\Change restaurant information</string>
-    <string>Rezervito\Unregistered Client Use Case</string>
-    <string>Rezervito\Registered Client Use Case</string>
-    <string>Rezervito\Restaurant Manager Use Cases</string>
-    <string>Rezervito\System Administrator Use Cases</string>
+    <string>Rezervito\Client requirements\User Registration</string>
+    <string>Rezervito\Client requirements\User Login</string>
+    <string>Rezervito\Client requirements\Book Table</string>
+    <string>Rezervito\Client requirements\Preorder Food and Drinks</string>
+    <string>Rezervito\Restaurant managers requirements\Change Restaurant Information</string>
   </ExpandedNodes>
-  <SelectedNode>Rezervito\Unregistered Client Use Case\Book table</SelectedNode>
+  <SelectedNode>Rezervito</SelectedNode>
   <Flags />
 </ModelSettings>

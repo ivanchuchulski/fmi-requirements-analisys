@@ -14,16 +14,6 @@
     <Name>Nonfunctional requirements</Name>
     <Sequence>-1</Sequence>
   </Package>
-  <UseCase>
-    <UniqueID>UC-7ca8bc52-6e2a-41c5-b8ab-5ceee78511c9</UniqueID>
-    <UserID>UC-8-1</UserID>
-    <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
-    <Name>Registered user use cases</Name>
-    <Sequence>0</Sequence>
-    <Priority>1</Priority>
-    <DateAdded>2020-05-02T14:36:41.4946301+03:00</DateAdded>
-    <DateModified>2020-05-02T14:36:49.8486602+03:00</DateModified>
-  </UseCase>
   <Requirement>
     <UniqueID>REQ-1640fa65-9d0f-464a-aaad-af0942f52e48</UniqueID>
     <UserID>REQ-8-1</UserID>
@@ -138,7 +128,7 @@
     <UniqueID>REQ-f3b4314c-96ea-4f61-b546-40ee81f4e4d8</UniqueID>
     <UserID>REQ-8-6</UserID>
     <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
-    <Name>Application field</Name>
+    <Name>Application Field</Name>
     <Description>The storage of personal information about users in Rezervito must be GDPR compliant.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
@@ -153,38 +143,46 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T13:16:53.023811+03:00</DateAdded>
-    <DateModified>2020-04-25T13:22:30.2842703+03:00</DateModified>
+    <DateModified>2020-05-18T12:35:26.3200238+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-08cb557a-0fae-485b-9dd7-cf04a5bc91a3</UniqueID>
     <UserID>REQ-8-4.1</UserID>
     <ParentID>REQ-4f45bca9-60bd-4a30-b17b-7d266072a4d4</ParentID>
-    <Name>Help section</Name>
+    <Name>Help Section</Name>
     <Description>The system must have a help section and video tutorial.</Description>
     <Sequence>0</Sequence>
     <Type>Non-functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-25T13:27:41.1920422+03:00</DateAdded>
-    <DateModified>2020-04-25T13:27:41.1950339+03:00</DateModified>
+    <DateModified>2020-05-18T12:35:08.1026128+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-cd4d0ae5-a949-43c9-8380-75f075158a5e</UniqueID>
     <UserID>REQ-8-4.2</UserID>
     <ParentID>REQ-4f45bca9-60bd-4a30-b17b-7d266072a4d4</ParentID>
-    <Name>Language support</Name>
+    <Name>Language Support</Name>
     <Description>The system's interface must support the following languages : Bulgarian, English, Spanish, Italian, German, Romanian, Serbian, Greek and Russian.</Description>
     <Sequence>1</Sequence>
     <Type>Non-functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-25T13:29:46.0480956+03:00</DateAdded>
-    <DateModified>2020-04-25T13:29:46.0490963+03:00</DateModified>
+    <DateModified>2020-05-18T12:35:17.0185299+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>
     <DefaultPrefix>UC-8-</DefaultPrefix>
-    <NextValue>2</NextValue>
+    <NextValue>1</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-8-</DefaultPrefix>

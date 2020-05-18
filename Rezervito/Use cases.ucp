@@ -18,11 +18,11 @@
     <UniqueID>REQ-db8f555c-2c3d-4f2f-b110-f28a881c0575</UniqueID>
     <UserID>REQ-5-1</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Register in System</Name>
-    <Description>Unregistered users can register in Rezervito.</Description>
+    <Name>User Registration</Name>
+    <Description>Unregistered users should be able to register in Rezervito.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  users can register in \cf3 Rezervito\cf2 .\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  users should be able to register in \cf3 Rezervito\cf2 .\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -33,18 +33,18 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:48:12.4553041+03:00</DateAdded>
-    <DateModified>2020-04-12T11:54:16.441909+03:00</DateModified>
+    <DateModified>2020-05-18T12:15:33.7450157+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-26285efa-9fc8-4831-bf4d-c687cc8f4d4f</UniqueID>
     <UserID>REQ-5-2</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Login in System</Name>
-    <Description>Registered users can login in Rezervito.</Description>
+    <Name>User Login</Name>
+    <Description>Registered users should be able to login in Rezervito.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users can login in \cf3 Rezervito\cf2 .\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to login in \cf3 Rezervito\cf2 .\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -55,7 +55,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:55:05.3397021+03:00</DateAdded>
-    <DateModified>2020-04-12T11:55:41.6932188+03:00</DateModified>
+    <DateModified>2020-05-18T12:15:58.4373499+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -84,7 +84,7 @@
     <UniqueID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</UniqueID>
     <UserID>REQ-5-4</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Filter restaurant</Name>
+    <Name>Filter Restaurant</Name>
     <Description>Registered and Unregistered users should be able to filter restaurants by different categories : (REQ-5-4.1), (REQ-5-4.2), (REQ-5-4.3) .</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
@@ -99,7 +99,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:02:10.1194186+03:00</DateAdded>
-    <DateModified>2020-04-12T12:19:06.5087074+03:00</DateModified>
+    <DateModified>2020-05-18T12:19:48.3143362+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -107,12 +107,21 @@
     <UserID>REQ-5-4.1</UserID>
     <ParentID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</ParentID>
     <Name>Filter By Food Type</Name>
-    <Description>The user should be able to filter restaurants by food type.</Description>
+    <Description>Registered and Unregistered users should be able to filter restaurants by food type.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to filter restaurants by food type.\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:08:35.6160845+03:00</DateAdded>
-    <DateModified>2020-04-12T12:08:35.6170819+03:00</DateModified>
+    <DateModified>2020-05-18T12:18:04.6139686+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -120,10 +129,10 @@
     <UserID>REQ-5-4.2</UserID>
     <ParentID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</ParentID>
     <Name>Filter by Nearest Restaurants</Name>
-    <Description>The user should be able to see a list of the nearest restaurants depending on his current GPS position.</Description>
+    <Description>Registered and Unregistered users should be able to see a list of the nearest restaurants depending on his current GPS position.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The user should be able to see a list of the nearest restaurants depending on his current GPS position.\par
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to see a list of the nearest restaurants depending on his current GPS position.\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -134,7 +143,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:09:24.8440858+03:00</DateAdded>
-    <DateModified>2020-04-12T12:17:10.1499054+03:00</DateModified>
+    <DateModified>2020-05-18T12:18:21.5663203+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -142,19 +151,28 @@
     <UserID>REQ-5-4.3</UserID>
     <ParentID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</ParentID>
     <Name>Filter by Price</Name>
-    <Description>The user should be able to filter restaurants by price category.</Description>
+    <Description>Registered and Unregistered users should be able to filter restaurants by price category.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to filter restaurants by price category.\par
+}
+</RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:11:00.7364957+03:00</DateAdded>
-    <DateModified>2020-04-12T12:11:00.745086+03:00</DateModified>
+    <DateModified>2020-05-18T12:18:40.2794093+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-d90adedc-a678-4871-bdb8-004b0eb2561b</UniqueID>
     <UserID>REQ-5-5</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Search restaurants by name</Name>
+    <Name>Search Restaurants by Name</Name>
     <Description>Registered and Unregistered users should be able to find restaurants by 
 name.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
@@ -171,7 +189,7 @@ name.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:21:48.9995067+03:00</DateAdded>
-    <DateModified>2020-04-12T12:23:00.8911787+03:00</DateModified>
+    <DateModified>2020-05-18T12:19:40.6743275+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -179,10 +197,10 @@ name.\par
     <UserID>REQ-5-6</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Add to Favorites</Name>
-    <Description>Registered users should be able to add restaurants to the list of Favorites.</Description>
+    <Description>Registered users should be able to add restaurants to their list of Favorites.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to add restaurants to the list of \cf3 Favorites\cf2 .\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to add restaurants to their list of \cf3 Favorites\cf2 .\par
 }
 </RichDescription>
     <Sequence>5</Sequence>
@@ -193,19 +211,19 @@ name.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:23:14.3519863+03:00</DateAdded>
-    <DateModified>2020-05-04T15:27:19.8762122+03:00</DateModified>
+    <DateModified>2020-05-18T12:18:59.8860247+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-2a10ebcb-b316-413c-8568-3efdac44d892</UniqueID>
     <UserID>REQ-5-7</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Subscribe to newsletters</Name>
-    <Description>Registered and Unregistered users could subscribe to newsletters for a 
+    <Name>Subscribe to Newsletters</Name>
+    <Description>Registered and Unregistered users should be able to subscribe to newsletters for a 
 particular restaurant.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users could subscribe to newsletters for a \par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to subscribe to newsletters for a \par
 particular restaurant.\par
 }
 </RichDescription>
@@ -217,20 +235,18 @@ particular restaurant.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:24:21.1321326+03:00</DateAdded>
-    <DateModified>2020-04-12T12:25:27.6166127+03:00</DateModified>
+    <DateModified>2020-05-18T12:19:32.0908747+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</UniqueID>
     <UserID>REQ-5-8</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Book table</Name>
-    <Description>Registered and Unregistered users must be able to reserve a table in a chosen restaurant. The user must provide reservation details: (REQ-5-8.1), (REQ-5-8.2), (REQ-5-8.3). 
-In the finalization of the booking process the Unregistered user must provide contact information (REQ-5-8.4).</Description>
+    <Name>Book Table</Name>
+    <Description>Registered and Unregistered users should be able to reserve a table in a chosen restaurant. The user must provide reservation details: (REQ-5-8.1), (REQ-5-8.2), (REQ-5-8.3) and during the finalization of the booking process the Unregistered user must provide contact information (REQ-5-8.4).</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users must be able to reserve a table in a chosen restaurant. The user must provide reservation details: (\cf1\ul REQ-5-8.1\cf2\ulnone ), (\cf1\ul REQ-5-8.2\cf2\ulnone ), (\cf1\ul REQ-5-8.3\cf2\ulnone ). \par
-In the finalization of the booking process the \cf1\ul Unregistered\cf2\ulnone  user must provide contact information (\cf1\ul REQ-5-8.4\cf2\ulnone ).\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to reserve a table in a chosen restaurant. The user must provide reservation details: (\cf1\ul REQ-5-8.1\cf2\ulnone ), (\cf1\ul REQ-5-8.2\cf2\ulnone ), (\cf1\ul REQ-5-8.3\cf2\ulnone ) and during the finalization of the booking process the \cf1\ul Unregistered\cf2\ulnone  user must provide contact information (\cf1\ul REQ-5-8.4\cf2\ulnone ).\par
 }
 </RichDescription>
     <Sequence>7</Sequence>
@@ -241,20 +257,20 @@ In the finalization of the booking process the \cf1\ul Unregistered\cf2\ulnone  
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:25:29.4574203+03:00</DateAdded>
-    <DateModified>2020-04-12T12:38:54.2089951+03:00</DateModified>
+    <DateModified>2020-05-18T12:22:07.3670979+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-7bcbbeb6-76e3-44ef-8ff8-a3ed6a23be8a</UniqueID>
     <UserID>REQ-5-9</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Preorder food and drinks</Name>
+    <Name>Preorder Food and Drinks</Name>
     <Description>The Registered user should be able to preorder appetizers and drinks.
-After that he must pay for the order when during the reservation finalisation (REQ-5-9.1) .</Description>
+After that he must pay for the order during the reservation finalization (REQ-5-9.1) .</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
 \viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Registered\cf1\ulnone  user should be able to preorder appetizers and drinks.\par
-After that he must pay for the order when during the reservation finalisation (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
+After that he must pay for the order during the reservation finalization (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
 }
 </RichDescription>
     <Sequence>8</Sequence>
@@ -265,7 +281,7 @@ After that he must pay for the order when during the reservation finalisation (\
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:28:57.244748+03:00</DateAdded>
-    <DateModified>2020-05-04T14:54:08.3896659+03:00</DateModified>
+    <DateModified>2020-05-18T12:23:57.8663183+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -273,12 +289,21 @@ After that he must pay for the order when during the reservation finalisation (\
     <UserID>REQ-5-8.1</UserID>
     <ParentID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</ParentID>
     <Name>Reservation Date</Name>
-    <Description>The user must provide the date and time for the reservation.</Description>
+    <Description>Registered and Unregistered users should be able to provide the date and time for the reservation.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to provide the date and time for the reservation.\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:31:14.5639025+03:00</DateAdded>
-    <DateModified>2020-04-12T12:31:14.564957+03:00</DateModified>
+    <DateModified>2020-05-18T12:21:55.1367696+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -286,12 +311,21 @@ After that he must pay for the order when during the reservation finalisation (\
     <UserID>REQ-5-8.2</UserID>
     <ParentID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</ParentID>
     <Name>Reservation Size</Name>
-    <Description>The user must provide the number of people who will attend.</Description>
+    <Description>Registered and Unregistered users should be able to provide the number of people who will attend.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to provide the number of people who will attend.\par
+}
+</RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:33:43.6799598+03:00</DateAdded>
-    <DateModified>2020-04-12T12:33:43.6807+03:00</DateModified>
+    <DateModified>2020-05-18T12:21:43.432933+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -299,12 +333,21 @@ After that he must pay for the order when during the reservation finalisation (\
     <UserID>REQ-5-8.3</UserID>
     <ParentID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</ParentID>
     <Name>Reservation Preferred Table Location</Name>
-    <Description>The user can choose the table location in the restaurant.</Description>
+    <Description>Registered and Unregistered users should be able to choose a table location in the restaurant.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to choose a table location in the restaurant.\par
+}
+</RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:35:22.0039168+03:00</DateAdded>
-    <DateModified>2020-04-12T12:35:22.0047205+03:00</DateModified>
+    <DateModified>2020-05-18T12:21:27.8288904+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -312,26 +355,38 @@ After that he must pay for the order when during the reservation finalisation (\
     <UserID>REQ-5-8.4</UserID>
     <ParentID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</ParentID>
     <Name>Reservation Contact information</Name>
-    <Description>The Unregistered user must provide the following information in the 
-finalization of the booking process : phone number and email.</Description>
+    <Description>The Unregistered user must provide the following information in the finalization of the booking process : 
+-Name
+-Phone number
+-Email</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul Unregistered\cf1\ulnone  user must provide the following information in the finalization of the booking process : \par
+-Name\par
+-Phone number\par
+-Email\par
+}
+</RichDescription>
     <Sequence>3</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T12:38:49.092307+03:00</DateAdded>
-    <DateModified>2020-05-02T16:11:42.1241136+03:00</DateModified>
+    <DateModified>2020-05-18T12:22:59.8948595+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-4120b3d4-aedf-4af1-8d74-b088db23d27a</UniqueID>
     <UserID>REQ-5-10</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Give feedback</Name>
-    <Description>Registered users should be able to write a review for a particular restaurant.
-The user must give a rating and text comment.</Description>
+    <Name>Give Feedback</Name>
+    <Description>Registered users should be able to write a review for a particular restaurant by giving a rating and text comment.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to write a review for a particular restaurant.\par
-The user must give a rating and text comment.\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to write a review for a particular restaurant by giving a rating and text comment.\par
 }
 </RichDescription>
     <Sequence>9</Sequence>
@@ -342,18 +397,18 @@ The user must give a rating and text comment.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:39:50.3761323+03:00</DateAdded>
-    <DateModified>2020-04-12T18:04:32.4036608+03:00</DateModified>
+    <DateModified>2020-05-18T12:24:18.0504225+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-247ea86d-8cef-47ca-901b-e4ba4ff09785</UniqueID>
     <UserID>REQ-5-11</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Report bugs</Name>
-    <Description>Registered and Unregistered users should be able to report bugs to the System administrator.</Description>
+    <Name>User Report Bugs</Name>
+    <Description>Registered users should be able to report bugs to the System administrator.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to report bugs to the \cf1\ul System administrator\cf2\ulnone .\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to report bugs to the \cf1\ul System administrator\cf2\ulnone .\par
 }
 </RichDescription>
     <Sequence>10</Sequence>
@@ -364,39 +419,102 @@ The user must give a rating and text comment.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:41:51.0843003+03:00</DateAdded>
-    <DateModified>2020-04-12T12:42:57.3263258+03:00</DateModified>
+    <DateModified>2020-05-18T12:31:57.9050856+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-2e87ab03-12b3-4c55-a40c-e83d97f29d3f</UniqueID>
     <UserID>REQ-5-9.1</UserID>
     <ParentID>REQ-7bcbbeb6-76e3-44ef-8ff8-a3ed6a23be8a</ParentID>
-    <Name>Pay for preorder</Name>
+    <Name>Pay For Preorder</Name>
     <Description>The Registered user must be able to pay for the preorder via Bank service.</Description>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T17:24:55.1369079+03:00</DateAdded>
-    <DateModified>2020-05-02T17:39:33.0653543+03:00</DateModified>
+    <DateModified>2020-05-18T12:24:09.7377177+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-794f9ac6-7727-4d93-9e8f-b6381b769e40</UniqueID>
     <UserID>REQ-5-3.1</UserID>
     <ParentID>REQ-56db57cf-411e-4c3c-bbfa-41365027051a</ParentID>
-    <Name>View restaurant information</Name>
-    <Description>The user should be able to see various restaurant details : 
-brief description 
-menu
-photos gallery
-location
-work time
+    <Name>View Restaurant Information</Name>
+    <Description>Registered users, Unregistered users and Restaurant managers should be able to see the following restaurant details: 
+-Description 
+-Menu
+-Photo gallery
+-Location
+-Work time
 </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  users, \cf1\ul Unregistered\cf2\ulnone  users and \cf1\ul Restaurant managers\cf2\ulnone  should be able to see the following restaurant details: \par
+-Description \par
+-Menu\par
+-Photo gallery\par
+-Location\par
+-Work time\par
+\par
+}
+</RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
     <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-12T17:31:38.1998171+03:00</DateAdded>
-    <DateModified>2020-04-12T17:31:38.2005482+03:00</DateModified>
+    <DateModified>2020-05-18T12:17:32.4392052+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-2c1e46c9-642a-4565-8c5c-d08df661cba3</UniqueID>
+    <UserID>REQ-5-1.1</UserID>
+    <ParentID>REQ-db8f555c-2c3d-4f2f-b110-f28a881c0575</ParentID>
+    <Name>Register Through External Site</Name>
+    <Description>Unregistered users should be able to register through Facebook, Google or Twitter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  users should be able to register through \cf1\ul Facebook\cf2\ulnone , \cf1\ul Google\cf2\ulnone  or \cf1\ul Twitter\cf2\ulnone .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-18T12:04:31.0029803+03:00</DateAdded>
+    <DateModified>2020-05-18T12:15:45.4462119+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-45f9f584-6b9d-4677-832a-896b54da2d79</UniqueID>
+    <UserID>REQ-5-2.1</UserID>
+    <ParentID>REQ-26285efa-9fc8-4831-bf4d-c687cc8f4d4f</ParentID>
+    <Name>Login With External Account</Name>
+    <Description>Registered users should be able to login through Facebook, Google or Twitter.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  users should be able to login through \cf1\ul Facebook\cf2\ulnone , \cf1\ul Google\cf2\ulnone  or \cf1\ul Twitter\cf2\ulnone .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>1</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-18T12:12:52.2987731+03:00</DateAdded>
+    <DateModified>2020-05-18T12:13:43.5185278+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

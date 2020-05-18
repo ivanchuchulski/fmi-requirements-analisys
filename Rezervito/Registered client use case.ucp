@@ -32,7 +32,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T16:52:46.4388798+03:00</DateAdded>
-    <DateModified>2020-05-04T15:29:30.1277026+03:00</DateModified>
+    <DateModified>2020-05-18T11:31:29.4442388+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-335bfb6e-e42c-4be4-8156-ce88536dc52e</UniqueID>
@@ -42,13 +42,13 @@
     <Sequence>1</Sequence>
     <Priority>1</Priority>
     <DateAdded>2020-05-02T16:52:46.486468+03:00</DateAdded>
-    <DateModified>2020-05-03T15:17:46.5513324+03:00</DateModified>
+    <DateModified>2020-05-18T11:40:00.959668+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-26ed1bee-6e7b-4699-a54c-4802e86655c7</UniqueID>
     <UserID>UC-10-3</UserID>
     <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
-    <Name>Login in Rezervito system  </Name>
+    <Name>User Login</Name>
     <Sequence>2</Sequence>
     <Priority>1</Priority>
     <PreConditions />
@@ -62,7 +62,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T16:52:46.4934452+03:00</DateAdded>
-    <DateModified>2020-05-04T14:46:34.2760447+03:00</DateModified>
+    <DateModified>2020-05-18T12:13:56.6404102+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-78cfce66-a2c0-4275-92d2-53b451c28603</UniqueID>
@@ -82,13 +82,13 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T16:52:46.499114+03:00</DateAdded>
-    <DateModified>2020-05-03T14:43:11.0163341+03:00</DateModified>
+    <DateModified>2020-05-18T12:12:01.6673237+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-5d985917-63ac-465d-a616-3ca7477e9406</UniqueID>
     <UserID>UC-10-5</UserID>
     <ParentID>P-dd429602-b974-4c93-89f0-ca62872452eb</ParentID>
-    <Name>Login through external site</Name>
+    <Name>Login Through External Site</Name>
     <Description>Steps taken from "Login in Rezervito system  " (UC-10-3)</Description>
     <Sequence>4</Sequence>
     <Priority>1</Priority>
@@ -103,7 +103,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T17:04:31.9253468+03:00</DateAdded>
-    <DateModified>2020-05-04T15:33:00.8597168+03:00</DateModified>
+    <DateModified>2020-05-18T12:14:18.0234754+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-33126ff4-0fc8-445f-a4e1-431a0920b3c7</UniqueID>
@@ -123,7 +123,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T15:41:29.9599205+03:00</DateAdded>
-    <DateModified>2020-05-03T15:14:41.3361849+03:00</DateModified>
+    <DateModified>2020-05-18T12:10:09.8465113+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-43ff80b3-7ce9-4528-8ef6-847b67d994ff</UniqueID>
@@ -143,7 +143,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-04T14:58:47.0585505+03:00</DateAdded>
-    <DateModified>2020-05-04T15:42:57.7766703+03:00</DateModified>
+    <DateModified>2020-05-18T12:40:20.9909635+03:00</DateModified>
   </UseCase>
   <Diagram>
     <UniqueID>D-fd965a40-555d-433a-8b97-a39f6b01cf45</UniqueID>
@@ -255,10 +255,10 @@
   <Step>
     <UniqueID>ST-376a7401-5cd6-4ece-89ab-f1004a8b05e5</UniqueID>
     <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
-    <Description>Registered user chooses the login button</Description>
+    <Description>Registered user chooses the login button (REQ-5-2)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses the login button\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses the login button (\cf1\ul REQ-5-2\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -267,10 +267,10 @@
   <Step>
     <UniqueID>ST-dd88971f-69ae-43e9-bfef-69f8059db7ae</UniqueID>
     <ParentID>MSS-a4549c2a-8eb1-4912-beb2-6f43d6318553</ParentID>
-    <Description>Registered user chooses how to login</Description>
+    <Description>Registered user chooses how to login </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses how to login\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses how to login \cf0\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -291,10 +291,10 @@
   <Step>
     <UniqueID>ST-a5ba32e9-0aa3-46e7-a1a2-c7144e39a23d</UniqueID>
     <ParentID>MSS-fc5ce6f4-89fe-4fa9-869c-1c0f3458b3a3</ParentID>
-    <Description>Registered user chooses external site to sign in from</Description>
+    <Description>Registered user chooses external site to sign in from (REQ-5-2.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses external site to sign in from\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses external site to sign in from (\cf1\ul REQ-5-2.1\cf2\ulnone )\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -358,10 +358,10 @@
   <Step>
     <UniqueID>ST-521ea830-7fe8-45f8-92ec-7a2564d3b716</UniqueID>
     <ParentID>MSS-1aa67ccd-8397-42cd-a95b-887f9d68ff6f</ParentID>
-    <Description>Registered user or Restaurant manager selects the report bug button</Description>
+    <Description>Registered user (REQ-5-11) or Restaurant manager (REQ-6-6) selects the report bug button</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user or \cf1\ul Restaurant manager\cf2\ulnone  selects the report bug button\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user (\cf1\ul REQ-5-11\cf2\ulnone ) or \cf1\ul Restaurant manager\cf2\ulnone  (\cf1\ul REQ-6-6\cf2\ulnone ) selects the report bug button\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -406,10 +406,10 @@
   <Step>
     <UniqueID>ST-ab4b2ea0-cedf-45e2-96ee-be9c60f25b25</UniqueID>
     <ParentID>MSS-a25e2087-b525-41ef-bc49-05b0263e41fd</ParentID>
-    <Description>The restaurant is added to his list of Favorites </Description>
+    <Description>The restaurant is added to his list of Favorites (REQ-5-6)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The restaurant is added to his list of \cf1 Favorites\cf2  \cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 The restaurant is added to his list of \cf1 Favorites (\cf2\ul REQ-5-6\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -418,10 +418,10 @@
   <Step>
     <UniqueID>ST-d301cf88-cf79-4a74-aa09-98726a47db4d</UniqueID>
     <ParentID>MSS-f2c24b10-fb37-4d39-9a85-3b434a9e8c51</ParentID>
-    <Description>Registered user selects the option to write a review</Description>
+    <Description>Registered user selects the option to write a review (REQ-5-10)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the option to write a review\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user selects the option to write a review (\cf1\ul REQ-5-10\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -526,10 +526,10 @@
   <Step>
     <UniqueID>ST-13f3010c-77de-4b13-abf8-6bc772371677</UniqueID>
     <ParentID>MSS-ccb1b9b9-168b-482e-871f-1f197a855d65</ParentID>
-    <Description>User fills the search bar to search for restaurants in the catalog</Description>
+    <Description>User fills the search bar to search for restaurants in the catalog (REQ-5-5)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 User fills the search bar to search for restaurants in the catalog\cf0\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 User fills the search bar to search for restaurants in the catalog (\cf2\ul REQ-5-5\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -665,10 +665,10 @@
   <Step>
     <UniqueID>ST-a8920c49-6d99-4ebd-8f30-41810facdd41</UniqueID>
     <ParentID>MSS-d398383a-c051-4230-ab4b-6e70e4b3c848</ParentID>
-    <Description>Registered user chooses to preorder food and drinks</Description>
+    <Description>Registered user chooses to preorder food and drinks (REQ-5-9)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to preorder food and drinks\cf0\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  user chooses to preorder food and drinks (\cf1\ul REQ-5-9\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -689,10 +689,10 @@
   <Step>
     <UniqueID>ST-926cdb0c-ea6a-4110-9122-cb4be407d655</UniqueID>
     <ParentID>X-ebe68feb-9d1b-4713-b655-be9cd9178e8b</ParentID>
-    <Description>The cost of the preorder is subracted from the Registered user's banking account</Description>
+    <Description>The cost of the preorder is subracted from the Registered user's banking account (REQ-5-9.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The cost of the preorder is subracted from the \cf1\ul Registered\cf2\ulnone  user's banking account\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The cost of the preorder is subracted from the \cf1\ul Registered\cf2\ulnone  user's banking account (\cf1\ul REQ-5-9.1\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
