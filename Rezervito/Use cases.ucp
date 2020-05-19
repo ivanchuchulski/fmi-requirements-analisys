@@ -27,13 +27,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:48:12.4553041+03:00</DateAdded>
-    <DateModified>2020-05-18T12:15:33.7450157+03:00</DateModified>
+    <DateModified>2020-05-19T11:11:29.4510409+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -49,13 +49,13 @@
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:55:05.3397021+03:00</DateAdded>
-    <DateModified>2020-05-18T12:15:58.4373499+03:00</DateModified>
+    <DateModified>2020-05-19T11:11:43.4308874+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -71,13 +71,13 @@
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:57:55.0844291+03:00</DateAdded>
-    <DateModified>2020-04-12T17:33:04.2510594+03:00</DateModified>
+    <DateModified>2020-05-19T11:12:11.1191199+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -93,13 +93,13 @@
 </RichDescription>
     <Sequence>3</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>7</Priority>
     <Source />
     <Status>Approved</Status>
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:02:10.1194186+03:00</DateAdded>
-    <DateModified>2020-05-18T12:19:48.3143362+03:00</DateModified>
+    <DateModified>2020-05-19T11:13:08.7285993+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -115,13 +115,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>4</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:08:35.6160845+03:00</DateAdded>
-    <DateModified>2020-05-18T12:18:04.6139686+03:00</DateModified>
+    <DateModified>2020-05-19T11:13:17.5279491+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -137,13 +137,13 @@
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>4</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:09:24.8440858+03:00</DateAdded>
-    <DateModified>2020-05-18T12:18:21.5663203+03:00</DateModified>
+    <DateModified>2020-05-19T11:13:21.990619+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -159,13 +159,13 @@
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>4</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:11:00.7364957+03:00</DateAdded>
-    <DateModified>2020-05-18T12:18:40.2794093+03:00</DateModified>
+    <DateModified>2020-05-19T11:13:26.8467267+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -183,13 +183,13 @@ name.\par
 </RichDescription>
     <Sequence>4</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>5</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:21:48.9995067+03:00</DateAdded>
-    <DateModified>2020-05-18T12:19:40.6743275+03:00</DateModified>
+    <DateModified>2020-05-19T11:13:37.1504455+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -205,13 +205,13 @@ name.\par
 </RichDescription>
     <Sequence>5</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>6</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:23:14.3519863+03:00</DateAdded>
-    <DateModified>2020-05-18T12:18:59.8860247+03:00</DateModified>
+    <DateModified>2020-05-19T11:13:45.5272216+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -219,23 +219,21 @@ name.\par
     <UserID>REQ-5-7</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Subscribe to Newsletters</Name>
-    <Description>Registered and Unregistered users should be able to subscribe to newsletters for a 
-particular restaurant.</Description>
+    <Description>Registered and Unregistered users should be able to subscribe to newsletters for a particular restaurant.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to subscribe to newsletters for a \par
-particular restaurant.\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to subscribe to newsletters for a particular restaurant.\par
 }
 </RichDescription>
     <Sequence>6</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>6</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:24:21.1321326+03:00</DateAdded>
-    <DateModified>2020-05-18T12:19:32.0908747+03:00</DateModified>
+    <DateModified>2020-05-19T11:14:24.4943174+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -251,13 +249,13 @@ particular restaurant.\par
 </RichDescription>
     <Sequence>7</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:25:29.4574203+03:00</DateAdded>
-    <DateModified>2020-05-18T12:22:07.3670979+03:00</DateModified>
+    <DateModified>2020-05-19T11:14:46.799692+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -275,13 +273,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>8</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>5</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:28:57.244748+03:00</DateAdded>
-    <DateModified>2020-05-18T12:23:57.8663183+03:00</DateModified>
+    <DateModified>2020-05-19T11:16:04.6155136+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -297,13 +295,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:31:14.5639025+03:00</DateAdded>
-    <DateModified>2020-05-18T12:21:55.1367696+03:00</DateModified>
+    <DateModified>2020-05-19T11:14:55.010289+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -319,13 +317,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:33:43.6799598+03:00</DateAdded>
-    <DateModified>2020-05-18T12:21:43.432933+03:00</DateModified>
+    <DateModified>2020-05-19T11:15:42.0309073+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -341,13 +339,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:35:22.0039168+03:00</DateAdded>
-    <DateModified>2020-05-18T12:21:27.8288904+03:00</DateModified>
+    <DateModified>2020-05-19T11:15:46.6872937+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -369,13 +367,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>3</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:38:49.092307+03:00</DateAdded>
-    <DateModified>2020-05-18T12:22:59.8948595+03:00</DateModified>
+    <DateModified>2020-05-19T11:15:57.090395+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -391,13 +389,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>9</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>5</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:39:50.3761323+03:00</DateAdded>
-    <DateModified>2020-05-18T12:24:18.0504225+03:00</DateModified>
+    <DateModified>2020-05-19T11:16:36.6710538+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -413,13 +411,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>10</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>3</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:41:51.0843003+03:00</DateAdded>
-    <DateModified>2020-05-18T12:31:57.9050856+03:00</DateModified>
+    <DateModified>2020-05-19T11:16:54.2626211+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -430,13 +428,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
     <Description>The Registered user must be able to pay for the preorder via Bank service.</Description>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>5</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:24:55.1369079+03:00</DateAdded>
-    <DateModified>2020-05-18T12:24:09.7377177+03:00</DateModified>
+    <DateModified>2020-05-19T11:16:24.9198156+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -464,13 +462,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>8</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:31:38.1998171+03:00</DateAdded>
-    <DateModified>2020-05-18T12:17:32.4392052+03:00</DateModified>
+    <DateModified>2020-05-19T11:12:23.6389737+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -486,13 +484,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>3</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-05-18T12:04:31.0029803+03:00</DateAdded>
-    <DateModified>2020-05-18T12:15:45.4462119+03:00</DateModified>
+    <DateModified>2020-05-19T11:11:35.8558132+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -508,13 +506,13 @@ After that he must pay for the order during the reservation finalization (\cf2\u
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>3</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-05-18T12:12:52.2987731+03:00</DateAdded>
-    <DateModified>2020-05-18T12:13:43.5185278+03:00</DateModified>
+    <DateModified>2020-05-19T11:11:51.9998577+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

@@ -27,13 +27,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:37:34.6330097+03:00</DateAdded>
-    <DateModified>2020-05-18T12:24:38.1725977+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:00.3995873+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -55,13 +55,13 @@
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:38:33.1350048+03:00</DateAdded>
-    <DateModified>2020-05-18T12:26:35.8062467+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:19.1089702+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -83,13 +83,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:51:13.060495+03:00</DateAdded>
-    <DateModified>2020-05-18T12:26:52.8675647+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:36.0479536+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -107,13 +107,13 @@
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:53:33.2360312+03:00</DateAdded>
-    <DateModified>2020-05-18T12:27:20.7402896+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:37.9449558+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -129,13 +129,13 @@
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:54:24.5161142+03:00</DateAdded>
-    <DateModified>2020-05-18T12:27:29.8161743+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:41.0639494+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -151,13 +151,13 @@
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>5</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:57:59.3678337+03:00</DateAdded>
-    <DateModified>2020-05-18T12:29:01.7322227+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:48.031799+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -168,13 +168,13 @@
     <Description>Feedback information must include author of review, date and time of review, rating and text comment.</Description>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>5</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:01:15.3204308+03:00</DateAdded>
-    <DateModified>2020-05-18T12:28:52.6897894+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:52.3936975+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -190,13 +190,13 @@
 </RichDescription>
     <Sequence>3</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>7</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:07:33.3047801+03:00</DateAdded>
-    <DateModified>2020-05-18T12:29:26.1599041+03:00</DateModified>
+    <DateModified>2020-05-19T11:17:58.0088592+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -214,13 +214,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>7</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:09:57.7923334+03:00</DateAdded>
-    <DateModified>2020-05-03T14:32:36.6276996+03:00</DateModified>
+    <DateModified>2020-05-19T11:18:00.8961253+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -242,13 +242,13 @@
 </RichDescription>
     <Sequence>4</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>8</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:10:14.6241021+03:00</DateAdded>
-    <DateModified>2020-05-18T12:31:03.8875881+03:00</DateModified>
+    <DateModified>2020-05-19T11:18:09.0723346+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -264,13 +264,13 @@
 </RichDescription>
     <Sequence>5</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>3</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:20:07.7253591+03:00</DateAdded>
-    <DateModified>2020-05-18T12:32:08.8493987+03:00</DateModified>
+    <DateModified>2020-05-19T11:18:12.488005+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -286,13 +286,13 @@
 </RichDescription>
     <Sequence>6</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>6</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:20:42.2847092+03:00</DateAdded>
-    <DateModified>2020-05-18T12:32:18.0670014+03:00</DateModified>
+    <DateModified>2020-05-19T11:18:59.2095067+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -303,13 +303,13 @@
     <Description>The Restaurant manager should be able to add text content and upload images to the newsletter.</Description>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>6</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:31:22.9243777+03:00</DateAdded>
-    <DateModified>2020-05-18T12:32:29.5695276+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:00.9769913+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -320,13 +320,13 @@
     <Description>The Restaurant manager should be able to upload a finished newsletter.</Description>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>6</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:33:00.7846392+03:00</DateAdded>
-    <DateModified>2020-05-18T12:32:35.9833426+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:02.5283215+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

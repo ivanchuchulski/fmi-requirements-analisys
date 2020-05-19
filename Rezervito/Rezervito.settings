@@ -3,7 +3,7 @@
   <Version>2</Version>
   <PackageId>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</PackageId>
   <ShowDescendants>true</ShowDescendants>
-  <ProjectOpenedTabName>pgStart</ProjectOpenedTabName>
+  <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
   <Sorting>
     <UseCaseViewSortColumns>
       <string>Name</string>
@@ -36,12 +36,12 @@
       <boolean>false</boolean>
     </StoryViewSortOrder>
     <RequirementViewSortColumns>
-      <string>UserID</string>
+      <string>Priority</string>
       <string />
       <string />
     </RequirementViewSortColumns>
     <RequirementViewSortOrder>
-      <boolean>true</boolean>
+      <boolean>false</boolean>
       <boolean>false</boolean>
       <boolean>false</boolean>
     </RequirementViewSortOrder>
@@ -101,6 +101,9 @@
     <string>Rezervito\Client requirements\Book Table</string>
     <string>Rezervito\Client requirements\Preorder Food and Drinks</string>
     <string>Rezervito\Restaurant managers requirements\Change Restaurant Information</string>
+    <string>Rezervito\Unregistered Client Use Case</string>
+    <string>Rezervito\Registered Client Use Case</string>
+    <string>Rezervito\System Administrator Use Cases</string>
   </ExpandedNodes>
   <SelectedNode>Rezervito</SelectedNode>
   <Flags />

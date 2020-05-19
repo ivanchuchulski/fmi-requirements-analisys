@@ -27,13 +27,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T11:59:19.2958266+03:00</DateAdded>
-    <DateModified>2020-05-18T11:43:11.5709255+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:05.9767356+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -49,13 +49,13 @@
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>7</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:00:18.4117365+03:00</DateAdded>
-    <DateModified>2020-05-18T12:33:04.6588633+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:22.9766972+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -73,13 +73,13 @@
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:03:46.2196222+03:00</DateAdded>
-    <DateModified>2020-05-18T12:33:46.244508+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:28.2168499+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -95,35 +95,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:09:50.2328932+03:00</DateAdded>
-    <DateModified>2020-05-18T12:34:09.8368856+03:00</DateModified>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Requirement>
-  <Requirement>
-    <UniqueID>REQ-a55f3280-db1c-42eb-8391-e56641ae0d38</UniqueID>
-    <UserID>REQ-7-4</UserID>
-    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
-    <Name>Apply Updates</Name>
-    <Description>The System administrator must be able to apply updates to Rezervito after the Development Team adds features.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to apply updates to \cf3 Rezervito\cf1  after the \cf2\ul Development Team\cf1\ulnone  adds features.\par
-}
-</RichDescription>
-    <Sequence>3</Sequence>
-    <Type>Functional</Type>
-    <Priority>1</Priority>
-    <Source />
-    <Status />
-    <AssignedTo />
-    <Release />
-    <DateAdded>2020-04-16T12:12:25.3977653+03:00</DateAdded>
-    <DateModified>2020-05-18T12:34:25.2650181+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:43.1924571+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -137,15 +115,15 @@
 \viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to forward the bugs received from The \cf2\ul Registered\cf1\ulnone  client and \cf2\ul Restaurant manager\cf1\ulnone  clients to the \cf2\ul Development Team\cf1\ulnone .\par
 }
 </RichDescription>
-    <Sequence>4</Sequence>
+    <Sequence>3</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>3</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:14:47.694119+03:00</DateAdded>
-    <DateModified>2020-05-18T12:34:39.5524679+03:00</DateModified>
+    <DateModified>2020-05-19T11:21:08.9984391+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>
