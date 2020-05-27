@@ -168,7 +168,12 @@
     <UserID>REQ-8-4.2</UserID>
     <ParentID>REQ-4f45bca9-60bd-4a30-b17b-7d266072a4d4</ParentID>
     <Name>Language Support</Name>
-    <Description>The system's interface must support the following languages : Bulgarian, English, Spanish, Italian, German, Romanian, Serbian, Greek and Russian.</Description>
+    <Description>The system's interface must support the following languages : Bulgarian, English, Ukrainian, Italian, German, Romanian, Serbian, Greek and Russian.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system's interface must support the following languages : Bulgarian, English, Ukrainian, Italian, German, Romanian, Serbian, Greek and Russian.\par
+}
+</RichDescription>
     <Sequence>1</Sequence>
     <Type>Non-functional</Type>
     <Priority>9</Priority>
@@ -177,7 +182,51 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T13:29:46.0480956+03:00</DateAdded>
-    <DateModified>2020-05-19T11:25:19.6558815+03:00</DateModified>
+    <DateModified>2020-05-27T16:59:17.2027309+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cf90614f-785d-4c09-bdf4-522094e4dd5c</UniqueID>
+    <UserID>REQ-13-4</UserID>
+    <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
+    <Name>System Database Backup</Name>
+    <Description>Rezervito must create a backup of its databases once every 12 hours.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  must create a backup of its databases once every 12 hours.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>10</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T16:01:10.8328908+03:00</DateAdded>
+    <DateModified>2020-05-27T16:04:37.0267646+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5b30509d-bbbb-4686-a87f-596f9be32a80</UniqueID>
+    <UserID>REQ-13-5</UserID>
+    <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
+    <Name>Recoverability</Name>
+    <Description>In case of a system crash, Rezervito should recover in less than 2 hours without any loss of data.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In case of a system crash, \cf2 Rezervito\cf1  should recover in less than 2 hours without any loss of data.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>7</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T16:02:47.9185459+03:00</DateAdded>
+    <DateModified>2020-05-27T16:07:50.9429406+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

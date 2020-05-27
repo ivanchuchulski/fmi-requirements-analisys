@@ -39,49 +39,55 @@
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>Use cases.ucp</Path>
     <ElementID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ElementID>
-    <Sequence>2</Sequence>
+    <Sequence>3</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>Managers requirements.ucp</Path>
     <ElementID>P-41764189-9332-40c5-a7c5-272c5506b754</ElementID>
-    <Sequence>3</Sequence>
+    <Sequence>4</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>System administrators requirements.ucp</Path>
     <ElementID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ElementID>
-    <Sequence>4</Sequence>
+    <Sequence>5</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>Nonfunctional requirements.ucp</Path>
     <ElementID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ElementID>
-    <Sequence>5</Sequence>
+    <Sequence>6</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>Unregistered client use case.ucp</Path>
     <ElementID>P-97ed6958-dbbe-45a4-ae45-80a832c0a3bc</ElementID>
-    <Sequence>6</Sequence>
+    <Sequence>7</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>Registered client use case.ucp</Path>
     <ElementID>P-dd429602-b974-4c93-89f0-ca62872452eb</ElementID>
-    <Sequence>7</Sequence>
+    <Sequence>8</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>Restaurant Manager Use Cases.ucp</Path>
     <ElementID>P-c2c17939-3aa2-4714-b530-a2f88c00df5b</ElementID>
-    <Sequence>8</Sequence>
+    <Sequence>9</Sequence>
   </ElementStub>
   <ElementStub>
     <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
     <Path>System Administrator Use Cases.ucp</Path>
     <ElementID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ElementID>
-    <Sequence>9</Sequence>
+    <Sequence>10</Sequence>
+  </ElementStub>
+  <ElementStub>
+    <ParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ParentID>
+    <Path>System requirements.ucp</Path>
+    <ElementID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</ElementID>
+    <Sequence>2</Sequence>
   </ElementStub>
   <ExternalDoc>
     <UniqueID>EX-9a416160-c777-4974-a3e9-114569e821d6</UniqueID>

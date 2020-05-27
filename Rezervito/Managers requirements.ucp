@@ -143,10 +143,10 @@
     <UserID>REQ-6-3</UserID>
     <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
     <Name>View Feedback</Name>
-    <Description>The Restaurant manager should be able to see reviews by Registered users regarding his restaurant. Feedback details should include : (REQ-6-3.1)</Description>
+    <Description>The Restaurant manager should be able to see reviews by Registered users regarding his restaurant. (REQ-6-3.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to see reviews by \cf2\ul Registered\cf1\ulnone  users regarding his restaurant. Feedback details should include : (\cf2\ul REQ-6-3.1\cf1\ulnone )\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  should be able to see reviews by \cf2\ul Registered\cf1\ulnone  users regarding his restaurant. (\cf2\ul REQ-6-3.1\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -157,7 +157,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T17:57:59.3678337+03:00</DateAdded>
-    <DateModified>2020-05-19T11:17:48.031799+03:00</DateModified>
+    <DateModified>2020-05-27T15:48:48.9510243+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -204,12 +204,10 @@
     <UserID>REQ-6-4.1</UserID>
     <ParentID>REQ-b7f4f095-2fe0-4522-8dc6-0bd6575d72ae</ParentID>
     <Name>Restaurant Information</Name>
-    <Description>Restaurant information must include address, phone, work time, description, menu and photo gallery.
- </Description>
+    <Description>Restaurant information must include address, phone, work time, description, menu and photo gallery.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\lang1033\f0\fs20 Restaurant information must include address, phone, work time, description, menu and photo gallery.\par
- \par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -220,7 +218,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T18:09:57.7923334+03:00</DateAdded>
-    <DateModified>2020-05-19T11:18:00.8961253+03:00</DateModified>
+    <DateModified>2020-05-27T16:56:32.738594+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -329,6 +327,28 @@
     <DateModified>2020-05-19T11:19:02.5283215+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
+  <Requirement>
+    <UniqueID>REQ-fe770d23-72d0-4906-834b-6dc3b70c460f</UniqueID>
+    <UserID>REQ-6-8</UserID>
+    <ParentID>P-41764189-9332-40c5-a7c5-272c5506b754</ParentID>
+    <Name>Generate report</Name>
+    <Description>The Restaurant manager must be able to generate reports for reservations made over a period of time.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  must be able to generate reports for reservations made over a period of time.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Functional</Type>
+    <Priority>8</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T16:41:53.2779564+03:00</DateAdded>
+    <DateModified>2020-05-27T16:44:21.5705514+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
   <UserID>
     <DefaultPrefix>UC-6-</DefaultPrefix>
     <NextValue>1</NextValue>
@@ -339,7 +359,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-6-</DefaultPrefix>
-    <NextValue>8</NextValue>
+    <NextValue>9</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>DEF-6-</DefaultPrefix>

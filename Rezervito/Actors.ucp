@@ -42,7 +42,7 @@
     <Sequence>2</Sequence>
     <Complexity>Medium</Complexity>
     <DateAdded>2020-04-12T11:05:23.2498822+03:00</DateAdded>
-    <DateModified>2020-05-03T14:42:17.0631824+03:00</DateModified>
+    <DateModified>2020-05-27T16:45:08.5081495+03:00</DateModified>
   </Actor>
   <ElementStub>
     <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
@@ -208,6 +208,17 @@
 }
 </RichDescription>
     <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-6453868b-ca73-4ccb-85f7-826da74e4371</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Generate reservations report (UC-11-6)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Generate reservations report (\cf1\ul UC-11-6\cf0\ulnone )\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
   </Goal>
   <UserID>
     <DefaultPrefix>UC-1-</DefaultPrefix>

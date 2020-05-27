@@ -72,7 +72,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-02T14:39:09.2398524+03:00</DateAdded>
-    <DateModified>2020-05-18T11:38:44.8719464+03:00</DateModified>
+    <DateModified>2020-05-27T16:29:25.466757+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-668fe569-1bdd-4df4-a3cd-a421322e639c</UniqueID>
@@ -687,10 +687,10 @@
   <Step>
     <UniqueID>ST-50288107-4504-4f22-82ad-54bb3c5d3700</UniqueID>
     <ParentID>X-e2ea6334-1b32-49c4-aed1-f668c113deae</ParentID>
-    <Description>Filter By Food Type (REQ-5-4.1)</Description>
+    <Description>Filter By Cuisine Type (REQ-5-4.1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Food Type (\cf2\ul REQ-5-4.1\cf1\ulnone )\par
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Cuisine Type (\cf2\ul REQ-5-4.1\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -1056,10 +1056,10 @@
   <Extension>
     <UniqueID>X-e2ea6334-1b32-49c4-aed1-f668c113deae</UniqueID>
     <ParentID>ST-711a9276-95fe-4a24-acdc-afe4c74a0d23</ParentID>
-    <Description>Filter By Food Type</Description>
+    <Description>Filter By Cuisine Type</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Food Type\cf0\par
+\viewkind4\uc1\pard\cf1\f0\fs20 Filter By Cuisine Type\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>

@@ -72,7 +72,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-03T14:06:10.0390105+03:00</DateAdded>
-    <DateModified>2020-05-18T11:52:19.7452133+03:00</DateModified>
+    <DateModified>2020-05-27T16:46:22.1982023+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-6ecab095-e031-4e56-b799-5534bec8a9fa</UniqueID>
@@ -134,6 +134,26 @@
     <DateAdded>2020-05-03T14:08:56.5620473+03:00</DateAdded>
     <DateModified>2020-05-18T11:57:38.8309607+03:00</DateModified>
   </UseCase>
+  <UseCase>
+    <UniqueID>UC-23df94b7-d514-444b-9fe9-26c32f99c7f4</UniqueID>
+    <UserID>UC-11-6</UserID>
+    <ParentID>P-c2c17939-3aa2-4714-b530-a2f88c00df5b</ParentID>
+    <Name>Generate reservations report</Name>
+    <Sequence>6</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-27T16:45:08.4762596+03:00</DateAdded>
+    <DateModified>2020-05-27T17:11:39.529932+03:00</DateModified>
+  </UseCase>
   <Diagram>
     <UniqueID>D-f0019f73-2d67-4e11-a61c-1be7383374af</UniqueID>
     <ParentID>P-c2c17939-3aa2-4714-b530-a2f88c00df5b</ParentID>
@@ -153,11 +173,6 @@
     <Kind>0</Kind>
   </UCActor>
   <UCActor>
-    <ParentID>UC-5780aa84-8211-4f81-828a-48dde9a80c74</ParentID>
-    <ActorID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ActorID>
-    <Kind>0</Kind>
-  </UCActor>
-  <UCActor>
     <ParentID>UC-84775654-f307-4b69-8f3a-139857c5d441</ParentID>
     <ActorID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ActorID>
     <Kind>0</Kind>
@@ -172,6 +187,20 @@
     <ActorID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ActorID>
     <Kind>0</Kind>
   </UCActor>
+  <UCActor>
+    <ParentID>UC-5780aa84-8211-4f81-828a-48dde9a80c74</ParentID>
+    <ActorID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-23df94b7-d514-444b-9fe9-26c32f99c7f4</ParentID>
+    <ActorID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCReq>
+    <ParentID>UC-5780aa84-8211-4f81-828a-48dde9a80c74</ParentID>
+    <ReqID>REQ-fe770d23-72d0-4906-834b-6dc3b70c460f</ReqID>
+  </UCReq>
   <Scenario>
     <UniqueID>MSS-6b15af54-5c32-40b8-bc0d-ad207408a37f</UniqueID>
     <ParentID>UC-5780aa84-8211-4f81-828a-48dde9a80c74</ParentID>
@@ -195,6 +224,10 @@
   <Scenario>
     <UniqueID>MSS-927f5327-68ab-44a4-b667-2d6a7ef212b6</UniqueID>
     <ParentID>UC-220c0c64-b559-43e8-becb-c4b7ba4dd273</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-83bdf8e6-fe18-4f34-8f4b-43f39387b53b</UniqueID>
+    <ParentID>UC-23df94b7-d514-444b-9fe9-26c32f99c7f4</ParentID>
   </Scenario>
   <Step>
     <UniqueID>ST-aa853766-f4b4-4ede-8b51-f624238bc76f</UniqueID>
@@ -671,6 +704,66 @@
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
+  <Step>
+    <UniqueID>ST-5ffd2e43-03c3-4ef9-83b0-7edffd318059</UniqueID>
+    <ParentID>MSS-83bdf8e6-fe18-4f34-8f4b-43f39387b53b</ParentID>
+    <Description>The Restaurant manager views his restaurant (UC-1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul Restaurant manager\cf2\ulnone  views his restaurant (\cf1\ul UC-1\cf2\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-9981e766-4d21-4718-9b7e-bd4f40779e1e</UniqueID>
+    <ParentID>MSS-83bdf8e6-fe18-4f34-8f4b-43f39387b53b</ParentID>
+    <Description>The Restaurant manager selects the option to view reservations (REQ-6-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul Restaurant manager\cf2\ulnone  selects the option to view reservations (\cf1\ul REQ-6-2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a25ee62d-5587-43da-bcf9-bec37085bbac</UniqueID>
+    <ParentID>MSS-83bdf8e6-fe18-4f34-8f4b-43f39387b53b</ParentID>
+    <Description>The Restaurant manager selects the option to generate a report (REQ-6-8)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  selects the option to generate a report (\cf2\ul REQ-6-8\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-08891b6c-bd58-476f-8e18-9379613f7ba6</UniqueID>
+    <ParentID>MSS-83bdf8e6-fe18-4f34-8f4b-43f39387b53b</ParentID>
+    <Description>The Restaurant manager selects the period of time to include in the report</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Restaurant manager\cf1\ulnone  selects the period of time to include in the report\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-afffc1e2-919c-47ab-a5a7-8283bc2e2d2a</UniqueID>
+    <ParentID>MSS-83bdf8e6-fe18-4f34-8f4b-43f39387b53b</ParentID>
+    <Description>Rezervito generates a report in PDF format</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  generates a report in PDF format\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
   <Extension>
     <UniqueID>X-a0a8169a-bcaa-49fa-9573-c754f9f1b28a</UniqueID>
     <ParentID>ST-d1ef109f-6ae3-45ab-8b51-0f964a5138e2</ParentID>
@@ -742,7 +835,7 @@
   </Extension>
   <UserID>
     <DefaultPrefix>UC-11-</DefaultPrefix>
-    <NextValue>6</NextValue>
+    <NextValue>7</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>A-11-</DefaultPrefix>

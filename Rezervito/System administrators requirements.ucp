@@ -63,11 +63,11 @@
     <UserID>REQ-7-3</UserID>
     <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
     <Name>Manage Restaurant Managers Accounts</Name>
-    <Description>The System administrator should be able to create (REQ-7-3.1), edit and delete Restaurant manager accounts.
+    <Description>The System administrator should be able to create (REQ-7-3.1), edit (REQ-7-3.2) and delete Restaurant manager accounts (REQ-7-3.3).
 </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  should be able to create (\cf2\ul REQ-7-3.1\cf1\ulnone ), edit and delete \cf2\ul Restaurant manager\cf1\ulnone  accounts.\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  should be able to create (\cf2\ul REQ-7-3.1\cf1\ulnone ), edit (\cf2\ul REQ-7-3.2\cf1\ulnone ) and delete \cf2\ul Restaurant manager\cf1\ulnone  accounts (\cf2\ul REQ-7-3.3\cf1\ulnone ).\par
 \par
 }
 </RichDescription>
@@ -79,14 +79,14 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:03:46.2196222+03:00</DateAdded>
-    <DateModified>2020-05-19T11:19:28.2168499+03:00</DateModified>
+    <DateModified>2020-05-27T15:43:08.4169076+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-7e9e7165-5747-4934-9c1c-73c91bea8569</UniqueID>
     <UserID>REQ-7-3.1</UserID>
     <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
-    <Name>Restaurant Manager Account Creation</Name>
+    <Name>Create Restaurant Manager Account</Name>
     <Description>The System administrator should be able to create an account for the Restaurant manager after the latter had supplied him with the necessary information about the account creation process.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
@@ -101,7 +101,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:09:50.2328932+03:00</DateAdded>
-    <DateModified>2020-05-19T11:19:43.1924571+03:00</DateModified>
+    <DateModified>2020-05-27T15:44:09.5122897+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -124,6 +124,40 @@
     <Release />
     <DateAdded>2020-04-16T12:14:47.694119+03:00</DateAdded>
     <DateModified>2020-05-19T11:21:08.9984391+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0427bccd-2f45-40a7-98cb-4e55edf7f4c6</UniqueID>
+    <UserID>REQ-7-3.2</UserID>
+    <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
+    <Name>Edit Restaurant Manager Accounts by Admin</Name>
+    <Description>The System administrator should be able to edit Restaurant manager accounts.</Description>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>7</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:42:19.2930254+03:00</DateAdded>
+    <DateModified>2020-05-27T15:49:27.9563641+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-77de9b34-3682-4f72-90a2-a8daf31657db</UniqueID>
+    <UserID>REQ-7-3.3</UserID>
+    <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
+    <Name>Delete Restaurant Manager Accounts</Name>
+    <Description>The System administrator should be able to delete Restaurant manager accounts</Description>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>7</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:43:07.7547649+03:00</DateAdded>
+    <DateModified>2020-05-27T15:49:24.9344187+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

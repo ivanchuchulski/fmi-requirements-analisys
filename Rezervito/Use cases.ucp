@@ -19,10 +19,10 @@
     <UserID>REQ-5-1</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>User Registration</Name>
-    <Description>Unregistered users should be able to register in Rezervito.</Description>
+    <Description>Unregistered users must be able to register in Rezervito.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  users should be able to register in \cf3 Rezervito\cf2 .\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Unregistered\cf2\ulnone  users must be able to register in \cf3 Rezervito\cf2 .\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -33,7 +33,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:48:12.4553041+03:00</DateAdded>
-    <DateModified>2020-05-19T11:11:29.4510409+03:00</DateModified>
+    <DateModified>2020-05-27T16:24:40.754476+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -62,11 +62,11 @@
     <UniqueID>REQ-56db57cf-411e-4c3c-bbfa-41365027051a</UniqueID>
     <UserID>REQ-5-3</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
-    <Name>Browse Restaurant's catalog</Name>
-    <Description>Registered and Unregistered users should be able to browse in restaurants catalog. The user than can see details about a specified restaurant (REQ-5-3.1).</Description>
+    <Name>Browse Catalog of Restaurants</Name>
+    <Description>Registered and Unregistered users should be able to browse the catalog of restaurants. Then the user than can see details about a specified restaurant (REQ-5-3.1).</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to browse in restaurants catalog. The user than can see details about a specified restaurant (\cf1\ul REQ-5-3.1\cf2\ulnone ).\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to browse the catalog of restaurants. Then the user than can see details about a specified restaurant (\cf1\ul REQ-5-3.1\cf2\ulnone ).\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -77,7 +77,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T11:57:55.0844291+03:00</DateAdded>
-    <DateModified>2020-05-19T11:12:11.1191199+03:00</DateModified>
+    <DateModified>2020-05-27T16:27:29.1757949+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -106,11 +106,11 @@
     <UniqueID>REQ-5def094d-786c-4d38-b741-c24121643913</UniqueID>
     <UserID>REQ-5-4.1</UserID>
     <ParentID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</ParentID>
-    <Name>Filter By Food Type</Name>
-    <Description>Registered and Unregistered users should be able to filter restaurants by food type.</Description>
+    <Name>Filter By Cuisine Type</Name>
+    <Description>Registered and Unregistered users should be able to filter restaurants by cuisine type.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to filter restaurants by food type.\par
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to filter restaurants by c\cf0 uisine \cf2 type.\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -121,7 +121,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:08:35.6160845+03:00</DateAdded>
-    <DateModified>2020-05-19T11:13:17.5279491+03:00</DateModified>
+    <DateModified>2020-05-27T16:29:01.1164171+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -129,10 +129,10 @@
     <UserID>REQ-5-4.2</UserID>
     <ParentID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</ParentID>
     <Name>Filter by Nearest Restaurants</Name>
-    <Description>Registered and Unregistered users should be able to see a list of the nearest restaurants depending on his current GPS position.</Description>
+    <Description>Registered and Unregistered users should be able to see a list of the nearest restaurants and their location on Google Maps, depending on the user's current GPS position.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to see a list of the nearest restaurants depending on his current GPS position.\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to see a list of the nearest restaurants and their location on \cf1\ul Google\cf2\ulnone  Maps, depending on the user's current GPS position.\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -143,7 +143,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:09:24.8440858+03:00</DateAdded>
-    <DateModified>2020-05-19T11:13:21.990619+03:00</DateModified>
+    <DateModified>2020-05-27T16:55:24.4339019+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -151,10 +151,10 @@
     <UserID>REQ-5-4.3</UserID>
     <ParentID>REQ-0cb37ec1-fffd-4961-af1b-d0a481f4c85e</ParentID>
     <Name>Filter by Price</Name>
-    <Description>Registered and Unregistered users should be able to filter restaurants by price category.</Description>
+    <Description>Registered and Unregistered users should be able to filter restaurants by setting upper and lower price boundary per person.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to filter restaurants by price category.\par
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to filter restaurants by setting upper and lower price boundary per person.\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -165,7 +165,7 @@
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:11:00.7364957+03:00</DateAdded>
-    <DateModified>2020-05-19T11:13:26.8467267+03:00</DateModified>
+    <DateModified>2020-05-27T16:34:28.3543644+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -173,12 +173,10 @@
     <UserID>REQ-5-5</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Search Restaurants by Name</Name>
-    <Description>Registered and Unregistered users should be able to find restaurants by 
-name.</Description>
+    <Description>Registered and Unregistered users should be able to find restaurants by name.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to find restaurants by \par
-name.\par
+\viewkind4\uc1\pard\cf1\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to find restaurants by name.\par
 }
 </RichDescription>
     <Sequence>4</Sequence>
@@ -189,7 +187,7 @@ name.\par
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:21:48.9995067+03:00</DateAdded>
-    <DateModified>2020-05-19T11:13:37.1504455+03:00</DateModified>
+    <DateModified>2020-05-27T15:48:06.9580033+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -263,12 +261,10 @@ name.\par
     <UserID>REQ-5-9</UserID>
     <ParentID>P-3189a066-7abf-4482-b629-9f73fa72ad2e</ParentID>
     <Name>Preorder Food and Drinks</Name>
-    <Description>The Registered user should be able to preorder appetizers and drinks.
-After that he must pay for the order during the reservation finalization (REQ-5-9.1) .</Description>
+    <Description>The Registered user should be able to preorder appetizers and drinks. </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Registered\cf1\ulnone  user should be able to preorder appetizers and drinks.\par
-After that he must pay for the order during the reservation finalization (\cf2\ul REQ-5-9.1\cf1\ulnone ) .\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul Registered\cf1\ulnone  user should be able to preorder appetizers and drinks. \par
 }
 </RichDescription>
     <Sequence>8</Sequence>
@@ -279,7 +275,7 @@ After that he must pay for the order during the reservation finalization (\cf2\u
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:28:57.244748+03:00</DateAdded>
-    <DateModified>2020-05-19T11:16:04.6155136+03:00</DateModified>
+    <DateModified>2020-05-27T15:48:01.3441549+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -330,11 +326,11 @@ After that he must pay for the order during the reservation finalization (\cf2\u
     <UniqueID>REQ-20770808-42a5-4979-bf0a-b79ea455868e</UniqueID>
     <UserID>REQ-5-8.3</UserID>
     <ParentID>REQ-d93e569c-c25f-4779-b56f-df9b7084d6fc</ParentID>
-    <Name>Reservation Preferred Table Location</Name>
-    <Description>Registered and Unregistered users should be able to choose a table location in the restaurant.</Description>
+    <Name>Reservation Preferred Table</Name>
+    <Description>Registered and Unregistered users should be able to choose a table in the restaurant from an interactive top-down map.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to choose a table location in the restaurant.\par
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Registered\cf2\ulnone  and \cf1\ul Unregistered\cf2\ulnone  users should be able to choose a table in the restaurant from an interactive top-down map.\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
@@ -345,7 +341,7 @@ After that he must pay for the order during the reservation finalization (\cf2\u
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-12T12:35:22.0039168+03:00</DateAdded>
-    <DateModified>2020-05-19T11:15:46.6872937+03:00</DateModified>
+    <DateModified>2020-05-27T16:52:45.1750795+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>

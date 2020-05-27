@@ -52,7 +52,7 @@
     <TestingSetup />
     <TestingConfigurations />
     <DateAdded>2020-05-03T14:47:52.1337917+03:00</DateAdded>
-    <DateModified>2020-05-18T12:39:35.8397188+03:00</DateModified>
+    <DateModified>2020-05-27T16:13:59.7065193+03:00</DateModified>
   </UseCase>
   <UseCase>
     <UniqueID>UC-65045966-35a7-4018-a3fa-5c4b45f72dc5</UniqueID>
@@ -118,6 +118,22 @@
     <ActorID>A-14063d45-7851-48b4-971a-236c6357271d</ActorID>
     <Kind>0</Kind>
   </UCActor>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-7e9e7165-5747-4934-9c1c-73c91bea8569</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-77de9b34-3682-4f72-90a2-a8daf31657db</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-0427bccd-2f45-40a7-98cb-4e55edf7f4c6</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ReqID>
+  </UCReq>
   <Scenario>
     <UniqueID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</UniqueID>
     <ParentID>UC-0c454960-2ac3-4f18-85f6-e038492193e2</ParentID>
@@ -317,10 +333,10 @@
   <Step>
     <UniqueID>ST-63231fca-26e6-47c4-aef3-6849353e2300</UniqueID>
     <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
-    <Description>The System administrator chooses to add Restaurant manager (REQ-7-3) or remove Registered user accounts (REQ-7-2)</Description>
+    <Description>The System administrator chooses to add Restaurant manager (REQ-7-3) or remove user accounts (REQ-7-2)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to add \cf1\ul Restaurant manager\cf2\ulnone  (\cf1\ul REQ-7-3\cf2\ulnone ) or remove \cf1\ul Registered\cf2\ulnone  user accounts (\cf1\ul REQ-7-2\cf2\ulnone )\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to add \cf1\ul Restaurant manager\cf2\ulnone  (\cf1\ul REQ-7-3\cf2\ulnone ) or remove user accounts (\cf1\ul REQ-7-2\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>3</Sequence>
@@ -389,10 +405,10 @@
   <Step>
     <UniqueID>ST-459cd846-868b-403b-a328-b6d2a1f3eec8</UniqueID>
     <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
-    <Description>The System administrator selects the option to delete account</Description>
+    <Description>The System administrator selects the option to delete account (REQ-7-3.3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to delete account\cf0\par
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to delete account (\cf1\ul REQ-7-3.3\cf2\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
@@ -489,6 +505,53 @@
     <Sequence>1</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Step>
+  <Step>
+    <UniqueID>ST-a16495b0-1149-4da9-a4ef-59d0a4cdf75a</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>The System administrator selects the user account </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the user account \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ec9c9cbf-36c2-4ab4-82db-abae42c81aca</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>The System administrator selects the option to edit account (REQ-7-3.2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to edit account (\cf1\ul REQ-7-3.2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-efbe0af9-e076-4a16-947f-09146efc3811</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>Rezervito updates the user account in the database</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  updates the user account in the database\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1298dce1-7a52-4753-9495-7eacde2d0e1c</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
   <Extension>
     <UniqueID>X-05b03ab3-466e-41a1-b21b-f5949f8ccc4e</UniqueID>
     <ParentID>ST-31553171-8699-4212-982d-08510db4d796</ParentID>
@@ -555,6 +618,18 @@
 }
 </RichDescription>
     <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-445c3270-6564-432b-895e-0cddd52138c2</UniqueID>
+    <ParentID>ST-63231fca-26e6-47c4-aef3-6849353e2300</ParentID>
+    <Description>Choose edit user account</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Choose edit user account\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Extension>
   <UserID>
