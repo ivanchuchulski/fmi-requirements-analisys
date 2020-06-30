@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7411</SavedWith>
+    <CreatedWith>14.0.7411</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>System requirements</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <Requirement>
+    <UniqueID>REQ-4878baf6-8728-4b71-b08b-39db2042f7df</UniqueID>
+    <UserID>REQ-13-1</UserID>
+    <ParentID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</ParentID>
+    <Name>System User Types</Name>
+    <Description>Rezervito must support the registration of three types of users: Registered users, Restaurant managers and System Administrator.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  must support the registration of three types of users: \cf3\ul Registered\cf2\ulnone  users, \cf3\ul Restaurant managers\cf2\ulnone  and \cf3\ul System Administrator\cf2\ulnone .\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <Type>Functional</Type>
+    <Priority>10</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:51:05.6144081+03:00</DateAdded>
+    <DateModified>2020-05-27T15:54:04.653453+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-a37be100-e84a-41a8-9fb9-3d479b3dc40d</UniqueID>
+    <UserID>REQ-13-2</UserID>
+    <ParentID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</ParentID>
+    <Name>System Payment Method</Name>
+    <Description>Rezervito must support payment through a Bank service.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  must support payment through a \cf3\ul Bank service\cf2\ulnone .\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>8</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:53:41.3253239+03:00</DateAdded>
+    <DateModified>2020-05-27T15:57:20.3551894+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-771f9a58-379f-4201-b3c5-71f5837862c1</UniqueID>
+    <UserID>REQ-13-3</UserID>
+    <ParentID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</ParentID>
+    <Name>System Google Maps Integration</Name>
+    <Description>Rezervito must be integrated with Google Maps to use their API.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  must be integrated with \cf3\ul Google\cf2\ulnone  Maps to use their API.\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>9</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:58:02.8147359+03:00</DateAdded>
+    <DateModified>2020-05-27T16:38:26.8108689+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cbb99ed3-50cd-4a96-9dd6-0c1738849a1a</UniqueID>
+    <UserID>REQ-13-6</UserID>
+    <ParentID>P-0e0542da-b08e-4e53-b47a-570b5a0ab04a</ParentID>
+    <Name>System Report Generation</Name>
+    <Description>At the start of every week, Rezervito must automatically generate a report for reservations made over the past week in PDF format and send it to the Restaurant manager.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 At the start of every week, \cf2 Rezervito\cf1  must automatically generate a report for reservations made over the past week in PDF format and send it to the \cf3\ul Restaurant manager\cf1\ulnone .\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <Type>Functional</Type>
+    <Priority>8</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T16:34:58.7997039+03:00</DateAdded>
+    <DateModified>2020-05-27T16:38:10.9912385+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <UserID>
+    <DefaultPrefix>UC-13-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-13-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-13-</DefaultPrefix>
+    <NextValue>7</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-13-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-13-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>

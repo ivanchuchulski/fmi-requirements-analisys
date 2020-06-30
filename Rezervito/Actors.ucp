@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -22,7 +22,7 @@
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2020-04-12T11:05:26.9019856+03:00</DateAdded>
-    <DateModified>2020-04-12T11:31:02.3506522+03:00</DateModified>
+    <DateModified>2020-05-03T14:50:00.147825+03:00</DateModified>
   </Actor>
   <Actor>
     <UniqueID>A-2532379a-dce5-4f78-a8ac-632483f9917c</UniqueID>
@@ -42,7 +42,7 @@
     <Sequence>2</Sequence>
     <Complexity>Medium</Complexity>
     <DateAdded>2020-04-12T11:05:23.2498822+03:00</DateAdded>
-    <DateModified>2020-04-12T11:31:05.3295722+03:00</DateModified>
+    <DateModified>2020-05-27T16:45:08.5081495+03:00</DateModified>
   </Actor>
   <ElementStub>
     <ParentID>P-b1947b33-ea81-4433-8eea-2ce3890d8f52</ParentID>
@@ -59,33 +59,24 @@
   <Goal>
     <UniqueID>G-cc3b258b-eb4a-4fd4-8c77-13d6f8ca61c2</UniqueID>
     <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
-    <Description>Manage user accounts</Description>
+    <Description>Manage user accounts (UC-4)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Manage user accounts\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Manage user accounts (\cf1\ul UC-4\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
   </Goal>
   <Goal>
-    <UniqueID>G-0df465ad-a6e9-47c7-8223-c97446a83545</UniqueID>
+    <UniqueID>G-1fb869ba-4d70-4f87-8e5a-25937684c6bf</UniqueID>
     <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
-    <Description>Apply updates</Description>
+    <Description>Report bugs to Development Team (UC-5)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Apply updates\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Report bugs to \cf1\ul Development Team (UC-5)\cf0\ulnone\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
-  </Goal>
-  <Goal>
-    <UniqueID>G-1fb869ba-4d70-4f87-8e5a-25937684c6bf</UniqueID>
-    <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
-    <Description>Report bugs to Development Team</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue255;}
-\viewkind4\uc1\pard\f0\fs20 Report bugs to \cf1\ul Development Team\cf0\ulnone\par
-}
-</RichDescription>
-    <Sequence>2</Sequence>
   </Goal>
   <Goal>
     <UniqueID>G-7676d97f-fc11-4828-899b-3d55a1ac8d05</UniqueID>
@@ -133,10 +124,10 @@
   <Goal>
     <UniqueID>G-f6e4b093-52cf-4269-9cbe-a54a8b80798e</UniqueID>
     <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
-    <Description>Login in Rezervito</Description>
+    <Description>Login in Rezervito (UC-11-3)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red128\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 Login in \cf1 Rezervito\cf0\par
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Login in \cf1 Rezervito (\cf2\ul UC-11-3\cf1\ulnone )\cf0\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -144,46 +135,90 @@
   <Goal>
     <UniqueID>G-db56ea15-d132-4824-aac7-b4658f3b8080</UniqueID>
     <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
-    <Description>View reservations info</Description>
+    <Description>View reservations info (UC-11-5)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 View reservations info\par
-}
-</RichDescription>
-    <Sequence>1</Sequence>
-  </Goal>
-  <Goal>
-    <UniqueID>G-bed08680-2a43-4513-99e8-75cf2d687ea2</UniqueID>
-    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
-    <Description>Update newsletters</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Update newsletters\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 View reservations info (\cf2\ul UC-11-5\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>2</Sequence>
   </Goal>
   <Goal>
-    <UniqueID>G-7c16fcdb-6492-43ee-81ee-a1bd8c92747c</UniqueID>
+    <UniqueID>G-bed08680-2a43-4513-99e8-75cf2d687ea2</UniqueID>
     <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
-    <Description>Check feedback</Description>
+    <Description>Update newsletters (UC-11-4)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Check feedback\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Update newsletters (\cf2\ul UC-11-4\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>3</Sequence>
   </Goal>
   <Goal>
-    <UniqueID>G-3664377a-ec5d-4efc-b1df-4977e44303df</UniqueID>
+    <UniqueID>G-7c16fcdb-6492-43ee-81ee-a1bd8c92747c</UniqueID>
     <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
-    <Description>Edit restaurant info</Description>
+    <Description>Check feedback (UC-11-1)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 Edit restaurant info\par
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Check feedback (\cf2\ul UC-11-1\cf1\ulnone )\par
 }
 </RichDescription>
     <Sequence>4</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-3664377a-ec5d-4efc-b1df-4977e44303df</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Edit restaurant info (UC-11-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Edit restaurant info (\cf2\ul UC-11-2\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>5</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-d656622e-0958-46a9-9848-30004eb830bc</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>View restaurant info (UC-1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 View restaurant info (\cf1\ul UC-1\cf0\ulnone )\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-3ba911c6-5504-4117-acc2-3841e38e7ccb</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Report bugs (UC-10-4) (UC-11-6)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Report bugs (\cf1\ul UC-10-4\cf0\ulnone ) (\cf1\ul UC-11-6\cf0\ulnone )\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-c1653076-3ce6-4347-b5e7-efd3cbdbfee1</UniqueID>
+    <ParentID>A-14063d45-7851-48b4-971a-236c6357271d</ParentID>
+    <Description>Login (UC-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Login (\cf1\ul UC-3\cf0\ulnone )\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+  </Goal>
+  <Goal>
+    <UniqueID>G-6453868b-ca73-4ccb-85f7-826da74e4371</UniqueID>
+    <ParentID>A-3aca14bf-6c23-4ead-affe-1f9c7075be6a</ParentID>
+    <Description>Generate reservations report (UC-11-6)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Generate reservations report (\cf1\ul UC-11-6\cf0\ulnone )\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
   </Goal>
   <UserID>
     <DefaultPrefix>UC-1-</DefaultPrefix>

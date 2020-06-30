@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ModelSettings xmlns:Serlio="http://www.serliosoft.com/modelsettings">
   <Version>2</Version>
-  <PackageId>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</PackageId>
+  <PackageId>P-c2c17939-3aa2-4714-b530-a2f88c00df5b</PackageId>
   <ShowDescendants>true</ShowDescendants>
-  <ProjectOpenedTabName>pgRequirements</ProjectOpenedTabName>
+  <ProjectOpenedTabName>pgStart</ProjectOpenedTabName>
   <Sorting>
     <UseCaseViewSortColumns>
       <string>Name</string>
@@ -80,7 +80,7 @@
   </StoryList>
   <RequirementList>
     <Columns>Name,UserID,ReqType,Priority,Package,_flag</Columns>
-    <ColumnWidths>350,65,136,63,89,45</ColumnWidths>
+    <ColumnWidths>350,65,136,63,271,45</ColumnWidths>
   </RequirementList>
   <IssueList>
     <Columns>Description,Status,AppliesTo,AssignedTo,Priority,ResolveBy,_flag</Columns>
@@ -94,8 +94,14 @@
   <OpenFilters />
   <ExpandedNodes>
     <string>Rezervito</string>
-    <string>Rezervito\Client requirements</string>
+    <string>Rezervito\Client requirements\User Registration</string>
+    <string>Rezervito\Client requirements\User Login</string>
+    <string>Rezervito\Client requirements\Book Table</string>
+    <string>Rezervito\Client requirements\Preorder Food and Drinks</string>
+    <string>Rezervito\Restaurant managers requirements\Change Restaurant Information</string>
+    <string>Rezervito\System administrators requirements\Manage Restaurant Managers Accounts</string>
+    <string>Rezervito\Unregistered Client Use Case</string>
   </ExpandedNodes>
-  <SelectedNode>Rezervito\Client requirements\Client preorder</SelectedNode>
+  <SelectedNode>Rezervito\Unregistered Client Use Case\Unregistered Client Use Case</SelectedNode>
   <Flags />
 </ModelSettings>

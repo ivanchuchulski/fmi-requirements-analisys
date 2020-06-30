@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -18,7 +18,7 @@
     <UniqueID>REQ-46fe5d46-dfa8-4b77-bd5e-f22a4046adbb</UniqueID>
     <UserID>REQ-7-1</UserID>
     <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
-    <Name>Login </Name>
+    <Name>System Administrator Login</Name>
     <Description>The System administrator must be able to login in Rezervito.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
@@ -27,125 +27,137 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T11:59:19.2958266+03:00</DateAdded>
-    <DateModified>2020-04-16T12:00:15.5518921+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:05.9767356+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-f1959c5c-cd6c-4032-b8d6-ccfffad3c769</UniqueID>
     <UserID>REQ-7-2</UserID>
     <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
-    <Name>Manage client accounts</Name>
-    <Description>The System administrator must be able to edit and delete Registered client accounts.</Description>
+    <Name>Manage Client Accounts</Name>
+    <Description>The System administrator should be able to edit and delete Registered client accounts.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to edit and delete \cf2\ul Registered\cf1\ulnone  client accounts.\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  should be able to edit and delete \cf2\ul Registered\cf1\ulnone  client accounts.\par
 }
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>7</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:00:18.4117365+03:00</DateAdded>
-    <DateModified>2020-04-16T12:03:44.0039489+03:00</DateModified>
+    <DateModified>2020-05-19T11:19:22.9766972+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</UniqueID>
     <UserID>REQ-7-3</UserID>
     <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
-    <Name>Manage restaurant managers accounts</Name>
-    <Description>The System administrator must be able to create (REQ-7-3.1), edit and delete Restaurant manager accounts.
+    <Name>Manage Restaurant Managers Accounts</Name>
+    <Description>The System administrator should be able to create (REQ-7-3.1), edit (REQ-7-3.2) and delete Restaurant manager accounts (REQ-7-3.3).
 </Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to create (\cf2\ul REQ-7-3.1\cf1\ulnone ), edit and delete \cf2\ul Restaurant manager\cf1\ulnone  accounts.\par
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  should be able to create (\cf2\ul REQ-7-3.1\cf1\ulnone ), edit (\cf2\ul REQ-7-3.2\cf1\ulnone ) and delete \cf2\ul Restaurant manager\cf1\ulnone  accounts (\cf2\ul REQ-7-3.3\cf1\ulnone ).\par
 \par
 }
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:03:46.2196222+03:00</DateAdded>
-    <DateModified>2020-04-16T12:09:53.1931141+03:00</DateModified>
+    <DateModified>2020-05-27T15:43:08.4169076+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-7e9e7165-5747-4934-9c1c-73c91bea8569</UniqueID>
     <UserID>REQ-7-3.1</UserID>
     <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
-    <Name>Restaurant manager account creation</Name>
-    <Description>The System administrator must be able to create an account for the Restaurant manager after the latter had supplied him with the necessary information about the account creation process.</Description>
+    <Name>Create Restaurant Manager Account</Name>
+    <Description>The System administrator should be able to create an account for the Restaurant manager after the latter had supplied him with the necessary information about the account creation process.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
-\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to create an account for the \cf2\ul Restaurant manager\cf1\ulnone  after the latter had supplied him with the necessary information about the account creation process.\par
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  should be able to create an account for the \cf2\ul Restaurant manager\cf1\ulnone  after the latter had supplied him with the necessary information about the account creation process.\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>10</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:09:50.2328932+03:00</DateAdded>
-    <DateModified>2020-04-16T12:12:42.7967527+03:00</DateModified>
-    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
-  </Requirement>
-  <Requirement>
-    <UniqueID>REQ-a55f3280-db1c-42eb-8391-e56641ae0d38</UniqueID>
-    <UserID>REQ-7-4</UserID>
-    <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
-    <Name>Apply updates</Name>
-    <Description>The System administrator must be able to apply updates to Rezervito after the Development Team adds features.</Description>
-    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;\red128\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to apply updates to \cf3 Rezervito\cf1  after the \cf2\ul Development Team\cf1\ulnone  adds features.\par
-}
-</RichDescription>
-    <Sequence>3</Sequence>
-    <Type>Functional</Type>
-    <Priority>1</Priority>
-    <Source />
-    <Status />
-    <AssignedTo />
-    <Release />
-    <DateAdded>2020-04-16T12:12:25.3977653+03:00</DateAdded>
-    <DateModified>2020-04-16T12:14:36.6222778+03:00</DateModified>
+    <DateModified>2020-05-27T15:44:09.5122897+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-893e1ed3-b377-4883-98f0-044ccf5efa9f</UniqueID>
     <UserID>REQ-7-5</UserID>
     <ParentID>P-fb365b5e-c4a0-4da6-8b5f-bb0323398b6d</ParentID>
-    <Name>Report bugs</Name>
+    <Name>Admin Report Bugs</Name>
     <Description>The System administrator must be able to forward the bugs received from The Registered client and Restaurant manager clients to the Development Team.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
 \viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  must be able to forward the bugs received from The \cf2\ul Registered\cf1\ulnone  client and \cf2\ul Restaurant manager\cf1\ulnone  clients to the \cf2\ul Development Team\cf1\ulnone .\par
 }
 </RichDescription>
-    <Sequence>4</Sequence>
+    <Sequence>3</Sequence>
     <Type>Functional</Type>
-    <Priority>1</Priority>
+    <Priority>3</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-16T12:14:47.694119+03:00</DateAdded>
-    <DateModified>2020-04-16T12:16:34.5414212+03:00</DateModified>
+    <DateModified>2020-05-19T11:21:08.9984391+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-0427bccd-2f45-40a7-98cb-4e55edf7f4c6</UniqueID>
+    <UserID>REQ-7-3.2</UserID>
+    <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
+    <Name>Edit Restaurant Manager Accounts by Admin</Name>
+    <Description>The System administrator should be able to edit Restaurant manager accounts.</Description>
+    <Sequence>1</Sequence>
+    <Type>Functional</Type>
+    <Priority>7</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:42:19.2930254+03:00</DateAdded>
+    <DateModified>2020-05-27T15:49:27.9563641+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-77de9b34-3682-4f72-90a2-a8daf31657db</UniqueID>
+    <UserID>REQ-7-3.3</UserID>
+    <ParentID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ParentID>
+    <Name>Delete Restaurant Manager Accounts</Name>
+    <Description>The System administrator should be able to delete Restaurant manager accounts</Description>
+    <Sequence>2</Sequence>
+    <Type>Functional</Type>
+    <Priority>7</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T15:43:07.7547649+03:00</DateAdded>
+    <DateModified>2020-05-27T15:49:24.9344187+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

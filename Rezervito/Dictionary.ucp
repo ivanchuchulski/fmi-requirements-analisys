@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -50,11 +50,11 @@
   <DictionaryEntry>
     <UniqueID>D2-5d8ae8fa-8cd5-4c17-a69c-64eb6230c327</UniqueID>
     <Name>Rezervito</Name>
-    <Description>A Restaurant booking system. TODO list</Description>
+    <Description>A Restaurant booking system. </Description>
     <Aliases />
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\f0\fs20 A \cf1 Restaurant booking system. TODO list\cf0\par
+\viewkind4\uc1\pard\f0\fs20 A \cf1 Restaurant booking system. \cf0\par
 }
 </RichDescription>
     <ParentID>P-8fbff3c7-7501-405b-9913-bd0844c62284</ParentID>

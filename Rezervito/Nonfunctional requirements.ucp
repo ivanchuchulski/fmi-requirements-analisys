@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -27,13 +27,13 @@
 </RichDescription>
     <Sequence>0</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>8</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T12:51:35.6928925+03:00</DateAdded>
-    <DateModified>2020-04-25T12:56:25.0528942+03:00</DateModified>
+    <DateModified>2020-05-19T11:24:59.9842877+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -49,13 +49,13 @@
 </RichDescription>
     <Sequence>1</Sequence>
     <Type>Performance</Type>
-    <Priority>1</Priority>
+    <Priority>7</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T12:56:30.9490877+03:00</DateAdded>
-    <DateModified>2020-04-25T12:58:26.547331+03:00</DateModified>
+    <DateModified>2020-05-19T11:25:38.3833982+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -71,13 +71,13 @@
 </RichDescription>
     <Sequence>2</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>8</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T12:58:36.8561991+03:00</DateAdded>
-    <DateModified>2020-04-25T13:02:13.4812258+03:00</DateModified>
+    <DateModified>2020-05-19T11:25:03.3677471+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -93,13 +93,13 @@
 </RichDescription>
     <Sequence>3</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T13:02:16.6399832+03:00</DateAdded>
-    <DateModified>2020-04-25T13:30:31.4403309+03:00</DateModified>
+    <DateModified>2020-05-19T11:25:13.9207544+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
@@ -115,20 +115,20 @@
 </RichDescription>
     <Sequence>4</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>6</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T13:04:24.284052+03:00</DateAdded>
-    <DateModified>2020-04-25T13:16:34.9363631+03:00</DateModified>
+    <DateModified>2020-05-19T11:25:23.984577+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-f3b4314c-96ea-4f61-b546-40ee81f4e4d8</UniqueID>
     <UserID>REQ-8-6</UserID>
     <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
-    <Name>Application field</Name>
+    <Name>Application Field</Name>
     <Description>The storage of personal information about users in Rezervito must be GDPR compliant.</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
 {\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
@@ -137,39 +137,96 @@
 </RichDescription>
     <Sequence>5</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>8</Priority>
     <Source />
     <Status />
     <AssignedTo />
     <Release />
     <DateAdded>2020-04-25T13:16:53.023811+03:00</DateAdded>
-    <DateModified>2020-04-25T13:22:30.2842703+03:00</DateModified>
+    <DateModified>2020-05-19T11:25:28.2239949+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-08cb557a-0fae-485b-9dd7-cf04a5bc91a3</UniqueID>
     <UserID>REQ-8-4.1</UserID>
     <ParentID>REQ-4f45bca9-60bd-4a30-b17b-7d266072a4d4</ParentID>
-    <Name>Help section</Name>
+    <Name>Help Section</Name>
     <Description>The system must have a help section and video tutorial.</Description>
     <Sequence>0</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-25T13:27:41.1920422+03:00</DateAdded>
-    <DateModified>2020-04-25T13:27:41.1950339+03:00</DateModified>
+    <DateModified>2020-05-19T11:25:10.1492196+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <Requirement>
     <UniqueID>REQ-cd4d0ae5-a949-43c9-8380-75f075158a5e</UniqueID>
     <UserID>REQ-8-4.2</UserID>
     <ParentID>REQ-4f45bca9-60bd-4a30-b17b-7d266072a4d4</ParentID>
-    <Name>Language support</Name>
-    <Description>The system's interface must support the following languages : Bulgarian, English, Spanish, Italian, German, Romanian, Serbian, Greek and Russian.</Description>
+    <Name>Language Support</Name>
+    <Description>The system's interface must support the following languages : Bulgarian, English, Ukrainian, Italian, German, Romanian, Serbian, Greek and Russian.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs20 The system's interface must support the following languages : Bulgarian, English, Ukrainian, Italian, German, Romanian, Serbian, Greek and Russian.\par
+}
+</RichDescription>
     <Sequence>1</Sequence>
     <Type>Non-functional</Type>
-    <Priority>1</Priority>
+    <Priority>9</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
     <DateAdded>2020-04-25T13:29:46.0480956+03:00</DateAdded>
-    <DateModified>2020-04-25T13:29:46.0490963+03:00</DateModified>
+    <DateModified>2020-05-27T16:59:17.2027309+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-cf90614f-785d-4c09-bdf4-522094e4dd5c</UniqueID>
+    <UserID>REQ-13-4</UserID>
+    <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
+    <Name>System Database Backup</Name>
+    <Description>Rezervito must create a backup of its databases once every 12 hours.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  must create a backup of its databases once every 12 hours.\par
+}
+</RichDescription>
+    <Sequence>6</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>10</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T16:01:10.8328908+03:00</DateAdded>
+    <DateModified>2020-05-27T16:04:37.0267646+03:00</DateModified>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Requirement>
+  <Requirement>
+    <UniqueID>REQ-5b30509d-bbbb-4686-a87f-596f9be32a80</UniqueID>
+    <UserID>REQ-13-5</UserID>
+    <ParentID>P-ba8ea915-be3a-4326-9a6f-2078c8a2fbcc</ParentID>
+    <Name>Recoverability</Name>
+    <Description>In case of a system crash, Rezervito should recover in less than 2 hours without any loss of data.</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In case of a system crash, \cf2 Rezervito\cf1  should recover in less than 2 hours without any loss of data.\par
+}
+</RichDescription>
+    <Sequence>7</Sequence>
+    <Type>Non-functional</Type>
+    <Priority>7</Priority>
+    <Source />
+    <Status />
+    <AssignedTo />
+    <Release />
+    <DateAdded>2020-05-27T16:02:47.9185459+03:00</DateAdded>
+    <DateModified>2020-05-27T16:07:50.9429406+03:00</DateModified>
     <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
   </Requirement>
   <UserID>

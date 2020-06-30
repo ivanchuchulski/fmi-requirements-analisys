@@ -2,7 +2,7 @@
 <UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
   <VersionInfo>
     <Version>5.1</Version>
-    <SavedWith>14.0.7352</SavedWith>
+    <SavedWith>14.0.7411</SavedWith>
     <CreatedWith>14.0.7352</CreatedWith>
   </VersionInfo>
   <TopLevelElement>
@@ -22,14 +22,42 @@
     <Sequence>0</Sequence>
     <Complexity />
     <DateAdded>2020-04-12T11:09:05.3502329+03:00</DateAdded>
-    <DateModified>2020-04-12T11:37:09.2349162+03:00</DateModified>
+    <DateModified>2020-05-04T14:58:47.0741613+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-79092e66-d5d7-4cbf-821c-4e86f87e62b5</UniqueID>
+    <UserID>A-4-1</UserID>
+    <ParentID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</ParentID>
+    <Name>Facebook</Name>
+    <Sequence>1</Sequence>
+    <DateAdded>2020-05-02T15:10:25.1872501+03:00</DateAdded>
+    <DateModified>2020-05-02T15:10:29.2720832+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-107eaf2b-2c91-4f03-9028-f697ad7ac1f8</UniqueID>
+    <UserID>A-4-2</UserID>
+    <ParentID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</ParentID>
+    <Name>Google</Name>
+    <Sequence>2</Sequence>
+    <DateAdded>2020-05-02T15:10:32.644153+03:00</DateAdded>
+    <DateModified>2020-05-02T15:10:35.2751595+03:00</DateModified>
+  </Actor>
+  <Actor>
+    <UniqueID>A-f663f520-4727-4fa2-adca-5d139ae73a53</UniqueID>
+    <UserID>A-4-3</UserID>
+    <ParentID>P-2efaaf89-0084-48ea-81db-bbe2de02050f</ParentID>
+    <Name>Twitter</Name>
+    <Sequence>3</Sequence>
+    <DateAdded>2020-05-02T15:10:49.011067+03:00</DateAdded>
+    <DateModified>2020-05-02T15:10:51.7838067+03:00</DateModified>
   </Actor>
   <Goal>
     <UniqueID>G-29507658-166d-4af9-bdba-5a5cbc13d103</UniqueID>
     <ParentID>A-7cf0a115-cc6a-4f59-8b83-cd78ec9a0505</ParentID>
-    <Description>Operate transactions</Description>
+    <Description>Operate transactions (UC-6)</Description>
     <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
-\viewkind4\uc1\pard\f0\fs20 Operate transactions\par
+{\colortbl ;\red0\green0\blue255;}
+\viewkind4\uc1\pard\f0\fs20 Operate transactions (\cf1\ul UC-6\cf0\ulnone )\par
 }
 </RichDescription>
     <Sequence>0</Sequence>
@@ -40,7 +68,7 @@
   </UserID>
   <UserID>
     <DefaultPrefix>A-4-</DefaultPrefix>
-    <NextValue>1</NextValue>
+    <NextValue>4</NextValue>
   </UserID>
   <UserID>
     <DefaultPrefix>REQ-4-</DefaultPrefix>

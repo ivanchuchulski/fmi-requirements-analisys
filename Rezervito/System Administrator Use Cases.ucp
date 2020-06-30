@@ -1,0 +1,655 @@
+<?xml version="1.0" standalone="yes"?>
+<UCTDataSet xmlns="http://serliosoft.com/UCTData.xsd">
+  <VersionInfo>
+    <Version>5.1</Version>
+    <SavedWith>14.0.7411</SavedWith>
+    <CreatedWith>14.0.7411</CreatedWith>
+  </VersionInfo>
+  <TopLevelElement>
+    <RefID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</RefID>
+  </TopLevelElement>
+  <Package>
+    <UniqueID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</UniqueID>
+    <ExternalParentID>P-00f20fef-bea2-46d3-847b-09e5f4ddc30e</ExternalParentID>
+    <Name>System Administrator Use Cases</Name>
+    <Sequence>-1</Sequence>
+  </Package>
+  <UseCase>
+    <UniqueID>UC-0c454960-2ac3-4f18-85f6-e038492193e2</UniqueID>
+    <UserID>UC-3</UserID>
+    <ParentID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ParentID>
+    <Name>Admin Login</Name>
+    <Sequence>0</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-03T14:47:52.1238197+03:00</DateAdded>
+    <DateModified>2020-05-18T11:43:56.6511556+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</UniqueID>
+    <UserID>UC-4</UserID>
+    <ParentID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ParentID>
+    <Name>Manage user accounts</Name>
+    <Sequence>1</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-03T14:47:52.1337917+03:00</DateAdded>
+    <DateModified>2020-05-27T16:13:59.7065193+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-65045966-35a7-4018-a3fa-5c4b45f72dc5</UniqueID>
+    <UserID>UC-5</UserID>
+    <ParentID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ParentID>
+    <Name>Report bugs to Development Team</Name>
+    <Sequence>2</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-03T14:47:52.1407751+03:00</DateAdded>
+    <DateModified>2020-05-18T12:41:08.3055029+03:00</DateModified>
+  </UseCase>
+  <UseCase>
+    <UniqueID>UC-f38bcfac-6044-4c49-a99f-e909039fa009</UniqueID>
+    <UserID>UC-12-1</UserID>
+    <ParentID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ParentID>
+    <Name>Restaurant Manager Registration</Name>
+    <Description>Steps taken from "Manage user accounts" (UC-4)</Description>
+    <Sequence>3</Sequence>
+    <Priority>1</Priority>
+    <PreConditions />
+    <PostConditions />
+    <Level />
+    <Complexity />
+    <UCStatus />
+    <ImplStatus />
+    <AssignedTo />
+    <Release />
+    <TestingSetup />
+    <TestingConfigurations />
+    <DateAdded>2020-05-03T15:03:50.5848744+03:00</DateAdded>
+    <DateModified>2020-05-18T11:49:05.8478316+03:00</DateModified>
+  </UseCase>
+  <Diagram>
+    <UniqueID>D-45e2cce2-323b-465e-9cf8-d7c5179ab844</UniqueID>
+    <ParentID>P-c592c492-6d78-4bc1-88a0-4ca379713c8f</ParentID>
+    <Name>System Administrator Use Case</Name>
+    <Sequence>0</Sequence>
+    <FileName>System Administrator Use Case.ndx</FileName>
+    <Type>0</Type>
+  </Diagram>
+  <UCActor>
+    <ParentID>UC-0c454960-2ac3-4f18-85f6-e038492193e2</ParentID>
+    <ActorID>A-14063d45-7851-48b4-971a-236c6357271d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ActorID>A-14063d45-7851-48b4-971a-236c6357271d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCActor>
+    <ParentID>UC-65045966-35a7-4018-a3fa-5c4b45f72dc5</ParentID>
+    <ActorID>A-14063d45-7851-48b4-971a-236c6357271d</ActorID>
+    <Kind>0</Kind>
+  </UCActor>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-7e9e7165-5747-4934-9c1c-73c91bea8569</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-77de9b34-3682-4f72-90a2-a8daf31657db</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-0427bccd-2f45-40a7-98cb-4e55edf7f4c6</ReqID>
+  </UCReq>
+  <UCReq>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+    <ReqID>REQ-1b09eb0c-9e39-4ff9-a328-d8a4a5bab2bd</ReqID>
+  </UCReq>
+  <Scenario>
+    <UniqueID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</UniqueID>
+    <ParentID>UC-0c454960-2ac3-4f18-85f6-e038492193e2</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-87950b3e-7133-4286-a809-27a508898cf1</UniqueID>
+    <ParentID>UC-65045966-35a7-4018-a3fa-5c4b45f72dc5</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</UniqueID>
+    <ParentID>UC-6ec57fb8-8415-47f2-a4b3-6a0730421efe</ParentID>
+  </Scenario>
+  <Scenario>
+    <UniqueID>MSS-af33e07c-dc13-4f54-b4de-aa865bc250b7</UniqueID>
+    <ParentID>UC-f38bcfac-6044-4c49-a99f-e909039fa009</ParentID>
+  </Scenario>
+  <Step>
+    <UniqueID>ST-8de81f05-5efb-4231-b859-443b654761d5</UniqueID>
+    <ParentID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</ParentID>
+    <Description>The System administrator enters Rezervito</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  enters \cf3 Rezervito\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-5786ecf1-c65d-4e9f-9289-87bd6c7adc48</UniqueID>
+    <ParentID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</ParentID>
+    <Description>The System administrator chooses to sign in (REQ-7-1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to sign in (\cf1\ul REQ-7-1\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-57273c0b-d756-4006-918d-49d16c4f15ad</UniqueID>
+    <ParentID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</ParentID>
+    <Description>The System administrator fills the login form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  fills the login form\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-31553171-8699-4212-982d-08510db4d796</UniqueID>
+    <ParentID>MSS-083a27a0-f975-485f-a35b-36e50ca234f5</ParentID>
+    <Description>Rezervito validates the login form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  validates the login form\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-93614c69-f841-4278-81e2-00a1d409f445</UniqueID>
+    <ParentID>X-05b03ab3-466e-41a1-b21b-f5949f8ccc4e</ParentID>
+    <Description>The System administrator is signed in</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  is signed in\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-0df05365-9dcc-459a-8c20-777d996d306d</UniqueID>
+    <ParentID>X-296f783e-6de0-4a15-ae4f-005eba29f1df</ParentID>
+    <Description>The System administrator receives error notification</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  receives error notification\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4b4c29c3-49f5-4323-9cba-8084f6ec7fd0</UniqueID>
+    <ParentID>X-296f783e-6de0-4a15-ae4f-005eba29f1df</ParentID>
+    <Description>Move to 3</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Move to 3\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-b3d4b959-87af-45b7-87a9-fffc5bc0705c</UniqueID>
+    <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
+    <Description>The System administrator logs in Rezervito (UC-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  logs in \cf3 Rezervito\cf2  (\cf1\ul UC-3\cf2\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3aeeef9f-3c79-4317-89ea-1adad676afe7</UniqueID>
+    <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
+    <Description>The System administrator selects the option to view bugs </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to view bugs \cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-32b0d0c2-1594-4a65-8297-29cfd6f55368</UniqueID>
+    <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
+    <Description>The System administrator views a list containing all reported bugs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  views a list containing all reported bugs\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f5e05e5f-bf83-4e8b-b893-2cb83b0de321</UniqueID>
+    <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
+    <Description>The System administrator selects the option to report bugs (REQ-7-5)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to report bugs (\cf1\ul REQ-7-5\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-2e9db922-c19b-48c6-aceb-8906624535af</UniqueID>
+    <ParentID>MSS-87950b3e-7133-4286-a809-27a508898cf1</ParentID>
+    <Description>The Development Team receives email containing info about the reported bugs</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul Development Team\cf2\ulnone  receives email containing info about the reported bugs\cf0\par
+}
+</RichDescription>
+    <Sequence>4</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-db63fe03-d48c-4525-bcca-16358dd3ef3d</UniqueID>
+    <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
+    <Description>The System administrator logs in Rezervito (UC-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  logs in \cf3 Rezervito\cf2  (\cf1\ul UC-3\cf2\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4ef61cf4-20fd-4258-b990-d11a85958790</UniqueID>
+    <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
+    <Description>The System administrator selects the option to view user accounts </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to view user accounts \cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1603a544-6515-4b07-8bba-6a86561920e7</UniqueID>
+    <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
+    <Description>The System administrator views database containing user accounts</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  views database containing user accounts\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-63231fca-26e6-47c4-aef3-6849353e2300</UniqueID>
+    <ParentID>MSS-7bdc1188-06f8-4c42-ab42-26a8ffd49514</ParentID>
+    <Description>The System administrator chooses to add Restaurant manager (REQ-7-3) or remove user accounts (REQ-7-2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  chooses to add \cf1\ul Restaurant manager\cf2\ulnone  (\cf1\ul REQ-7-3\cf2\ulnone ) or remove user accounts (\cf1\ul REQ-7-2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-71f7655d-e58b-4d38-912a-f6d2f75486d4</UniqueID>
+    <ParentID>MSS-af33e07c-dc13-4f54-b4de-aa865bc250b7</ParentID>
+    <Description>The System administrator receives a Restaurant manager registration form (REQ-7-3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  receives a \cf2\ul Restaurant manager\cf1\ulnone  registration form (\cf2\ul REQ-7-3\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1d3b2818-09ce-4646-814b-2cce2c885d87</UniqueID>
+    <ParentID>MSS-af33e07c-dc13-4f54-b4de-aa865bc250b7</ParentID>
+    <Description>The System administrator fills the form (REQ-7-3.1)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 The \cf2\ul System administrator\cf1\ulnone  fills the form (\cf2\ul REQ-7-3.1\cf1\ulnone )\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1d87c175-1b8d-4c0f-8e0f-314f7907cda5</UniqueID>
+    <ParentID>MSS-af33e07c-dc13-4f54-b4de-aa865bc250b7</ParentID>
+    <Description>Rezervito validates the form</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  validates the form\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-d2c1b64c-ba21-49af-b3d6-9aeccbc4bd26</UniqueID>
+    <ParentID>X-c04da915-ad37-49c9-9928-75eab432b209</ParentID>
+    <Description>Restaurant Manager Registration (UC-12-1) </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\ul\f0\fs20 Restaurant Manager\cf0\ulnone  Registration (\cf1\ul UC-12-1\cf2\ulnone ) \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-bd33d325-e5ab-43c6-981a-9538c4b2ffd3</UniqueID>
+    <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
+    <Description>The System administrator selects the user account </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the user account \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-459cd846-868b-403b-a328-b6d2a1f3eec8</UniqueID>
+    <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
+    <Description>The System administrator selects the option to delete account (REQ-7-3.3)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to delete account (\cf1\ul REQ-7-3.3\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f07833cc-d13b-42ec-a4ce-8f9b30a6e605</UniqueID>
+    <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
+    <Description>Rezervito removes the user account from the database</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  removes the user account from the database\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-f53801a8-2095-4cbb-afa1-fdd1887d03bc</UniqueID>
+    <ParentID>X-0a41d1b8-0431-428c-992c-688daf555cbd</ParentID>
+    <Description>The Restaurant manager account is created and added to the database</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul Restaurant manager\cf2\ulnone  account is created and added to the database\cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-59dfa1a7-3f43-49a3-a3a7-ac89e4f34912</UniqueID>
+    <ParentID>X-04c9dccf-82bd-4c0f-b75f-201dcec7b8bc</ParentID>
+    <Description>The System administrator receives error notification </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  receives error notification \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3fa718cc-9e96-4aef-af3b-a9cc18b44ebc</UniqueID>
+    <ParentID>X-04c9dccf-82bd-4c0f-b75f-201dcec7b8bc</ParentID>
+    <Description>Move to 2</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Move to 2\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-994b6a8c-cacd-491d-ae70-f5a9cea2e4d9</UniqueID>
+    <ParentID>X-c04da915-ad37-49c9-9928-75eab432b209</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-4896e68f-5706-41e5-8095-aa10af29e4f0</UniqueID>
+    <ParentID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-86c079ca-5234-415a-a8e5-f090f4e892c1</UniqueID>
+    <ParentID>X-05b03ab3-466e-41a1-b21b-f5949f8ccc4e</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-3e0f8f6c-742e-41f1-8adc-bc4a536c8e94</UniqueID>
+    <ParentID>X-0a41d1b8-0431-428c-992c-688daf555cbd</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-a16495b0-1149-4da9-a4ef-59d0a4cdf75a</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>The System administrator selects the user account </Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the user account \cf0\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-ec9c9cbf-36c2-4ab4-82db-abae42c81aca</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>The System administrator selects the option to edit account (REQ-7-3.2)</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\f0\fs20 The \cf1\ul System administrator\cf2\ulnone  selects the option to edit account (\cf1\ul REQ-7-3.2\cf2\ulnone )\cf0\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-efbe0af9-e076-4a16-947f-09146efc3811</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>Rezervito updates the user account in the database</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Rezervito\cf2  updates the user account in the database\cf0\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Step>
+    <UniqueID>ST-1298dce1-7a52-4753-9495-7eacde2d0e1c</UniqueID>
+    <ParentID>X-445c3270-6564-432b-895e-0cddd52138c2</ParentID>
+    <Description>Ends</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Ends\fs20\par
+}
+</RichDescription>
+    <Sequence>3</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Step>
+  <Extension>
+    <UniqueID>X-05b03ab3-466e-41a1-b21b-f5949f8ccc4e</UniqueID>
+    <ParentID>ST-31553171-8699-4212-982d-08510db4d796</ParentID>
+    <Description>Login credentials are valid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Login credentials are valid\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-296f783e-6de0-4a15-ae4f-005eba29f1df</UniqueID>
+    <ParentID>ST-31553171-8699-4212-982d-08510db4d796</ParentID>
+    <Description>Login credentials are invalid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Login credentials are invalid\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-c04da915-ad37-49c9-9928-75eab432b209</UniqueID>
+    <ParentID>ST-63231fca-26e6-47c4-aef3-6849353e2300</ParentID>
+    <Description>Add Restaurant manager account</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Add \cf2\ul Restaurant manager\cf1\ulnone  account\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-340c97ec-9521-4150-b9e2-40d9ab9574b9</UniqueID>
+    <ParentID>ST-63231fca-26e6-47c4-aef3-6849353e2300</ParentID>
+    <Description>Choose remove user accounts</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Choose remove user accounts\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-0a41d1b8-0431-428c-992c-688daf555cbd</UniqueID>
+    <ParentID>ST-1d87c175-1b8d-4c0f-8e0f-314f7907cda5</ParentID>
+    <Description>Registration credentials are valid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Registration credentials are valid\par
+}
+</RichDescription>
+    <Sequence>0</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-04c9dccf-82bd-4c0f-b75f-201dcec7b8bc</UniqueID>
+    <ParentID>ST-1d87c175-1b8d-4c0f-8e0f-314f7907cda5</ParentID>
+    <Description>Registration credentials are invalid</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+\viewkind4\uc1\pard\f0\fs20 Registration credentials are invalid\par
+}
+</RichDescription>
+    <Sequence>1</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <Extension>
+    <UniqueID>X-445c3270-6564-432b-895e-0cddd52138c2</UniqueID>
+    <ParentID>ST-63231fca-26e6-47c4-aef3-6849353e2300</ParentID>
+    <Description>Choose edit user account</Description>
+    <RichDescription>{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 Choose edit user account\par
+}
+</RichDescription>
+    <Sequence>2</Sequence>
+    <jsonTestStepBag>{"TestScenarioSteps":[]}</jsonTestStepBag>
+  </Extension>
+  <UserID>
+    <DefaultPrefix>UC-12-</DefaultPrefix>
+    <NextValue>2</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>A-12-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>REQ-12-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>DEF-12-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+  <UserID>
+    <DefaultPrefix>S-12-</DefaultPrefix>
+    <NextValue>1</NextValue>
+  </UserID>
+</UCTDataSet>
